@@ -1,0 +1,55 @@
+#EXTM3U
+#EXTINF:-1 tvg-ID="PMC" tvg-name="PMC" tvg-logo="" group-title="Music",PMC (720p)
+https://hls.pmchd.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="RJTV" tvg-name="RJTV" tvg-logo="" group-title="Music",RJTV (720p)
+https://stream.rjtv.stream/live/smil:rjtv.smil/chunklist_w1443027611_b1992000.m3u8
+#EXTINF:-1 tvg-ID="RJTV" tvg-name="RJTV" tvg-logo="" group-title="Music",RJTV (1080p)
+https://stream.rjtv.stream/live/smil:rjtv.smil/chunklist_w1443027611_b2892000.m3u8
+#EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio
+https://radiohls.pmc.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Fashion TV (England)" tvg-name="Fashion TV (England)" tvg-logo="" group-title="Fashion",Fashion TV (England)
+https://fash1043.cloudycdn.services/slive/ftv_ftv_pg13_glo_css_43440_1080p_1610_hls.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
+#EXTINF:-1 tvg-ID="Fashion TV (Bikini)" tvg-name="Fashion TV (Bikini)" tvg-logo="" group-title="Fashion",Fashion TV (Bikini)
+https://fash1043.cloudycdn.services/slive/ftv_ftv_pg13_glo_css_43440_1080p_1610_hls.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
+#EXTINF:-1 tvg-ID="Fashion TV" tvg-name="Fashion TV" tvg-logo="" group-title="Fashion",Fashion TV
+https://lb.streaming.sk/fashiontv/stream/chunklist_w450560080.m3u8
+#EXTINF:-1 tvg-ID="Avang TV" tvg-name="Avang TV" tvg-logo="" group-title="Music",Avang TV
+https://hls.avang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Navahang TV" tvg-name="Navahang TV" tvg-logo="" group-title="Music",Navahang TV
+https://hls.navahang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Cinema" tvg-name="Persiana Cinema" tvg-logo="" group-title="Persiana",Persiana Cinema
+https://cinehls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana One" tvg-name="Persiana One" tvg-logo="" group-title="Persiana",Persiana One
+https://onehls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Korea" tvg-name="Persiana Korea" tvg-logo="" group-title="Persiana",Persiana Korea
+https://korhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Sport" tvg-name="Persiana Sport" tvg-logo="" group-title="Persiana",Persiana Sport
+https://persiana.mastercast.cloud/memfs/f1accec0-3b52-476b-ada9-65f74ead985e_output_0.m3u8?session=c6sjPQCFkXuVoK9sRtidE8
+#EXTINF:-1 tvg-ID="Persiana Music" tvg-name="Persiana Music" tvg-logo="" group-title="Persiana",Persiana Music
+https://musichls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Rap" tvg-name="Persiana Rap" tvg-logo="" group-title="Persiana",Persiana Rap
+https://raphls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Iranian" tvg-name="Persiana Iranian" tvg-logo="" group-title="Persiana",Persiana Iranian
+https://irhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Comedy" tvg-name="Persiana Comedy" tvg-logo="" group-title="Persiana",Persiana Comedy
+https://comedyhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana" tvg-name="Persiana" tvg-logo="" group-title="Persiana",Persiana
+https://euhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Science" tvg-name="Persiana Science" tvg-logo="" group-title="Persiana",Persiana Science
+https://scihls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Latino" tvg-name="Persiana Latino" tvg-logo="" group-title="Persiana",Persiana Latino
+https://latinohls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Sonnati" tvg-name="Persiana Sonnati" tvg-logo="" group-title="Persiana",Persiana Sonnati
+https://sonhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Junior" tvg-name="Persiana Junior" tvg-logo="" group-title="Persiana",Persiana Junior
+https://junhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Nostalgia" tvg-name="Persiana Nostalgia" tvg-logo="" group-title="Persiana",Persiana Nostalgia
+https://noshls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana 4Kurd" tvg-name="Persiana 4Kurd" tvg-logo="" group-title="Persiana",Persiana 4Kurd
+https://4kuhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Turkiye" tvg-name="Persiana Turkiye" tvg-logo="" group-title="Persiana",Persiana Turkiye
+https://turkhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Two" tvg-name="Persiana Two" tvg-logo="" group-title="Persiana",Persiana Two
+https://twohls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Kpop TV" tvg-name="Kpop TV" tvg-logo="" group-title="Persiana",Kpop TV
+https://ssh101-fl.bozztv.com/ssh101/kpoptv/tracks-v1a1/mono.m3u8
