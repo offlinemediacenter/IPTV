@@ -3,10 +3,6 @@
 https://hls.pmchd.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio
 https://radiohls.pmc.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="Fashion TV (England)" tvg-name="Fashion TV (England)" tvg-logo="" group-title="Fashion",Fashion TV (England)
-https://fash1043.cloudycdn.services/slive/ftv_ftv_pg13_glo_css_43440_1080p_1610_hls.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
-#EXTINF:-1 tvg-ID="Fashion TV (Bikini)" tvg-name="Fashion TV (Bikini)" tvg-logo="" group-title="Fashion",Fashion TV (Bikini)
-https://fash1043.cloudycdn.services/slive/ftv_ftv_pg13_glo_css_43440_1080p_1610_hls.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
 #EXTINF:-1 tvg-ID="Fashion TV" tvg-name="Fashion TV" tvg-logo="" group-title="Fashion",Fashion TV
 https://lb.streaming.sk/fashiontv/stream/chunklist_w450560080.m3u8
 #EXTINF:-1 tvg-ID="Avang TV" tvg-name="Avang TV" tvg-logo="" group-title="Music",Avang TV
