@@ -49,3 +49,9 @@ https://ssh101-fl.bozztv.com/ssh101/kpoptv/tracks-v1a1/mono.m3u8
 https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_2.m3u8
 #EXTINF:-1 tvg-ID="MBC Persia" tvg-name="MBC Persia" tvg-logo="" group-title="MBC",MBC Persia (1080p)
 https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_1.m3u8
+#EXTINF:-1 tvg-ID="PMC Royal" tvg-name="PMC Royal" tvg-logo="" group-title="Music",PMC Royal
+https://rohls.pmc.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="DJ TV" tvg-name="DJ TV" tvg-logo="" group-title="Music",DJ TV (1080p)
+4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b3432356.m3u8
+#EXTINF:-1 tvg-ID="DJ TV" tvg-name="DJ TV" tvg-logo="" group-title="Music",DJ TV (720p)
+4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b2428000.m3u8
