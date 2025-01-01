@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-ID="Kiss TV" tvg-name="Kiss TV" tvg-logo="" group-title="Music",Kiss TV
 https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131_output_0.m3u8
-#EXTINF:-1 tvg-ID="Fashion HD" tvg-name="Fashion HD" tvg-logo="" group-title="Style",Fashion HD
+#EXTINF:-1 tvg-ID="HD" tvg-name="HD" tvg-logo="" group-title="Fashion",HD
 https://fashs043.cloudycdn.services/scte/sftv2/sftv2_chunklist.m3u8
 #EXTINF:-1 tvg-ID="PMC" tvg-name="PMC" tvg-logo="" group-title="Music",PMC (720p)
 https://hls.pmchd.live/hls/stream.m3u8
