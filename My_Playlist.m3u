@@ -7,6 +7,8 @@ https://hls.pmchd.live/hls/stream.m3u8
 https://radiohls.pmc.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Fashion TV" tvg-name="Fashion TV" tvg-logo="" group-title="Fashion",Fashion TV
 https://fashs043.cloudycdn.services/scte/sftv2/sftv2_chunklist.m3u8
+#EXTINF:-1 tvg-ID="Fashion TV (Bikini)" tvg-name="Fashion TV (Bikini)" tvg-logo="" group-title="Fashion",Fashion TV (Bikini)
+https://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b3500000_t64MTA4MHA=.m3u8
 #EXTINF:-1 tvg-ID="Avang TV" tvg-name="Avang TV" tvg-logo="" group-title="Music",Avang TV
 https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Navahang TV" tvg-name="Navahang TV" tvg-logo="" group-title="Music",Navahang TV
