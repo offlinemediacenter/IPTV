@@ -15,8 +15,8 @@ https://cinehls.persiana.live/hls/stream.m3u8
 https://onehls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Korea" tvg-name="Persiana Korea" tvg-logo="" group-title="Persiana",Persiana Korea
 https://korhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="Persiana Sport" tvg-name="Persiana Sport" tvg-logo="" group-title="Persiana",Persiana Sport
-https://persiana.mastercast.cloud/memfs/f1accec0-3b52-476b-ada9-65f74ead985e_output_0.m3u8?session=c6sjPQCFkXuVoK9sRtidE8
+#EXTINF:-1 tvg-ID="Persiana Family" tvg-name="Persiana Family" tvg-logo="" group-title="Persiana",Persiana Family
+https://familyhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Music" tvg-name="Persiana Music" tvg-logo="" group-title="Persiana",Persiana Music
 https://musichls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Rap" tvg-name="Persiana Rap" tvg-logo="" group-title="Persiana",Persiana Rap
@@ -35,8 +35,8 @@ https://latinohls.persiana.live/hls/stream.m3u8
 https://sonhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Junior" tvg-name="Persiana Junior" tvg-logo="" group-title="Persiana",Persiana Junior
 https://junhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="Persiana Nostalgia" tvg-name="Persiana Nostalgia" tvg-logo="" group-title="Persiana",Persiana Nostalgia
-https://noshls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana HD" tvg-name="Persiana HD" tvg-logo="" group-title="Persiana",Persiana HD
+https://euhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana 4Kurd" tvg-name="Persiana 4Kurd" tvg-logo="" group-title="Persiana",Persiana 4Kurd
 https://4kuhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Turkiye" tvg-name="Persiana Turkiye" tvg-logo="" group-title="Persiana",Persiana Turkiye
