@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1 tvg-ID="Kiss TV" tvg-name="Kiss TV" tvg-logo="" group-title="Music",Kiss TV
+https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131_output_0.m3u8
+#EXTINF:-1 tvg-ID="Fashion TV HD" tvg-name="Fashion TV HD" tvg-logo="" group-title="Fashion",Fashion TV HD
+https://fashs043.cloudycdn.services/scte/sftv2/sftv2_chunklist.m3u8
 #EXTINF:-1 tvg-ID="PMC" tvg-name="PMC" tvg-logo="" group-title="Music",PMC (720p)
 https://hls.pmchd.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio
@@ -51,7 +55,3 @@ https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c3969
 https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_1.m3u8
 #EXTINF:-1 tvg-ID="PMC Royal" tvg-name="PMC Royal" tvg-logo="" group-title="Music",PMC Royal
 https://rohls.pmc.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="Kiss TV" tvg-name="Kiss TV" tvg-logo="" group-title="Music",Kiss TV
-https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131_output_0.m3u8
-#EXTINF:-1 tvg-ID="Fashion TV HD" tvg-name="Fashion TV HD" tvg-logo="" group-title="Fashion",Fashion TV HD
-https://fashs043.cloudycdn.services/scte/sftv2/sftv2_chunklist.m3u8
