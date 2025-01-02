@@ -67,3 +67,17 @@ https://cdn-azd2044.telewebion.com/ek/hdtest/live/1080p/index.m3u8
 https://cdn-azd2057.telewebion.com/ek/namayesh/live/576p/index.m3u8
 #EXTINF:-1 tvg-ID="Tehran" tvg-name="Tehran" tvg-logo="" group-title="IRIB",Tehran
 https://cdn-azd204d.telewebion.com/ek/tehran/live/576p/index.m3u8
+#EXTINF:-1 tvg-ID="Quran" tvg-name="Quran" tvg-logo="" group-title="IRIB",Quran
+https://cdn-azd2044.telewebion.com/ek/quran/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="4K" tvg-name="4K" tvg-logo="" group-title="IRIB",4K
+https://cdn-azd2044.telewebion.com/se/faratar/live/2160p/index.m3u8
+#EXTINF:-1 tvg-ID="Nama" tvg-name="Nama" tvg-logo="" group-title="IRIB",Nama
+https://cdn-azd204d.telewebion.com/ek/nama/live/720p/index.m3u8
+#EXTINF:-1 tvg-ID="Nava" tvg-name="Nava" tvg-logo="" group-title="IRIB",Nava
+https://cdn-azd2043.telewebion.com/ek/nava/live/720p/index.m3u8
+#EXTINF:-1 tvg-ID="iFilm" tvg-name="iFilm" tvg-logo="" group-title="IRIB",iFilm
+https://cdn-azd2047.telewebion.com/ek/ifilm/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Nasim" tvg-name="Nasim" tvg-logo="" group-title="IRIB",Nasim
+https://cdn-azd2046.telewebion.com/ek/nasim/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Khabar" tvg-name="Khabar" tvg-logo="" group-title="IRIB",Khabar
+https://cdn-azd204b.telewebion.com/ek/irinn/live/1080p/index.m3u8
