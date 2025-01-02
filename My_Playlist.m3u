@@ -55,3 +55,15 @@ https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c3969
 https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_1.m3u8
 #EXTINF:-1 tvg-ID="PMC Royal" tvg-name="PMC Royal" tvg-logo="" group-title="Music",PMC Royal
 https://rohls.pmc.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="IRIB 1" tvg-name="IRIB 1" tvg-logo="" group-title="IRIB",IRIB 1
+https://cdn-azd2043.telewebion.com/ek/tv1/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="IRIB 2" tvg-name="IRIB 2" tvg-logo="" group-title="IRIB",IRIB 2
+https://cdn-azd2051.telewebion.com/ek/tv2/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="IRIB 3" tvg-name="IRIB 3" tvg-logo="" group-title="IRIB",IRIB 3
+https://cdn-azd2052.telewebion.com/ek/tv3/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Tamasha" tvg-name="Tamasha" tvg-logo="" group-title="IRIB",Tamasha
+https://cdn-azd2044.telewebion.com/ek/hdtest/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Namayesh" tvg-name="Namayesh" tvg-logo="" group-title="IRIB",Namayesh
+https://cdn-azd2057.telewebion.com/ek/namayesh/live/576p/index.m3u8
+#EXTINF:-1 tvg-ID="Tehran" tvg-name="Tehran" tvg-logo="" group-title="IRIB",Tehran
+https://cdn-azd204d.telewebion.com/ek/tehran/live/576p/index.m3u8
