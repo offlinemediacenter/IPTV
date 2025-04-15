@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-ID="PMC" tvg-name="PMC" tvg-logo="" group-title="Music",PMC (720p)
 https://hls.pmc.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="PMC Radio (Planeta)" tvg-name="PMC Radio (Planeta)" tvg-logo="https://pmc.tv/assets/img/pmc.png" group-title="Music",PMC Radio (Planeta)
+#EXTINF:-1 tvg-ID="PMC Radio (Planeta)" tvg-name="PMC Radio (Planeta)" tvg-logo="" group-title="Music",PMC Radio (Planeta)
 https://s5.radio.co/s42d095d44/listen
 #EXTINF:-1 tvg-ID="Fashion TV" tvg-name="Fashion TV" tvg-logo="" group-title="Fashion",Fashion TV
 https://fashs043.cloudycdn.services/scte/sftv2/sftv2_chunklist.m3u8
