@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-ID="PMC" tvg-name="PMC" tvg-logo="" group-title="Music",PMC (720p)
+#EXTINF:-1 tvg-ID="PMC" tvg-name="PMC" tvg-logo="" group-title="Music",PMC (1080p)
 https://hls.pmc.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="PMC Radio (Planeta)" tvg-name="PMC Radio (Planeta)" tvg-logo="" group-title="Music",PMC Radio (Planeta)
 https://s5.radio.co/s42d095d44/listen
