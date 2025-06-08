@@ -56,19 +56,19 @@ https://rohls.pmc.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio (Select)
 https://s5.radio.co/sf0a1af54c/listen
 #EXTINF:-1 tvg-ID="IRIB 1" tvg-name="IRIB 1" tvg-logo="" group-title="IRIB",IRIB 1
-https://cdn-azd2043.telewebion.com/ek/tv1/live/1080p/index.m3u8
+https://live-azd1109.telewebion.com/ek/tv1/live/1080p/index.m3u8
 #EXTINF:-1 tvg-ID="IRIB 2" tvg-name="IRIB 2" tvg-logo="" group-title="IRIB",IRIB 2
-https://cdn-azd2051.telewebion.com/ek/tv2/live/1080p/index.m3u8
+https://live-azd1109.telewebion.com/ek/tv2/live/1080p/index.m3u8
 #EXTINF:-1 tvg-ID="IRIB 3" tvg-name="IRIB 3" tvg-logo="" group-title="IRIB",IRIB 3
-https://cdn-azd2052.telewebion.com/ek/tv3/live/1080p/index.m3u8
+https://live-azd1109.telewebion.com/ek/tv3/live/1080p/index.m3u8
 #EXTINF:-1 tvg-ID="Tamasha" tvg-name="Tamasha" tvg-logo="" group-title="IRIB",Tamasha
-https://cdn-azd2044.telewebion.com/ek/hdtest/live/1080p/index.m3u8
+https://live-azd1114.telewebion.com/ek/hdtest/live/576p/index.m3u8
 #EXTINF:-1 tvg-ID="Namayesh" tvg-name="Namayesh" tvg-logo="" group-title="IRIB",Namayesh
-https://cdn-azd2057.telewebion.com/ek/namayesh/live/576p/index.m3u8
+https://live-azd1117.telewebion.com/ek/namayesh/live/576p/index.m3u8
 #EXTINF:-1 tvg-ID="Tehran" tvg-name="Tehran" tvg-logo="" group-title="IRIB",Tehran
 https://cdn-azd204d.telewebion.com/ek/tehran/live/576p/index.m3u8
 #EXTINF:-1 tvg-ID="Quran" tvg-name="Quran" tvg-logo="" group-title="IRIB",Quran
-https://cdn-azd2044.telewebion.com/ek/quran/live/1080p/index.m3u8
+https://live-azd1111.telewebion.com/ek/quran/live/1080p/index.m3u8
 #EXTINF:-1 tvg-ID="4K" tvg-name="4K" tvg-logo="" group-title="IRIB",4K
 https://cdn-azd2044.telewebion.com/se/faratar/live/2160p/index.m3u8
 #EXTINF:-1 tvg-ID="Nama" tvg-name="Nama" tvg-logo="" group-title="IRIB",Nama
@@ -78,7 +78,7 @@ https://cdn-azd2043.telewebion.com/ek/nava/live/720p/index.m3u8
 #EXTINF:-1 tvg-ID="iFilm" tvg-name="iFilm" tvg-logo="" group-title="IRIB",iFilm
 https://cdn-azd2047.telewebion.com/ek/ifilm/live/1080p/index.m3u8
 #EXTINF:-1 tvg-ID="Nasim" tvg-name="Nasim" tvg-logo="" group-title="IRIB",Nasim
-https://cdn-azd2046.telewebion.com/ek/nasim/live/1080p/index.m3u8
+https://live-azd1110.telewebion.com/ek/nasim/live/1080p/index.m3u8
 #EXTINF:-1 tvg-ID="Khabar" tvg-name="Khabar" tvg-logo="" group-title="IRIB",Khabar
 https://cdn-azd204b.telewebion.com/ek/irinn/live/1080p/index.m3u8
 #EXTINF:-1 tvg-ID="Sun Music" tvg-name="Sun Music" tvg-logo="" group-title="Music",Sun Music
