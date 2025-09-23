@@ -45,16 +45,8 @@ https://4kuhls.persiana.live/hls/stream.m3u8
 https://turkhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Two" tvg-name="Persiana Two" tvg-logo="" group-title="Persiana",Persiana Two
 https://twohls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="Persiana Two" tvg-name="Persiana Two" tvg-logo="" group-title="Persiana",Persiana Two
-https://twohls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Nostalgia" tvg-name="Persiana Nostalgia" tvg-logo="" group-title="Persiana",Persiana Nostalgia
 https://noshls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="Kpop TV" tvg-name="Kpop TV" tvg-logo="" group-title="Music",Kpop TV
-https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/chunks.m3u8https://d1243acc59954ef9bdd02bd9d13025cb.mediatailor.us-east-1.amazonaws.com/v1/manifest/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/LG-br_NewKPop/eb8023c1-0113-4ff1-b727-cccc60114758/3.m3u8
-#EXTINF:-1 tvg-ID="MBC Persia" tvg-name="MBC Persia" tvg-logo="" group-title="MBC",MBC Persia (720p)
-https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_2.m3u8
-#EXTINF:-1 tvg-ID="MBC Persia" tvg-name="MBC Persia" tvg-logo="" group-title="MBC",MBC Persia (1080p)
-https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_1.m3u8
 #EXTINF:-1 tvg-ID="PMC Royal" tvg-name="PMC Royal" tvg-logo="" group-title="Music",PMC Royal
 https://rohls.pmc.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio (Select)
