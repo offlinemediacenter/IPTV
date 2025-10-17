@@ -65,3 +65,35 @@ https://live-bshto1206.telewebion.com/ek/faratar/live/2160p/index.m3u8
 https://live-bshto1202.telewebion.com/ek/irinn/live/1080p/index.m3u8
 #EXTINF:-1 tvg-ID="Sun Music" tvg-name="Sun Music" tvg-logo="" group-title="Music",Sun Music
 https://hls.sunmusic.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="GEM TV" tvg-name="GEM TV" tvg-logo="" group-title="GEM",GEM TV
+https://live-stream-channels-cdn.site/live/gemtv.m3u8
+#EXTINF:-1 tvg-ID="GEM Drama" tvg-name="GEM Drama" tvg-logo="" group-title="GEM",GEM Drama
+https://live-stream-channels-cdn.site/live/drama.m3u8
+#EXTINF:-1 tvg-ID="GEM Series" tvg-name="GEM Series" tvg-logo="" group-title="GEM",GEM Series
+https://live-stream-channels-cdn.site/live/series.m3u8
+#EXTINF:-1 tvg-ID="GEM Mifa" tvg-name="GEM Mifa" tvg-logo="" group-title="GEM",GEM Mifa
+https://live-stream-channels-cdn.site/live/mifa-music.m3u8
+#EXTINF:-1 tvg-ID="GEM Comedy" tvg-name="GEM Comedy" tvg-logo="" group-title="GEM",GEM Comedy
+https://live-stream-channels-cdn.site/live/comedy.m3u8
+#EXTINF:-1 tvg-ID="GEM Documentary" tvg-name="GEM Documentary" tvg-logo="" group-title="GEM",GEM Documentary
+https://live-stream-channels-cdn.site/live/documentary.m3u8
+#EXTINF:-1 tvg-ID="GEM Modern Economy" tvg-name="GEM Modern Economy" tvg-logo="" group-title="GEM",GEM Modern Economy
+https://live-stream-channels-cdn.site/live/modern-economy.m3u8
+#EXTINF:-1 tvg-ID="GEM Mifa+" tvg-name="GEM Mifa+" tvg-logo="" group-title="GEM",GEM Mifa+
+https://live-stream-channels-cdn.site/live/mifa-plus.m3u8
+#EXTINF:-1 tvg-ID="GEM Pixel" tvg-name="GEM Pixel" tvg-logo="" group-title="GEM",GEM Pixel
+https://live-stream-channels-cdn.site/live/pixel.m3u8
+#EXTINF:-1 tvg-ID="GEM Film" tvg-name="GEM Film" tvg-logo="" group-title="GEM",GEM Film
+https://live-stream-channels-cdn.site/live/film.m3u8
+#EXTINF:-1 tvg-ID="GEM AZ" tvg-name="GEM AZ" tvg-logo="" group-title="GEM",GEM AZ
+https://live-stream-channels-cdn.site/live/az.m3u8
+#EXTINF:-1 tvg-ID="GEM Food" tvg-name="GEM Food" tvg-logo="" group-title="GEM",GEM Food
+https://live-stream-channels-cdn.site/live/food.m3u8
+#EXTINF:-1 tvg-ID="GEM Onyx" tvg-name="GEM Onyx" tvg-logo="" group-title="GEM",GEM Onyx
+https://live-stream-channels-cdn.site/live/onyx.m3u8
+#EXTINF:-1 tvg-ID="GEM Rubix" tvg-name="GEM Rubix" tvg-logo="" group-title="GEM",GEM Rubix
+https://live-stream-channels-cdn.site/live/rubix.m3u8
+#EXTINF:-1 tvg-ID="GEM River" tvg-name="GEM River" tvg-logo="" group-title="GEM",GEM River
+https://live-stream-channels-cdn.site/live/river.m3u8
+#EXTINF:-1 tvg-ID="GEM 24B" tvg-name="GEM 24B" tvg-logo="" group-title="GEM",GEM 24B
+https://live-stream-channels-cdn.site/live/24b.m3u8
