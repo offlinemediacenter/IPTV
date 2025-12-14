@@ -1,12 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-ID="PMC" tvg-name="PMC" tvg-logo="" group-title="Music",PMC (1080p)
-https://hls.pmc.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio (Planeta)
-https://s5.radio.co/s42d095d44/listen
-#EXTINF:-1 tvg-ID="Fashion TV" tvg-name="Fashion TV" tvg-logo="" group-title="Fashion",Fashion TV
-https://fashs043.cloudycdn.services/scte/sftv2/sftv2_chunklist.m3u8
-#EXTINF:-1 tvg-ID="Fashion TV (Bikini)" tvg-name="Fashion TV (Bikini)" tvg-logo="" group-title="Fashion",Fashion TV (Bikini)
-https://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b3500000_t64MTA4MHA=.m3u8
 #EXTINF:-1 tvg-ID="Avang TV" tvg-name="Avang TV" tvg-logo="" group-title="Music",Avang TV
 https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Navahang TV" tvg-name="Navahang TV" tvg-logo="" group-title="Music",Navahang TV
@@ -63,6 +55,26 @@ https://live-azd1111.telewebion.com/ek/quran/live/1080p/index.m3u8
 https://live-bshto1206.telewebion.com/ek/faratar/live/2160p/index.m3u8
 #EXTINF:-1 tvg-ID="Khabar" tvg-name="Khabar" tvg-logo="" group-title="IRIB",Khabar
 https://live-bshto1202.telewebion.com/ek/irinn/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Pooya" tvg-name="Pooya" tvg-logo="" group-title="IRIB",Pooya
+https://live-azd1115.telewebion.com/ek/pooya/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Pooya+" tvg-name="Pooya+" tvg-logo="" group-title="IRIB",Pooya+
+https://live-azd1116.telewebion.com/ek/javaneh/live/720p/index.m3u8
+#EXTINF:-1 tvg-ID="Tamasha" tvg-name="Tamasha" tvg-logo="" group-title="IRIB",Tamasha
+https://live-azd1117.telewebion.com/ek/hdtest/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Namayesh" tvg-name="Namayesh" tvg-logo="" group-title="IRIB",Namayesh
+https://live-azd1116.telewebion.com/ek/namayesh/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Tehran" tvg-name="Tehran" tvg-logo="" group-title="IRIB",Tehran
+https://live-azd1107.telewebion.com/ek/tehran/live/576p/index.m3u8
+#EXTINF:-1 tvg-ID="Mostanad" tvg-name="Mostanad" tvg-logo="" group-title="IRIB",Mostanad
+https://live-azd1114.telewebion.com/ek/mostanad/live/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Radio-Ava" tvg-name="Radio-Ava" tvg-logo="" group-title="IRIB",Radio-Ava
+https://live-azd1121.telewebion.com/ek/radioava/live/576p/index.m3u8
+#EXTINF:-1 tvg-ID="Radio-Saba" tvg-name="Radio-Saba" tvg-logo="" group-title="IRIB",Radio-Saba
+https://live-azd1109.telewebion.com/ek/radiosaba/live/576p/index.m3u8
+#EXTINF:-1 tvg-ID="Radio-Javan" tvg-name="Radio-Javan" tvg-logo="" group-title="IRIB",Radio-Javan
+https://live-azd1115.telewebion.com/ek/radiojavan/live/576p/index.m3u8
+#EXTINF:-1 tvg-ID="Radio-Tehran" tvg-name="Radio-Tehran" tvg-logo="" group-title="IRIB",Radio-Tehran
+https://live-azd1120.telewebion.com/ek/radiotehran/live/576p/index.m3u8
 #EXTINF:-1 tvg-ID="Sun Music" tvg-name="Sun Music" tvg-logo="" group-title="Music",Sun Music
 https://hls.sunmusic.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="GEM TV" tvg-name="GEM TV" tvg-logo="" group-title="GEM",GEM TV
