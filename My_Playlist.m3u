@@ -39,8 +39,8 @@ https://turkhls.persiana.live/hls/stream.m3u8
 https://twohls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Nostalgia" tvg-name="Persiana Nostalgia" tvg-logo="" group-title="Persiana",Persiana Nostalgia
 https://noshls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="PMC Royal" tvg-name="PMC Royal" tvg-logo="" group-title="Music",PMC Royal
-https://rohls.pmc.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio (Planeta)
+https://s5.radio.co/s42d095d44/listen
 #EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio (Select)
 https://s5.radio.co/sf0a1af54c/listen
 #EXTINF:-1 tvg-ID="IRIB 1" tvg-name="IRIB 1" tvg-logo="" group-title="IRIB",IRIB 1
