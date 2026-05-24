@@ -21,10 +21,6 @@ https://irhls.persiana.live/hls/stream.m3u8
 https://comedyhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana" tvg-name="Persiana" tvg-logo="" group-title="Persiana",Persiana
 https://euhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="Persiana Science" tvg-name="Persiana Science" tvg-logo="" group-title="Persiana",Persiana Science
-https://scihls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="Persiana Latino" tvg-name="Persiana Latino" tvg-logo="" group-title="Persiana",Persiana Latino
-https://latinohls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Sonnati" tvg-name="Persiana Sonnati" tvg-logo="" group-title="Persiana",Persiana Sonnati
 https://sonhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Junior" tvg-name="Persiana Junior" tvg-logo="" group-title="Persiana",Persiana Junior
@@ -55,6 +51,10 @@ https://setmixhls.persiana.live/hls/stream.m3u8
 https://s5.radio.co/s42d095d44/listen
 #EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio (Select)
 https://s5.radio.co/sf0a1af54c/listen
+#EXTINF:-1 tvg-ID="PMC Music" tvg-name="PMC Music" tvg-logo="" group-title="Music",PMC Music
+https://pmcstream1.pmc.live/12/Vpk3saJDbq/984-b17c1900-6a5b-4837-8175-c449587c9617/1080/chunklist.m3u8
+#EXTINF:-1 tvg-ID="PMC Royale" tvg-name="PMC Royale" tvg-logo="" group-title="Music",PMC Royale
+https://ryl1.pmc.live/9/DN30YALqP6/984-b17c1900-6a5b-4837-8175-c449587c9617/1080/chunklist.m3u8
 #EXTINF:-1 tvg-ID="IRIB 1" tvg-name="IRIB 1" tvg-logo="" group-title="IRIB",IRIB 1
 https://live-azd1109.telewebion.com/ek/tv1/live/1080p/index.m3u8
 #EXTINF:-1 tvg-ID="IRIB 2" tvg-name="IRIB 2" tvg-logo="" group-title="IRIB",IRIB 2
