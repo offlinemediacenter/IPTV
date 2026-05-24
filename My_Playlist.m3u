@@ -29,7 +29,7 @@ https://latinohls.persiana.live/hls/stream.m3u8
 https://sonhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Junior" tvg-name="Persiana Junior" tvg-logo="" group-title="Persiana",Persiana Junior
 https://junhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="Persiana HD" tvg-name="Persiana HD" tvg-logo="" group-title="Persiana",Persiana HD
+#EXTINF:-1 tvg-ID="Persiana +" tvg-name="Persiana +" tvg-logo="" group-title="Persiana",Persiana +
 https://euhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana 4Kurd" tvg-name="Persiana 4Kurd" tvg-logo="" group-title="Persiana",Persiana 4Kurd
 https://4kuhls.persiana.live/hls/stream.m3u8
@@ -39,6 +39,18 @@ https://turkhls.persiana.live/hls/stream.m3u8
 https://twohls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Persiana Nostalgia" tvg-name="Persiana Nostalgia" tvg-logo="" group-title="Persiana",Persiana Nostalgia
 https://noshls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Series" tvg-name="Persiana Series" tvg-logo="" group-title="Persiana",Persiana Series
+https://onehls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Medical" tvg-name="Persiana Medical" tvg-logo="" group-title="Persiana",Persiana Medical
+https://phd2hls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Docs" tvg-name="Persiana Docs" tvg-logo="" group-title="Persiana",Persiana Docs
+https://scihls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Fight" tvg-name="Persiana Fight" tvg-logo="" group-title="Persiana",Persiana Fight
+https://fighthls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Sonnati" tvg-name="Persiana Sonnati" tvg-logo="" group-title="Persiana",Persiana Sonnati
+https://sonhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana SetMix" tvg-name="Persiana SetMix" tvg-logo="" group-title="Persiana",Persiana SetMix
+https://setmixhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio (Planeta)
 https://s5.radio.co/s42d095d44/listen
 #EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio (Select)
