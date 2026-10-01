@@ -11,5 +11,5 @@ https://s5.radio.co/sf0a1af54c/listen
 https://spf-onetv-9i4j.mycfwrkr.workers.dev/?url=https://ca-rt.onetv.app/PMCMusic/index-0.m3u8
 #EXTINF:-1 tvg-ID="PMC Royale" tvg-name="PMC Royale" tvg-logo="" group-title="Music",PMC Royale
 https://pmcrohls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="RJTV" tvg-name="RJTV" tvg-logo="RJTV.png" group-title="Music",RJTV
+#EXTINF:-1 tvg-ID="RJTV" tvg-name="RJTV" tvg-logo="https://github.com/offlinemediacenter/IPTV/blob/main/Logos/RJTV.png" group-title="Music",RJTV
 https://rjtvhls.wns.live/hls/stream.m3u8
