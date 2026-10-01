@@ -9,6 +9,9 @@ https://s5.radio.co/s42d095d44/listen
 https://s5.radio.co/sf0a1af54c/listen
 #EXTINF:-1 tvg-ID="PMC Music" tvg-name="PMC Music" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/PMC.jpg" group-title="Music",PMC Music
 https://spf-onetv-9i4j.mycfwrkr.workers.dev/?url=https://ca-rt.onetv.app/PMCMusic/index-0.m3u8
+#EXTINF:-1 tvg-ID="PMC Music (2)" tvg-name="PMC Music (2)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/PMC.jpg" group-title="Music",PMC Music (2)
+https://pmcstream1.pmc.live/12/urVf3qVf9E/984-f263c700-067b-4339-90a6-01beb7c6c748/1080/chunklist.m3u8
+https://pmcstream1.pmc.live/12/LjckVSi5xV/984-f263c700-067b-4339-90a6-01beb7c6c748/1080/chunklist.m3u8
 #EXTINF:-1 tvg-ID="PMC Royale" tvg-name="PMC Royale" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/PMC.jpg" group-title="Music",PMC Royale
 https://pmcrohls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="RJTV" tvg-name="RJTV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/RJTV.jpg" group-title="Music",RJTV
