@@ -1,11 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-ID="Avang TV" tvg-name="Avang TV" tvg-logo="" group-title="Music",Avang TV
+#EXTINF:-1 tvg-ID="Avang TV" tvg-name="Avang TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Avang.jpg" group-title="Music",Avang TV
 https://hls.avang.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="Navahang TV" tvg-name="Navahang TV" tvg-logo="" group-title="Music",Navahang TV
+#EXTINF:-1 tvg-ID="Navahang TV" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Navahang.jpg" group-title="Music",Navahang TV
 https://hls.navahang.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio (Planeta)
+#EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/PMC.jpg" group-title="Music",PMC Radio (Planeta)
 https://s5.radio.co/s42d095d44/listen
-#EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="" group-title="Music",PMC Radio (Select)
+#EXTINF:-1 tvg-ID="PMC Radio" tvg-name="PMC Radio" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/PMC.jpg" group-title="Music",PMC Radio (Select)
 https://s5.radio.co/sf0a1af54c/listen
 #EXTINF:-1 tvg-ID="PMC Music" tvg-name="PMC Music" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/PMC.jpg" group-title="Music",PMC Music
 https://spf-onetv-9i4j.mycfwrkr.workers.dev/?url=https://ca-rt.onetv.app/PMCMusic/index-0.m3u8
