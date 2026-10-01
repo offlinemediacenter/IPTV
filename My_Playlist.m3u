@@ -15,3 +15,5 @@ https://pmcstream1.pmc.live/12/w8erZvuhYP/984-f263c700-067b-4339-90a6-01beb7c6c7
 https://pmcrohls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="RJTV" tvg-name="RJTV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/RJTV.jpg" group-title="Music",RJTV
 https://rjtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="FashionTV+" tvg-name="FashionTV+" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/FashionTV+.jpg" group-title="Fashion",FashionTV+
+https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8
