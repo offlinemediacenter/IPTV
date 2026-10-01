@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-ID="Avang TV" tvg-name="Avang TV" tvg-logo="https://i1.sndcdn.com/avatars-000044763546-7e44au-t1080x1080.jpg" group-title="Music",Avang TV
+#EXTINF:-1 tvg-ID="Avang TV" tvg-name="Avang TV" tvg-logo="" group-title="Music",Avang TV
 https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Navahang TV" tvg-name="Navahang TV" tvg-logo="" group-title="Music",Navahang TV
 https://hls.navahang.live/hls/stream.m3u8
