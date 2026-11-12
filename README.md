@@ -29,7 +29,7 @@ Channel logos are stored in [`Logos/`](Logos) and referenced from the playlist v
 
 ## Keeping links fresh
 
-`update_links.ps1` (run via a local `update_links.bat` launcher) checks the PMC streams. Any that stopped working are replaced
+`update_links.bat` checks the PMC streams. Any that stopped working are replaced
 from public sources ([iptv-org](https://github.com/iptv-org/iptv) and
 [radio-browser.info](https://www.radio-browser.info/)), then committed and pushed.
 It needs no login.
