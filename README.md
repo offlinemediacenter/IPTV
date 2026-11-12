@@ -18,7 +18,8 @@ stream currently works, so some of these may be temporarily missing from it.
 
 Sources: the broadcasters' own free streams, [persianagroup.tv](https://persianagroup.tv/)
 (free channels only; Persiana+ needs a subscription and is not included),
-the [iptv-org](https://github.com/iptv-org/iptv) Persian list and
+the [iptv-org](https://github.com/iptv-org/iptv) lists (Persian, plus dance/DJ, K-pop
+and fashion channels) and
 [radio-browser.info](https://www.radio-browser.info/) for radio.
 
 | Group | Channels |
@@ -26,8 +27,8 @@ the [iptv-org](https://github.com/iptv-org/iptv) Persian list and
 | **News** (7) | BBC Persian, Iran International, IraneFarda TV, IRINN, IRINN 2, National Iranian Congress TV, VoA TV Persian |
 | **National** (5) | IRIB 1, IRIB 2, IRIB UHD, Isfahan TV, Tehran TV |
 | **Movies & Series** (19) | Persiana Family, Persiana Series, Persiana Cinema, Persiana Korea, Persiana Iranian, Persiana Türkiye, Persiana China, Persiana Latino, Afra Film, Cafe Film, Gold Star, Grand Cinema, iFilm 2, iFilm Persian, Maah TV, Meta Film TV, SL 1, SL 2, Tamasha |
-| **Entertainment** (14) | FashionTV+, Persiana Comedy, Persiana Reality, Persiana Podcast, 247 Box TV, 4U TV, FX 1, MBC Persia, Namayesh TV, Nasim, OXIR TV, Shabakeh 7, Tin TV, TV ITN |
-| **Music** (14) | Avang TV, Navahang TV, PMC Music, PMC Royale, RJTV, Persiana Music, Persiana Nostalgia, Persiana Folk, Persiana SetMix, Persiana Rap, 4Kurd, AFN TV, High Vision TV, T2 TV |
+| **Entertainment** (17) | FashionTV+, Persiana Comedy, Persiana Reality, Persiana Podcast, 247 Box TV, 4U TV, FX 1, MBC Persia, Namayesh TV, Nasim, OXIR TV, Shabakeh 7, Tin TV, TV ITN, Arirang TV, FashionTV Secrets, Global Fashion Channel |
+| **Music** (26) | Avang TV, Navahang TV, PMC Music, PMC Royale, RJTV, Persiana Music, Persiana Nostalgia, Persiana Folk, Persiana SetMix, Persiana Rap, 4Kurd, AFN TV, High Vision TV, T2 TV, Clubbing TV, Deejay TV, Deluxe Dance, Best of Dance TV, DanceTV Techno Warehouse, Power Dance, Totalmusic Dance, Number 1 Dance, Dance FM, Stingray Today's K-Pop, NEW K-POP, Kpop Mix |
 | **Documentary** (4) | Persiana Medical, Persiana Docs, Persiana Travel, Persiana Voyage |
 | **Kids** (5) | Persiana Junior, Persiana Teen, IRIB Omid, Pooya TV, Pooya TV Plus |
 | **Sports** (3) | Persiana Fight, IRIB 3, Varzesh TV |
