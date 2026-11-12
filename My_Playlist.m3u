@@ -183,8 +183,6 @@ https://stream.zeno.fm/9svfnobkrxrvv
 https://ice9.securenetsystems.net/SHADI
 #EXTINF:-1 tvg-ID="Persian Vibe Radio" tvg-name="Persian Vibe Radio" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PersianVibeRadio.png" group-title="Radio",Persian Vibe Radio
 https://radio.aydayazdani.com/stream
-#EXTINF:-1 tvg-ID="Caltex Music" tvg-name="Caltex Music" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CaltexMusic.png" group-title="Radio",Caltex Music
-https://stream.radiojar.com/cp13r2cpn3quv
 #EXTINF:-1 tvg-ID="Farsi Frequency" tvg-name="Farsi Frequency" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FarsiFrequency.png" group-title="Radio",Farsi Frequency
 https://stream.zeno.fm/3q0k3nxazjkvv
 #EXTINF:-1 tvg-ID="Radio Yar Plus" tvg-name="Radio Yar Plus" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioYarPlus.png" group-title="Radio",Radio Yar Plus
@@ -195,7 +193,5 @@ https://stream.zeno.fm/oyb5oh6ne3tuv
 http://ice41.securenetsystems.net/KIRN
 #EXTINF:-1 tvg-ID="Radio Hamrah" tvg-name="Radio Hamrah" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioHamrah.png" group-title="Radio",Radio Hamrah
 https://stream.zenolive.com/gxdq0awu30duv.aac
-#EXTINF:-1 tvg-ID="Radio Hamsafar" tvg-name="Radio Hamsafar" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioHamsafar.png" group-title="Radio",Radio Hamsafar
-https://stream.radiojar.com/pyea7q9h5ehvv
 #EXTINF:-1 tvg-ID="Radio ZZA" tvg-name="Radio ZZA" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioZZA.png" group-title="Radio",Radio ZZA
 https://listen.radioking.com/radio/526993/stream/585379

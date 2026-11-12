@@ -787,14 +787,6 @@
     "radio": "Persian Vibe"
   },
   {
-    "name": "Caltex Music",
-    "id": "Caltex Music",
-    "group": "Radio",
-    "logo": "IPTV_CaltexMusic.png",
-    "url": "https://stream.radiojar.com/cp13r2cpn3quv",
-    "radio": "caltex"
-  },
-  {
     "name": "Farsi Frequency",
     "id": "Farsi Frequency",
     "group": "Radio",
@@ -834,14 +826,6 @@
     "logo": "IPTV_RadioHamrah.png",
     "url": "https://stream.zenolive.com/gxdq0awu30duv.aac",
     "radio": "Radio Hamrah"
-  },
-  {
-    "name": "Radio Hamsafar",
-    "id": "Radio Hamsafar",
-    "group": "Radio",
-    "logo": "IPTV_RadioHamsafar.png",
-    "url": "https://stream.radiojar.com/pyea7q9h5ehvv",
-    "radio": "hamsafar"
   },
   {
     "name": "Radio ZZA",
