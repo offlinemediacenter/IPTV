@@ -6,7 +6,9 @@
     2. otherwise looks for a replacement in persianagroup.tv's public channel list
        ("persiana" site id, free channels only), the iptv-org list ("iptvOrg" id)
        and the radio-browser.info directory ("radio" name regex);
-    If a stream offers several qualities, the highest-bandwidth one is used.
+    If a stream offers several qualities, the highest-resolution one is used.
+  Any channel without a logo gets one: the official logo from persianagroup.tv /
+  iptv-org if available (resized to 512x512), otherwise a text placeholder.
     3. if a replacement responds, saves it to channels.json and uses it;
     4. if nothing works, the channel is LEFT OUT of My_Playlist.m3u.
   channels.json always keeps every channel, so a dropped channel comes back
@@ -27,6 +29,8 @@ $Root      = Split-Path -Parent $MyInvocation.MyCommand.Path
 $Master    = Join-Path $Root 'channels.json'
 $Playlist  = Join-Path $Root 'My_Playlist.m3u'
 $LogoBase  = 'https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/'
+$LogoDir   = Join-Path $Root 'Logos'
+Add-Type -AssemblyName System.Drawing
 $UA        = 'VLC/3.0.20 LibVLC/3.0.20'
 $Utf8NoBom = New-Object Text.UTF8Encoding $false
 
@@ -97,7 +101,7 @@ function Select-BestQuality([string]$Url) {
     return $Url
 }
 
-function Get-PersianaCandidates([string]$SiteId) {
+function Get-PersianaList {
     if ($null -eq $script:PersianaChannels) {
         try {
             $json = Get-Text 'https://persianagroup.tv/api/v1/channels'
@@ -107,10 +111,109 @@ function Get-PersianaCandidates([string]$SiteId) {
             $script:PersianaChannels = @()
         }
     }
+    return $script:PersianaChannels
+}
+
+function Get-PersianaCandidates([string]$SiteId) {
+    $null = Get-PersianaList
     # Only free channels: anything marked requires_plus (subscription) is skipped.
     return @($script:PersianaChannels |
              Where-Object { $_.id -eq $SiteId -and -not $_.requires_plus -and $_.hls_url } |
              ForEach-Object { $_.hls_url })
+}
+
+# ---------------------------------------------------------------- logos
+# Draw $Image centred on a transparent 512x512 canvas and save it as PNG.
+function Save-Logo512($Image, [string]$Path) {
+    $s = [Math]::Min(512 / $Image.Width, 512 / $Image.Height)
+    $w = [int]($Image.Width * $s); $h = [int]($Image.Height * $s)
+    $bmp = New-Object Drawing.Bitmap 512, 512
+    $g = [Drawing.Graphics]::FromImage($bmp)
+    $g.Clear([Drawing.Color]::Transparent)
+    $g.InterpolationMode = 'HighQualityBicubic'; $g.SmoothingMode = 'HighQuality'; $g.PixelOffsetMode = 'HighQuality'
+    $g.DrawImage($Image, [int]((512 - $w) / 2), [int]((512 - $h) / 2), $w, $h)
+    $g.Dispose(); $bmp.Save($Path, [Drawing.Imaging.ImageFormat]::Png); $bmp.Dispose()
+}
+
+# Download an image and save it as a 512x512 PNG. Returns $true on success.
+function Save-LogoFromUrl([string]$Url, [string]$Path) {
+    try {
+        $wc = New-Object Net.WebClient
+        $wc.Headers.Add('User-Agent', 'Mozilla/5.0')
+        $bytes = $wc.DownloadData($Url)
+        $ms = New-Object IO.MemoryStream (, $bytes)
+        $img = [Drawing.Image]::FromStream($ms)
+        Save-Logo512 $img $Path
+        $img.Dispose(); $ms.Dispose()
+        return $true
+    } catch { return $false }   # unsupported format (e.g. SVG) or download error
+}
+
+# Placeholder: channel name in white on a coloured rounded square.
+function Save-TextLogo([string]$Name, [string]$Path) {
+    $palette = '#8E2430', '#6B4226', '#1F2A44', '#B8860B', '#5A1E6E', '#0F5E6E', '#C0392B', '#2E86C1', '#1E8449', '#7D3C98'
+    $sum = 0; foreach ($c in $Name.ToCharArray()) { $sum += [int]$c }
+    $color = [Drawing.ColorTranslator]::FromHtml($palette[$sum % $palette.Count])
+    $text = $Name.ToUpper()
+    if ($text.Length -gt 6 -and $text.Contains(' ')) {      # break at the space nearest the middle
+        $mid = $text.Length / 2; $best = -1
+        for ($i = 0; $i -lt $text.Length; $i++) {
+            if ($text[$i] -eq ' ' -and ($best -lt 0 -or [Math]::Abs($i - $mid) -lt [Math]::Abs($best - $mid))) { $best = $i }
+        }
+        $text = $text.Substring(0, $best) + "`n" + $text.Substring($best + 1)
+    }
+    $bmp = New-Object Drawing.Bitmap 512, 512
+    $g = [Drawing.Graphics]::FromImage($bmp)
+    $g.SmoothingMode = 'AntiAlias'; $g.TextRenderingHint = 'AntiAliasGridFit'
+    $g.Clear([Drawing.Color]::Transparent)
+    $r = 72; $p = New-Object Drawing.Drawing2D.GraphicsPath
+    $p.AddArc(16, 16, $r, $r, 180, 90); $p.AddArc(496 - $r, 16, $r, $r, 270, 90)
+    $p.AddArc(496 - $r, 496 - $r, $r, $r, 0, 90); $p.AddArc(16, 496 - $r, $r, $r, 90, 90); $p.CloseFigure()
+    $g.FillPath((New-Object Drawing.SolidBrush $color), $p)
+    $fmt = New-Object Drawing.StringFormat; $fmt.Alignment = 'Center'; $fmt.LineAlignment = 'Center'
+    $size = 150
+    do {
+        $font = New-Object Drawing.Font('Segoe UI', $size, [Drawing.FontStyle]::Bold, [Drawing.GraphicsUnit]::Pixel)
+        $m = $g.MeasureString($text, $font); $size -= 4
+    } while (($m.Width -gt 420 -or $m.Height -gt 400) -and $size -gt 24)
+    $g.DrawString($text, $font, [Drawing.Brushes]::White, (New-Object Drawing.RectangleF 16, 16, 480, 480), $fmt)
+    $g.Dispose(); $bmp.Save($Path, [Drawing.Imaging.ImageFormat]::Png); $bmp.Dispose()
+}
+
+# Give a channel a logo if it has none (or its file is missing).
+# Official logo from persianagroup.tv / iptv-org first, text placeholder otherwise.
+function Set-MissingLogo($Ch) {
+    $has = $Ch.PSObject.Properties['logo'] -and $Ch.logo
+    if ($has -and (Test-Path -LiteralPath (Join-Path $LogoDir $Ch.logo))) { return $false }
+
+    if ($has) { $file = $Ch.logo }
+    else {
+        $base = if ($Ch.PSObject.Properties['iptvOrg'] -and $Ch.iptvOrg) { $Ch.iptvOrg -replace '\.[A-Za-z]+$', '' } else { $Ch.name }
+        $file = 'IPTV_' + ($base -replace '[^A-Za-z0-9]', '') + '.png'
+    }
+    $path = Join-Path $LogoDir $file
+
+    $sources = @()
+    if ($Ch.PSObject.Properties['persiana'] -and $Ch.persiana) {
+        $sources += @(Get-PersianaList | Where-Object { $_.id -eq $Ch.persiana -and $_.logo_url } |
+                      ForEach-Object { 'https://persianagroup.tv/' + $_.logo_url.TrimStart('/') })
+    }
+    if ($Ch.PSObject.Properties['iptvOrg'] -and $Ch.iptvOrg) {
+        $pattern = 'tvg-id="' + [regex]::Escape($Ch.iptvOrg) + '@'
+        foreach ($l in $script:IptvLines) {
+            if ($l.StartsWith('#EXTINF') -and $l -match $pattern -and $l -match 'tvg-logo="([^"]+)"') { $sources += $Matches[1] }
+        }
+    }
+
+    $how = $null
+    foreach ($s in ($sources | Select-Object -Unique)) {
+        if (Save-LogoFromUrl $s $path) { $how = "downloaded"; break }
+    }
+    if (-not $how) { Save-TextLogo $Ch.name $path; $how = "generated text placeholder" }
+
+    $Ch | Add-Member -NotePropertyName logo -NotePropertyValue $file -Force
+    Write-Host "  LOGO     [$($Ch.name)] $how -> Logos/$file"
+    return $true
 }
 
 function Get-IptvOrgCandidates([string]$TvgId) {
@@ -219,6 +322,12 @@ if ($working.Count -eq 0) {
     exit 1
 }
 
+# ---------------------------------------------------------------- logos
+$newLogos = @()
+foreach ($ch in $channels) {
+    if (Set-MissingLogo $ch) { $newLogos += 'Logos/' + $ch.logo; $masterChanged = $true }
+}
+
 # ---------------------------------------------------------------- write
 $m3u = @('#EXTM3U')
 foreach ($ch in $working) {
@@ -248,12 +357,14 @@ if ($NoPush) { Write-Host "-NoPush given: not committing."; exit 0 }
 
 # Commit whatever differs from the last commit (also catches edits left by a -NoPush run).
 $ErrorActionPreference = 'Continue'
-git -C "$Root" add -- My_Playlist.m3u channels.json
-git -C "$Root" diff --cached --quiet -- My_Playlist.m3u channels.json
+# Logos/ is included so new or replaced logo files are published too.
+git -C "$Root" add -- My_Playlist.m3u channels.json Logos
+git -C "$Root" diff --cached --quiet -- My_Playlist.m3u channels.json Logos
 if ($LASTEXITCODE -eq 0) { Write-Host "Nothing new to commit."; exit 0 }
 
 $msg = "Auto-update playlist: $($working.Count)/$($channels.Count) channels working"
 if ($dropped.Count) { $msg += " (left out: $($dropped -join ', '))" }
+if ($newLogos.Count) { $msg += "; new logos: $($newLogos.Count)" }
 
 git -C "$Root" commit -q -m $msg
 if ($LASTEXITCODE -ne 0) { Write-Host "git commit failed."; exit 1 }

@@ -64,8 +64,14 @@ Channel logos are stored in [`Logos/`](Logos) and referenced from the playlist v
 Changes are then committed and pushed. It needs no login.
 
 To add a channel, add an entry to `channels.json` (`name`, `id`, `group`,
-`logo` file in `Logos/`, `url`, plus optional `iptvOrg` tvg-id and `radio`
-name regex for finding replacements) and run the `.bat`.
+`url`, plus optional `iptvOrg` tvg-id, `persiana` site id and `radio` name
+regex for finding replacements) and run the `.bat`.
+
+**Logos are automatic.** If a channel has no `logo` (or its file is missing),
+the `.bat` downloads the official one from persianagroup.tv or iptv-org,
+resizes it to 512x512 and saves it in `Logos/`. If none exists, it makes a text
+placeholder with the channel name. To use your own logo instead, put a file in
+`Logos/` and set `logo` to its file name (or overwrite the existing file).
 
 ```
 update_links.bat            run and wait for a key at the end
