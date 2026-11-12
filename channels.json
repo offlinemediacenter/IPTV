@@ -608,7 +608,7 @@
     "group": "Vevo",
     "logo": "IPTV_VevoPop.png",
     "logoSrc": "https://images.pluto.tv/channels/5d93b635b43dd1a399b39eee/colorLogoPNG.png",
-    "url": "https://d2n5ee9u100agb.cloudfront.net/1080p/index.m3u8",
+    "url": "https://jmp2.uk/plu-5d93b635b43dd1a399b39eee.m3u8",
     "iptvOrg": "VevoPop.us"
   },
   {
@@ -617,7 +617,7 @@
     "group": "Vevo",
     "logo": "IPTV_Vevo70s.png",
     "logoSrc": "https://images.pluto.tv/channels/5f32f26bcd8aea00071240e5/colorLogoPNG.png",
-    "url": "https://d341pfs1smb2ef.cloudfront.net/1080p-vtt/index.m3u8",
+    "url": "https://jmp2.uk/plu-5f32f26bcd8aea00071240e5.m3u8",
     "iptvOrg": "Vevo70s.us"
   },
   {
@@ -626,7 +626,7 @@
     "group": "Vevo",
     "logo": "IPTV_Vevo80s.png",
     "logoSrc": "https://images.pluto.tv/channels/5fd7b8bf927e090007685853/colorLogoPNG.png",
-    "url": "https://d3svsvgc81yfe1.cloudfront.net/1080p-vtt/index.m3u8",
+    "url": "https://jmp2.uk/plu-5fd7b8bf927e090007685853.m3u8",
     "iptvOrg": "Vevo80s.us"
   },
   {
@@ -635,7 +635,7 @@
     "group": "Vevo",
     "logo": "IPTV_Vevo90s.png",
     "logoSrc": "https://images.pluto.tv/channels/5fd7bb1f86d94a000796e2c2/colorLogoPNG.png",
-    "url": "https://d29u7uq3k6xqk0.cloudfront.net/1080p-vtt/index.m3u8",
+    "url": "https://jmp2.uk/plu-5fd7bb1f86d94a000796e2c2.m3u8",
     "iptvOrg": "Vevo90s.us"
   },
   {
@@ -644,25 +644,8 @@
     "group": "Vevo",
     "logo": "IPTV_Vevo2K.png",
     "logoSrc": "https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/colorLogoPNG.png",
-    "url": "https://d3150hggbcolbo.cloudfront.net/1080p/index.m3u8",
+    "url": "https://jmp2.uk/plu-5fd7bca3e0a4ee0007a38e8c.m3u8",
     "iptvOrg": "Vevo2K.us"
-  },
-  {
-    "name": "Vevo 2010s (US)",
-    "id": "Vevo 2010s (US)",
-    "group": "Vevo",
-    "logo": "IPTV_Vevo2010sUS.png",
-    "logoSrc": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD120002431_20260303T094211SQUARE.png",
-    "url": "https://d3j50s1rkjmwi9.cloudfront.net/1080p-vtt/index.m3u8"
-  },
-  {
-    "name": "Vevo Hip Hop (US)",
-    "id": "VevoHipHop.us",
-    "group": "Vevo",
-    "logo": "IPTV_VevoHipHop.png",
-    "logoSrc": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600002EK_20260303T094219SQUARE.png",
-    "url": "https://d3vgs3ro3x6v8a.cloudfront.net/1080p/index.m3u8",
-    "iptvOrg": "VevoHipHop.us"
   },
   {
     "name": "Vevo True School Hip-Hop (US)",
@@ -679,7 +662,7 @@
     "group": "Vevo",
     "logo": "IPTV_VevoRB.png",
     "logoSrc": "https://images.pluto.tv/channels/5da0d83f66c9700009b96d0e/colorLogoPNG.png",
-    "url": "https://d1hf773q57zx9s.cloudfront.net/1080p/index.m3u8",
+    "url": "https://jmp2.uk/plu-5da0d83f66c9700009b96d0e.m3u8",
     "iptvOrg": "VevoRB.us"
   },
   {
@@ -691,14 +674,6 @@
     "url": "https://jmp2.uk/plu-61d4b38226b8a50007fe03a6.m3u8"
   },
   {
-    "name": "Vevo Retro Rock (US)",
-    "id": "VevoRetroRock.us",
-    "group": "Vevo",
-    "logo": "IPTV_VevoRetroRock.png",
-    "url": "https://d2hdqrshyzxswl.cloudfront.net/1080p-vtt/index.m3u8",
-    "iptvOrg": "VevoRetroRock.us"
-  },
-  {
     "name": "Vevo Country (US)",
     "id": "VevoCountry.us",
     "group": "Vevo",
@@ -706,23 +681,6 @@
     "logoSrc": "https://images.pluto.tv/channels/5da0d75e84830900098a1ea0/colorLogoPNG.png",
     "url": "https://jmp2.uk/plu-5da0d75e84830900098a1ea0.m3u8",
     "iptvOrg": "VevoCountry.us"
-  },
-  {
-    "name": "Vevo Country Rewind (US)",
-    "id": "Vevo Country Rewind (US)",
-    "group": "Vevo",
-    "logo": "IPTV_VevoCountryRewindUS.png",
-    "logoSrc": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US400006630_20260117T020414SQUARE.png",
-    "url": "https://dtpafgv4jlncv.cloudfront.net/mt/rsu/v1/channel/AZlegsFKILvcvwCBYqT4vQ-V2/index/4.m3u8"
-  },
-  {
-    "name": "Vevo Latino (US)",
-    "id": "VevoLatino.us",
-    "group": "Vevo",
-    "logo": "IPTV_VevoLatino.png",
-    "logoSrc": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600015GF_20260303T094222SQUARE.png",
-    "url": "https://d1vgg34wqvwdqj.cloudfront.net/1080p/index.m3u8",
-    "iptvOrg": "VevoLatino.us"
   },
   {
     "name": "Vevo Íconos Latinos (US)",
