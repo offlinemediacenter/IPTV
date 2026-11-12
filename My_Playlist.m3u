@@ -69,13 +69,13 @@ https://ncdn.telewebion.ir/irinn2/live/1080p/index.m3u8
 https://tv.iraniancongress.com/stream/tv.m3u8
 #EXTINF:-1 tvg-ID="VoATVPersian.us" tvg-name="VoA TV Persian" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VoATVPersian.png" group-title="News",VoA TV Persian
 https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist_1080.m3u8
-#EXTINF:-1 tvg-ID="AfraFilm.ir" tvg-name="Afra Film" tvg-logo="" group-title="Movies",Afra Film
+#EXTINF:-1 tvg-ID="AfraFilm.ir" tvg-name="Afra Film" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_AfraFilm.png" group-title="Movies",Afra Film
 https://afrafhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="CafeFilm.ir" tvg-name="Cafe Film" tvg-logo="" group-title="Movies",Cafe Film
+#EXTINF:-1 tvg-ID="CafeFilm.ir" tvg-name="Cafe Film" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CafeFilm.png" group-title="Movies",Cafe Film
 https://cafefhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="GoldStar.ir" tvg-name="Gold Star" tvg-logo="" group-title="Movies",Gold Star
+#EXTINF:-1 tvg-ID="GoldStar.ir" tvg-name="Gold Star" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GoldStar.png" group-title="Movies",Gold Star
 https://moviethls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="GrandCinema.tr" tvg-name="Grand Cinema" tvg-logo="" group-title="Movies",Grand Cinema
+#EXTINF:-1 tvg-ID="GrandCinema.tr" tvg-name="Grand Cinema" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GrandCinema.png" group-title="Movies",Grand Cinema
 https://gcinemahls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="iFilm2.ir" tvg-name="iFilm 2" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iFilm2.png" group-title="Movies",iFilm 2
 https://live.presstv.co.uk/hls/ifilm2_4_482/index.m3u8
@@ -83,7 +83,7 @@ https://live.presstv.co.uk/hls/ifilm2_4_482/index.m3u8
 https://live.presstv.co.uk/hls/ifilmfa_4_482/index.m3u8
 #EXTINF:-1 tvg-ID="MaahTV.my" tvg-name="Maah TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_MaahTV.png" group-title="Movies",Maah TV
 https://hls.maahtv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="MetaFilmTV.ir" tvg-name="Meta Film TV" tvg-logo="" group-title="Movies",Meta Film TV
+#EXTINF:-1 tvg-ID="MetaFilmTV.ir" tvg-name="Meta Film TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_MetaFilmTV.png" group-title="Movies",Meta Film TV
 https://metafilmhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="SL1.ir" tvg-name="SL 1" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_SL1.png" group-title="Movies",SL 1
 https://slonehls.wns.live/hls/stream.m3u8
@@ -95,7 +95,7 @@ https://ncdn.telewebion.ir/hdtest/live/1080p/index.m3u8
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="4UTV.tr" tvg-name="4U TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_4UTV.png" group-title="Entertainment",4U TV
 https://hls.4utv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="FX1.ir" tvg-name="FX 1" tvg-logo="" group-title="Entertainment",FX 1
+#EXTINF:-1 tvg-ID="FX1.ir" tvg-name="FX 1" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FX1.png" group-title="Entertainment",FX 1
 https://fxtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="MBCPersia.ae" tvg-name="MBC Persia" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_MBCPersia.png" group-title="Entertainment",MBC Persia
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8
