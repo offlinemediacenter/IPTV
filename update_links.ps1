@@ -36,9 +36,9 @@ Add-Type -AssemblyName System.Drawing
 $UA        = 'VLC/3.0.20 LibVLC/3.0.20'
 $Utf8NoBom = New-Object Text.UTF8Encoding $false
 
-function Test-Stream([string]$Url) {
-    $script:LastStreamKey = $null
-    if (-not $Url) { return $false }
+# Basic HTTP check: does $Url answer 2xx? Sets $script:LastHttpUri (final URL after redirects).
+function Test-Http([string]$Url) {
+    $script:LastHttpUri = $null
     $req = $null
     try {
         $req = [Net.HttpWebRequest]::Create($Url)
@@ -48,17 +48,63 @@ function Test-Stream([string]$Url) {
         $req.AddRange(0, 2047)
         $resp = $req.GetResponse()
         $code = [int]$resp.StatusCode
-        # Where the stream really ends up (after redirects), used to spot duplicate
-        # channels. Query strings (tokens) are ignored, and a numbered load-balancer
-        # node such as "n0a." / "s5." / "stream-163." is dropped from the host.
-        $h = $resp.ResponseUri.Host.ToLower() -replace '^[a-z]{0,6}-?\d+[a-z]?\d*\.(?=[^.]+\.[^.]+)', ''
-        $script:LastStreamKey = $h + $resp.ResponseUri.AbsolutePath.TrimEnd('/').ToLower()
+        $script:LastHttpUri = $resp.ResponseUri
         return ($code -ge 200 -and $code -lt 300)
     } catch {
         return $false
     } finally {
         if ($req) { $req.Abort() }   # don't wait on endless radio streams
     }
+}
+
+# HLS check: the playlist must be current and its newest video segment must download.
+# (A playlist file can keep answering long after the channel stopped - "frozen" streams.)
+function Test-HlsLive([string]$Url) {
+    $r = Get-TextAndUri $Url
+    if (-not $r) { $script:LastFailReason = 'playlist unreadable'; return $false }
+    $text = $r.Text; $base = $r.Uri
+    if ($text -match '#EXT-X-STREAM-INF') {             # master playlist: check its first variant
+        $lines = $text -split "`r?`n"; $v = $null
+        for ($i = 0; $i -lt $lines.Count - 1; $i++) {
+            if ($lines[$i].StartsWith('#EXT-X-STREAM-INF')) { $v = $lines[$i + 1].Trim(); break }
+        }
+        if (-not $v) { $script:LastFailReason = 'no variant'; return $false }
+        $r = Get-TextAndUri ((New-Object Uri ($base, $v)).AbsoluteUri)
+        if (-not $r) { $script:LastFailReason = 'variant playlist unreadable'; return $false }
+        $text = $r.Text; $base = $r.Uri
+    }
+    if ($text -notmatch '#EXTINF') { return $true }     # unusual format - don't judge
+    if ($text -notmatch '#EXT-X-ENDLIST') {
+        $pdt = [regex]::Matches($text, '#EXT-X-PROGRAM-DATE-TIME:(\S+)')
+        if ($pdt.Count) {
+            try {
+                $t = [DateTimeOffset]::Parse($pdt[$pdt.Count - 1].Groups[1].Value, [Globalization.CultureInfo]::InvariantCulture)
+                $hours = ([DateTimeOffset]::UtcNow - $t).TotalHours
+                if ($hours -gt 3) { $script:LastFailReason = "frozen - newest segment is $([int]$hours) h old"; return $false }
+            } catch { }
+        }
+    }
+    $segs = @($text -split "`r?`n" | Where-Object { $_.Trim() -and -not $_.StartsWith('#') })
+    if (-not $segs.Count) { $script:LastFailReason = 'no segments'; return $false }
+    $seg = (New-Object Uri ($base, $segs[$segs.Count - 1].Trim())).AbsoluteUri
+    if (-not (Test-Http $seg)) { $script:LastFailReason = 'video segment refused (blocked or gone)'; return $false }
+    return $true
+}
+
+function Test-Stream([string]$Url) {
+    $script:LastStreamKey = $null
+    $script:LastFailReason = $null
+    if (-not $Url) { return $false }
+    if (-not (Test-Http $Url)) { $script:LastFailReason = 'no answer'; return $false }
+    # Where the stream really ends up (after redirects), used to spot duplicate
+    # channels. Query strings (tokens) are ignored, and a numbered load-balancer
+    # node such as "n0a." / "s5." / "stream-163." is dropped from the host.
+    $u = $script:LastHttpUri
+    $h = $u.Host.ToLower() -replace '^[a-z]{0,6}-?\d+[a-z]?\d*\.(?=[^.]+\.[^.]+)', ''
+    $key = $h + $u.AbsolutePath.TrimEnd('/').ToLower()
+    if ($Url -match '\.m3u8' -and -not (Test-HlsLive $Url)) { return $false }
+    $script:LastStreamKey = $key
+    return $true
 }
 
 function Get-Text([string]$Url) {
@@ -386,7 +432,7 @@ foreach ($ch in $channels) {
         $working += $ch
         continue
     }
-    Write-Host "  BROKEN   $($ch.url)"
+    Write-Host "  BROKEN   $($ch.url)  ($($script:LastFailReason))"
 
     $candidates = @()
     if ($ch.PSObject.Properties['persiana'] -and $ch.persiana) { $candidates += Get-PersianaCandidates $ch.persiana }
