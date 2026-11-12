@@ -368,6 +368,30 @@
     "iptvOrg": "TVITN.ir"
   },
   {
+    "name": "Arirang TV",
+    "id": "ArirangTV.kr",
+    "group": "Entertainment",
+    "logo": "IPTV_ArirangTV.png",
+    "url": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8",
+    "iptvOrg": "ArirangTV.kr"
+  },
+  {
+    "name": "FashionTV Secrets",
+    "id": "FashionTVSecrets.fr",
+    "group": "Entertainment",
+    "logo": "IPTV_FashionTVSecrets.png",
+    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/b25e988560264487bb3b039c32a33d13/media/manifest.m3u8/0.m3u8",
+    "iptvOrg": "FashionTVSecrets.fr"
+  },
+  {
+    "name": "Global Fashion Channel",
+    "id": "GlobalFashionChannel.us",
+    "group": "Entertainment",
+    "logo": "IPTV_GlobalFashionChannel.png",
+    "url": "https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/cdbe280e-0aea-4bbe-861f-fd115abcfec7_1080p.m3u8",
+    "iptvOrg": "GlobalFashionChannel.us"
+  },
+  {
     "name": "Avang TV",
     "id": "Avang TV",
     "group": "Music",
@@ -481,6 +505,102 @@
     "logo": "IPTV_T2TV.png",
     "url": "https://t2hls.wns.live/hls/stream.m3u8",
     "iptvOrg": "T2TV.ir"
+  },
+  {
+    "name": "Clubbing TV",
+    "id": "ClubbingTV.us",
+    "group": "Music",
+    "logo": "IPTV_ClubbingTV.png",
+    "url": "https://a-cdn.klowdtv.com/live3/clubbingtv_720p/chunks.m3u8",
+    "iptvOrg": "ClubbingTV.us"
+  },
+  {
+    "name": "Deejay TV",
+    "id": "DeejayTV.it",
+    "group": "Music",
+    "logo": "IPTV_DeejayTV.png",
+    "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b3230963.m3u8",
+    "iptvOrg": "DeejayTV.it"
+  },
+  {
+    "name": "Deluxe Dance",
+    "id": "DeluxeDance.de",
+    "group": "Music",
+    "logo": "IPTV_DeluxeDance.png",
+    "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8",
+    "iptvOrg": "DeluxeDance.de"
+  },
+  {
+    "name": "Best of Dance TV",
+    "id": "BestofDanceTV.ee",
+    "group": "Music",
+    "logo": "IPTV_BestofDanceTV.png",
+    "url": "https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8",
+    "iptvOrg": "BestofDanceTV.ee"
+  },
+  {
+    "name": "DanceTV Techno Warehouse",
+    "id": "DanceTVTechnoWarehouse.ee",
+    "group": "Music",
+    "logo": "IPTV_DanceTVTechnoWarehouse.png",
+    "url": "https://m2b2.worldcast.tv:7443/dancetelevisionthree/stream_2.m3u8",
+    "iptvOrg": "DanceTVTechnoWarehouse.ee"
+  },
+  {
+    "name": "Power Dance",
+    "id": "PowerDance.tr",
+    "group": "Music",
+    "logo": "IPTV_PowerDance.png",
+    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1180999842",
+    "iptvOrg": "PowerDance.tr"
+  },
+  {
+    "name": "Totalmusic Dance",
+    "id": "TotalmusicDance.uk",
+    "group": "Music",
+    "logo": "IPTV_TotalmusicDance.png",
+    "url": "https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8",
+    "iptvOrg": "TotalmusicDance.uk"
+  },
+  {
+    "name": "Number 1 Dance",
+    "id": "Number1Dance.tr",
+    "group": "Music",
+    "logo": "IPTV_Number1Dance.png",
+    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/chunklist.m3u8",
+    "iptvOrg": "Number1Dance.tr"
+  },
+  {
+    "name": "Dance FM",
+    "id": "DanceFM.cl",
+    "group": "Music",
+    "logo": "IPTV_DanceFM.png",
+    "url": "https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/chunklist_w109326171.m3u8",
+    "iptvOrg": "DanceFM.cl"
+  },
+  {
+    "name": "Stingray Today's K-Pop",
+    "id": "StingrayTodaysKPop.ca",
+    "group": "Music",
+    "logo": "IPTV_StingrayTodaysKPop.png",
+    "url": "https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/7f580049-e104-34da-bf75-65c1708e6c1f/1790800/manifest.m3u8",
+    "iptvOrg": "StingrayTodaysKPop.ca"
+  },
+  {
+    "name": "NEW K-POP",
+    "id": "NEWKPOP.us",
+    "group": "Music",
+    "logo": "IPTV_NEWKPOP.png",
+    "url": "https://d3fo5l6kdk2w79.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-to32qiaqd9f4c/3ae3fa4c-f681-4f2d-bb2b-bde6da4bdd44/0.m3u8",
+    "iptvOrg": "NEWKPOP.us"
+  },
+  {
+    "name": "Kpop Mix",
+    "id": "KpopMix.ar",
+    "group": "Music",
+    "logo": "IPTV_KpopMix.png",
+    "url": "https://cloud.tvomix.com/KPOPMIX/tracks-v1a1/mono.m3u8",
+    "iptvOrg": "KpopMix.ar"
   },
   {
     "name": "Persiana Medical",
