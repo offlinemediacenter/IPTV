@@ -90,7 +90,7 @@ https://itnhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="ArirangTV.kr" tvg-name="Arirang TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ArirangTV.png" group-title="Entertainment",Arirang TV
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
 #EXTINF:-1 tvg-ID="FashionTVSecrets.fr" tvg-name="FashionTV Secrets" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVSecrets.png" group-title="Entertainment",FashionTV Secrets
-https://ssai.aniview.com/api/v1/hls/streams/sessions/b25e988560264487bb3b039c32a33d13/media/manifest.m3u8/0.m3u8
+https://ssai.aniview.com/api/v1/hls/streams/sessions/ea18bb29443e4c20800e47991fb58725/media/manifest.m3u8/0.m3u8
 #EXTINF:-1 tvg-ID="GlobalFashionChannel.us" tvg-name="Global Fashion Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GlobalFashionChannel.png" group-title="Entertainment",Global Fashion Channel
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/cdbe280e-0aea-4bbe-861f-fd115abcfec7_1080p.m3u8
 #EXTINF:-1 tvg-ID="Avang TV" tvg-name="Avang TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Avang.jpg" group-title="Music",Avang TV
@@ -145,6 +145,44 @@ https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/7f580049-e
 https://d3fo5l6kdk2w79.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-to32qiaqd9f4c/3ae3fa4c-f681-4f2d-bb2b-bde6da4bdd44/0.m3u8
 #EXTINF:-1 tvg-ID="KpopMix.ar" tvg-name="Kpop Mix" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_KpopMix.png" group-title="Music",Kpop Mix
 https://cloud.tvomix.com/KPOPMIX/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-ID="VevoPop.us" tvg-name="Vevo Pop (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoPop.png" group-title="Vevo",Vevo Pop (US)
+https://d2n5ee9u100agb.cloudfront.net/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Vevo70s.us" tvg-name="Vevo '70s (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Vevo70s.png" group-title="Vevo",Vevo '70s (US)
+https://d341pfs1smb2ef.cloudfront.net/1080p-vtt/index.m3u8
+#EXTINF:-1 tvg-ID="Vevo80s.us" tvg-name="Vevo '80s (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Vevo80s.png" group-title="Vevo",Vevo '80s (US)
+https://d3svsvgc81yfe1.cloudfront.net/1080p-vtt/index.m3u8
+#EXTINF:-1 tvg-ID="Vevo90s.us" tvg-name="Vevo '90s (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Vevo90s.png" group-title="Vevo",Vevo '90s (US)
+https://d29u7uq3k6xqk0.cloudfront.net/1080p-vtt/index.m3u8
+#EXTINF:-1 tvg-ID="Vevo2K.us" tvg-name="Vevo 2K (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Vevo2K.png" group-title="Vevo",Vevo 2K (US)
+https://d3150hggbcolbo.cloudfront.net/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Vevo 2010s (US)" tvg-name="Vevo 2010s (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Vevo2010sUS.png" group-title="Vevo",Vevo 2010s (US)
+https://d3j50s1rkjmwi9.cloudfront.net/1080p-vtt/index.m3u8
+#EXTINF:-1 tvg-ID="VevoHipHop.us" tvg-name="Vevo Hip Hop (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoHipHop.png" group-title="Vevo",Vevo Hip Hop (US)
+https://d3vgs3ro3x6v8a.cloudfront.net/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="VevoTrueSchoolHipHop.us" tvg-name="Vevo True School Hip-Hop (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoTrueSchoolHipHop.png" group-title="Vevo",Vevo True School Hip-Hop (US)
+https://jmp2.uk/plu-61d4c2817a823d00070ba53e.m3u8
+#EXTINF:-1 tvg-ID="VevoRB.us" tvg-name="Vevo R&B (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoRB.png" group-title="Vevo",Vevo R&B (US)
+https://d1hf773q57zx9s.cloudfront.net/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Vevo Rock (US)" tvg-name="Vevo Rock (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoRockUS.png" group-title="Vevo",Vevo Rock (US)
+https://jmp2.uk/plu-61d4b38226b8a50007fe03a6.m3u8
+#EXTINF:-1 tvg-ID="VevoRetroRock.us" tvg-name="Vevo Retro Rock (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoRetroRock.png" group-title="Vevo",Vevo Retro Rock (US)
+https://d2hdqrshyzxswl.cloudfront.net/1080p-vtt/index.m3u8
+#EXTINF:-1 tvg-ID="VevoCountry.us" tvg-name="Vevo Country (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoCountry.png" group-title="Vevo",Vevo Country (US)
+https://jmp2.uk/plu-5da0d75e84830900098a1ea0.m3u8
+#EXTINF:-1 tvg-ID="Vevo Country Rewind (US)" tvg-name="Vevo Country Rewind (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoCountryRewindUS.png" group-title="Vevo",Vevo Country Rewind (US)
+https://dtpafgv4jlncv.cloudfront.net/mt/rsu/v1/channel/AZlegsFKILvcvwCBYqT4vQ-V2/index/4.m3u8
+#EXTINF:-1 tvg-ID="VevoLatino.us" tvg-name="Vevo Latino (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoLatino.png" group-title="Vevo",Vevo Latino (US)
+https://d1vgg34wqvwdqj.cloudfront.net/1080p/index.m3u8
+#EXTINF:-1 tvg-ID="Vevo Íconos Latinos (US)" tvg-name="Vevo Íconos Latinos (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoconosLatinosUS.png" group-title="Vevo",Vevo Íconos Latinos (US)
+https://jmp2.uk/plu-64d161c93c785e0008df575e.m3u8
+#EXTINF:-1 tvg-ID="Vevo Regional Mexicano (US)" tvg-name="Vevo Regional Mexicano (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoRegionalMexicanoUS.png" group-title="Vevo",Vevo Regional Mexicano (US)
+https://jmp2.uk/plu-64dab5fe35425100080e2991.m3u8
+#EXTINF:-1 tvg-ID="Vevo Holiday (US)" tvg-name="Vevo Holiday (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoHolidayUS.png" group-title="Vevo",Vevo Holiday (US)
+https://jmp2.uk/plu-6334a3ffdc283500076acf92.m3u8
+#EXTINF:-1 tvg-ID="Vevo Pop (Spain)" tvg-name="Vevo Pop (Spain)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoPopSpain.png" group-title="Vevo",Vevo Pop (Spain)
+https://amg00056-amg00056c10-rakuten-es-3242.playouts.now.amagi.tv/playlist1920x1080p.m3u8
+#EXTINF:-1 tvg-ID="Vevo Latino (Spain)" tvg-name="Vevo Latino (Spain)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoLatinoSpain.png" group-title="Vevo",Vevo Latino (Spain)
+https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist1920x1080p.m3u8
 #EXTINF:-1 tvg-ID="PersianaMedical.fr" tvg-name="Persiana Medical" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_medical.png" group-title="Documentary",Persiana Medical
 https://phd2hls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="PersianaDocs.fr" tvg-name="Persiana Docs" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_docs.png" group-title="Documentary",Persiana Docs
@@ -173,6 +211,8 @@ https://s5.radio.co/sf0a1af54c/listen
 http://rfe21.akacast.akamaistream.net/7/751/437779/v1/ibb.akacast.akamaistream.net/rfe21
 #EXTINF:-1 tvg-ID="Iran International Radio" tvg-name="Iran International Radio" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_IranInternational.png" group-title="Radio",Iran International Radio
 https://radio.iraninternational.app/iintl_c
+#EXTINF:-1 tvg-ID="RFI Persian" tvg-name="RFI Persian" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RFIPersian.png" group-title="Radio",RFI Persian
+http://live02.rfi.fr/rfienpersan-64k.mp3
 #EXTINF:-1 tvg-ID="Radio Faaz" tvg-name="Radio Faaz" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioFaaz.png" group-title="Radio",Radio Faaz
 http://www.radiofaaz.com:8000/radiofaaz
 #EXTINF:-1 tvg-ID="Radio Navahang" tvg-name="Radio Navahang" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioNavahang.png" group-title="Radio",Radio Navahang
