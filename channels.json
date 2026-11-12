@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Avang TV",
+    "id": "Avang TV",
+    "group": "Music",
+    "logo": "Avang.jpg",
+    "url": "https://hls.avang.live/hls/stream.m3u8",
+    "iptvOrg": "AvangTV.us"
+  },
+  {
+    "name": "Navahang TV",
+    "id": "Navahang TV",
+    "group": "Music",
+    "logo": "Navahang.jpg",
+    "url": "https://hls.navahang.live/hls/stream.m3u8",
+    "iptvOrg": "NavahangTV.fi"
+  },
+  {
+    "name": "PMC Radio (Planeta)",
+    "id": "PMC Radio Planeta",
+    "group": "Music",
+    "logo": "PMC.jpg",
+    "url": "https://s5.radio.co/s42d095d44/listen",
+    "radio": "PMC.*Planeta"
+  },
+  {
+    "name": "PMC Radio (Select)",
+    "id": "PMC Radio Select",
+    "group": "Music",
+    "logo": "PMC.jpg",
+    "url": "https://s5.radio.co/sf0a1af54c/listen",
+    "radio": "PMC.*Select"
+  },
+  {
+    "name": "PMC Music",
+    "id": "PMC Music",
+    "group": "Music",
+    "logo": "PMC.jpg",
+    "url": "https://pmchls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "PMC.ae"
+  },
+  {
+    "name": "PMC Royale",
+    "id": "PMC Royale",
+    "group": "Music",
+    "logo": "PMC.jpg",
+    "url": "https://pmcrohls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "PMCRoyale.ae"
+  },
+  {
+    "name": "RJTV",
+    "id": "RJTV",
+    "group": "Music",
+    "logo": "RJTV.jpg",
+    "url": "https://rjtvhls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "RJTV.us"
+  },
+  {
+    "name": "FashionTV+",
+    "id": "FashionTV+",
+    "group": "Fashion",
+    "logo": "FashionTVPlus.jpg",
+    "url": "https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8",
+    "iptvOrg": "FashionTVParisLOriginal.fr"
+  }
+]

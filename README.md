@@ -12,6 +12,10 @@ https://raw.githubusercontent.com/offlinemediacenter/IPTV/main/My_Playlist.m3u
 
 ## Channels
 
+All channels are defined in [`channels.json`](channels.json) (the master list).
+`My_Playlist.m3u` is generated from it and contains only the channels whose
+stream currently works, so some of these may be temporarily missing from it.
+
 | Channel | Group | Type |
 |---|---|---|
 | Avang TV | Music | TV (HLS) |
@@ -29,10 +33,21 @@ Channel logos are stored in [`Logos/`](Logos) and referenced from the playlist v
 
 ## Keeping links fresh
 
-`update_links.bat` checks the PMC streams. Any that stopped working are replaced
-from public sources ([iptv-org](https://github.com/iptv-org/iptv) and
-[radio-browser.info](https://www.radio-browser.info/)), then committed and pushed.
-It needs no login.
+`update_links.bat` checks every channel in `channels.json`:
+
+1. If the channel's link works, it goes in the playlist.
+2. If not, a replacement is looked up in public sources
+   ([iptv-org](https://github.com/iptv-org/iptv) and
+   [radio-browser.info](https://www.radio-browser.info/)). A working one is
+   saved to `channels.json` and used.
+3. If nothing works, the channel is left out of `My_Playlist.m3u`. It stays in
+   `channels.json`, so it returns automatically once a link works again.
+
+Changes are then committed and pushed. It needs no login.
+
+To add a channel, add an entry to `channels.json` (`name`, `id`, `group`,
+`logo` file in `Logos/`, `url`, plus optional `iptvOrg` tvg-id and `radio`
+name regex for finding replacements) and run the `.bat`.
 
 ```
 update_links.bat            run and wait for a key at the end
