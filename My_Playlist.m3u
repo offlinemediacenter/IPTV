@@ -3,8 +3,6 @@
 https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Navahang TV" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Navahang.jpg" group-title="Music",Navahang TV
 https://hls.navahang.live/hls/stream.m3u8
-#EXTINF:-1 tvg-ID="PMC Radio Planeta" tvg-name="PMC Radio (Planeta)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/PMC.jpg" group-title="Music",PMC Radio (Planeta)
-https://s5.radio.co/s42d095d44/listen
 #EXTINF:-1 tvg-ID="PMC Radio Select" tvg-name="PMC Radio (Select)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/PMC.jpg" group-title="Music",PMC Radio (Select)
 https://s5.radio.co/sf0a1af54c/listen
 #EXTINF:-1 tvg-ID="PMC Music" tvg-name="PMC Music" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/PMC.jpg" group-title="Music",PMC Music
