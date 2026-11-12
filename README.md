@@ -32,7 +32,7 @@ and fashion channels) and
 | **Documentary** (4) | Persiana Medical, Persiana Docs, Persiana Travel, Persiana Voyage |
 | **Kids** (5) | Persiana Junior, Persiana Teen, IRIB Omid, Pooya TV, Pooya TV Plus |
 | **Sports** (3) | Persiana Fight, IRIB 3, Varzesh TV |
-| **Radio** (18) | PMC Radio (Planeta), PMC Radio (Select), Radio Farda, Iran International Radio, RFI Persian, Radio Faaz, Radio Navahang, Radio Simorgh, Radio Shadi, Persian Vibe Radio, Caltex Music, Farsi Frequency, Radio Yar Plus, Radio Yar LA, Iran On Air, Radio Hamrah, Radio Hamsafar, Radio ZZA |
+| **Radio** (16) | PMC Radio (Planeta), PMC Radio (Select), Radio Farda, Iran International Radio, RFI Persian, Radio Faaz, Radio Navahang, Radio Simorgh, Radio Shadi, Persian Vibe Radio, Farsi Frequency, Radio Yar Plus, Radio Yar LA, Iran On Air, Radio Hamrah, Radio ZZA |
 
 ## Logos
 
