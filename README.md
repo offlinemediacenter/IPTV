@@ -57,6 +57,12 @@ To add a channel, add an entry to `channels.json` (`name`, `id`, `group`,
 `url`, plus optional `iptvOrg` tvg-id, `persiana` site id and `radio` name
 regex for finding replacements) and run the `.bat`.
 
+**Highest quality.** When a stream offers several qualities, the `.bat` picks the
+highest resolution. If the audio comes as a separate track (e.g. MBC Persia), it
+writes a small pinned playlist to `Streams/` with just the top video quality plus
+the audio, and the playlist points there. Streams whose links carry expiring
+tokens (Pluto TV) are left adaptive.
+
 **Logos are automatic.** If a channel has no `logo` (or its file is missing),
 the `.bat` downloads the official one (from the optional `logoSrc` link,
 persianagroup.tv or iptv-org), trims plain margins,

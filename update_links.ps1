@@ -30,6 +30,8 @@ $Master    = Join-Path $Root 'channels.json'
 $Playlist  = Join-Path $Root 'My_Playlist.m3u'
 $LogoBase  = 'https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/'
 $LogoDir   = Join-Path $Root 'Logos'
+$StreamDir  = Join-Path $Root 'Streams'
+$StreamBase = 'https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Streams/'
 Add-Type -AssemblyName System.Drawing
 $UA        = 'VLC/3.0.20 LibVLC/3.0.20'
 $Utf8NoBom = New-Object Text.UTF8Encoding $false
@@ -68,18 +70,31 @@ function Get-Text([string]$Url) {
     } catch { return $null }
 }
 
-# If $Url is an HLS master playlist with several qualities, return the URL of the
-# highest-bandwidth variant (if it responds); otherwise return $Url unchanged.
-function Select-BestQuality([string]$Url) {
+# Fetch a text resource. Returns @{ Text; Uri } (Uri = final URL after redirects) or $null.
+function Get-TextAndUri([string]$Url) {
+    try {
+        $req = [Net.HttpWebRequest]::Create($Url)
+        $req.UserAgent = $UA; $req.Timeout = 15000; $req.ReadWriteTimeout = 15000
+        $resp = $req.GetResponse()
+        $sr = New-Object IO.StreamReader ($resp.GetResponseStream(), [Text.Encoding]::UTF8)
+        $text = $sr.ReadToEnd(); $sr.Close()
+        $final = $resp.ResponseUri; $resp.Close()
+        return @{ Text = $text; Uri = $final }
+    } catch { return $null }
+}
+
+# If $Url is an HLS master playlist with several qualities, pick the highest one.
+#  - Normal case: returns the URL of the top variant.
+#  - Audio in a separate track: the bare video variant would be silent, so instead a
+#    small "pinned" playlist (top variant + audio track) is written to Streams/ and
+#    its name is left in $script:LastPinned; $Url itself is returned unchanged.
+#    Skipped when the links carry tokens (a pinned copy would expire).
+function Select-BestQuality([string]$Url, [string]$Name) {
+    $script:LastPinned = $null
     if ($Url -notmatch '\.m3u8') { return $Url }
-    $text = Get-Text $Url
-    if (-not $text -or $text -notmatch '#EXT-X-STREAM-INF') { return $Url }
-    # Audio (or subtitles) delivered as separate renditions: a single video variant
-    # would play silently, so keep the master and let the player choose.
-    if ($text -match '#EXT-X-MEDIA:[^\r\n]*TYPE=AUDIO[^\r\n]*URI=') {
-        Write-Host "  QUALITY  separate audio track - keeping master playlist"
-        return $Url
-    }
+    $r = Get-TextAndUri $Url
+    if (-not $r -or $r.Text -notmatch '#EXT-X-STREAM-INF') { return $Url }
+    $text = $r.Text; $base = $r.Uri
     $lines = $text -split "`r?`n"
     # Rank by resolution first (some servers declare bogus bandwidths), then bandwidth.
     $variants = @()
@@ -91,18 +106,43 @@ function Select-BestQuality([string]$Url) {
             if ($attrs -match '\bRESOLUTION=(\d+)x(\d+)') { $px = [long]$Matches[1] * [long]$Matches[2]; $res = "$($Matches[1])x$($Matches[2])" }
             $uri = $lines[$i + 1].Trim()
             if ($uri -and -not $uri.StartsWith('#')) {
-                $variants += New-Object PSObject -Property @{ Uri = $uri; Bw = $bw; Px = $px; Res = $res }
+                $variants += New-Object PSObject -Property @{ Uri = $uri; Bw = $bw; Px = $px; Res = $res; Attrs = $attrs }
             }
         }
     }
+    $sorted = @($variants | Sort-Object -Property @{ e = 'Px'; Descending = $true }, @{ e = 'Bw'; Descending = $true })
+    $separateAudio = $text -match '#EXT-X-MEDIA:[^\r\n]*TYPE=AUDIO[^\r\n]*URI='
+
+    if ($separateAudio) {
+        $hasTokens = $base.Query -or ($variants | Where-Object { $_.Uri -match '\?' }) -or ($text -match 'URI="[^"]*\?')
+        if ($hasTokens) {
+            Write-Host "  QUALITY  separate audio track, links carry tokens - keeping master playlist"
+            return $Url
+        }
+    }
+
     # Try best first; fall back to the next one if a variant doesn't respond.
-    foreach ($v in ($variants | Sort-Object -Property @{ e = 'Px'; Descending = $true }, @{ e = 'Bw'; Descending = $true })) {
-        $abs = (New-Object Uri ((New-Object Uri $Url), $v.Uri)).AbsoluteUri
-        if (Test-Stream $abs) {
-            $label = if ($v.Res) { $v.Res } else { '{0:N1} Mbps' -f ($v.Bw / 1e6) }
+    foreach ($v in $sorted) {
+        $abs = (New-Object Uri ($base, $v.Uri)).AbsoluteUri
+        if (-not (Test-Stream $abs)) { continue }
+        $label = if ($v.Res) { $v.Res } else { '{0:N1} Mbps' -f ($v.Bw / 1e6) }
+        if (-not $separateAudio) {
             Write-Host "  QUALITY  picked top variant ($label)"
             return $abs
         }
+        # Pinned playlist: header, all EXT-X-MEDIA renditions (absolute URIs), top variant only.
+        $out = @('#EXTM3U')
+        foreach ($l in $lines) { if ($l -match '^#EXT-X-(VERSION|INDEPENDENT-SEGMENTS)') { $out += $l.Trim() } }
+        $toAbs = [Text.RegularExpressions.MatchEvaluator] { param($m) 'URI="' + (New-Object Uri ($base, $m.Groups[1].Value)).AbsoluteUri + '"' }
+        foreach ($l in $lines) { if ($l -match '^#EXT-X-MEDIA:') { $out += [regex]::Replace($l.Trim(), 'URI="([^"]+)"', $toAbs) } }
+        $out += '#EXT-X-STREAM-INF:' + $v.Attrs
+        $out += $abs
+        if (-not (Test-Path -LiteralPath $StreamDir)) { $null = New-Item -ItemType Directory -Path $StreamDir }
+        $file = ($Name -replace '[^A-Za-z0-9]', '') + '.m3u8'
+        [IO.File]::WriteAllText((Join-Path $StreamDir $file), (($out -join "`n") + "`n"), $Utf8NoBom)
+        $script:LastPinned = $file
+        Write-Host "  QUALITY  pinned top variant ($label) + separate audio -> Streams/$file"
+        return $Url
     }
     return $Url
 }
@@ -326,6 +366,7 @@ $masterChanged = $false
 
 $streamOwner = @{}     # final stream path -> first channel that uses it
 $duplicates  = @()
+$playUrl     = @{}     # channel name -> pinned playlist URL (used in the M3U instead of url)
 
 foreach ($ch in $channels) {
     Write-Host ""
@@ -339,7 +380,8 @@ foreach ($ch in $channels) {
                 $duplicates += "$($ch.name) = $($streamOwner[$key])"
             } else { $streamOwner[$key] = $ch.name }
         }
-        $best = Select-BestQuality $ch.url
+        $best = Select-BestQuality $ch.url $ch.name
+        if ($script:LastPinned) { $playUrl[$ch.name] = $script:LastPinned }
         if ($best -ne $ch.url) { $ch.url = $best; $masterChanged = $true; Write-Host "  UPDATED  $best" }
         $working += $ch
         continue
@@ -358,7 +400,8 @@ foreach ($ch in $channels) {
         Write-Host "  tried    $c (not responding)"
     }
     if ($found) {
-        $found = Select-BestQuality $found
+        $found = Select-BestQuality $found $ch.name
+        if ($script:LastPinned) { $playUrl[$ch.name] = $script:LastPinned }
         Write-Host "  UPDATED  $found"
         $ch.url = $found
         $masterChanged = $true
@@ -387,7 +430,14 @@ foreach ($ch in $working) {
     $logo = if ($ch.PSObject.Properties['logo'] -and $ch.logo) { $LogoBase + $ch.logo } else { '' }
     $m3u += '#EXTINF:-1 tvg-ID="{0}" tvg-name="{1}" tvg-logo="{2}" group-title="{3}",{4}' -f `
             $ch.id, $ch.name, $logo, $ch.group, $ch.name
-    $m3u += $ch.url
+    $m3u += if ($playUrl.ContainsKey($ch.name)) { $StreamBase + $playUrl[$ch.name] } else { $ch.url }
+}
+
+# Remove pinned playlists no longer in use.
+if (Test-Path -LiteralPath $StreamDir) {
+    foreach ($f in Get-ChildItem -LiteralPath $StreamDir -Filter '*.m3u8') {
+        if ($playUrl.Values -notcontains $f.Name) { Remove-Item -LiteralPath $f.FullName; Write-Host "  removed unused Streams/$($f.Name)" }
+    }
 }
 $newM3u = ($m3u -join "`r`n") + "`r`n"
 $oldM3u = if (Test-Path -LiteralPath $Playlist) { [IO.File]::ReadAllText($Playlist) } else { '' }
@@ -412,8 +462,11 @@ if ($NoPush) { Write-Host "-NoPush given: not committing."; exit 0 }
 # Commit whatever differs from the last commit (also catches edits left by a -NoPush run).
 $ErrorActionPreference = 'Continue'
 # Logos/ is included so new or replaced logo files are published too.
-git -C "$Root" add -- My_Playlist.m3u channels.json Logos
-git -C "$Root" diff --cached --quiet -- My_Playlist.m3u channels.json Logos
+$paths = @('My_Playlist.m3u', 'channels.json', 'Logos')
+$streamFiles = @(if (Test-Path -LiteralPath $StreamDir) { Get-ChildItem -LiteralPath $StreamDir -File })
+if ($streamFiles.Count -or (git -C "$Root" ls-files -- Streams)) { $paths += 'Streams' }   # empty pathspec would error
+git -C "$Root" add -A -- $paths
+git -C "$Root" diff --cached --quiet -- $paths
 if ($LASTEXITCODE -eq 0) { Write-Host "Nothing new to commit."; exit 0 }
 
 $msg = "Auto-update playlist: $($working.Count)/$($channels.Count) channels working"
