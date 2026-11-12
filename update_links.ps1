@@ -170,16 +170,19 @@ if ($masterChanged) {
 
 Write-Host "Playlist: $($working.Count) of $($channels.Count) channels working."
 if ($dropped.Count) { Write-Host "Left out:  $($dropped -join ', ')" }
-if ($filesChanged.Count -eq 0) { Write-Host "No changes."; exit 0 }
-Write-Host "Updated:  $($filesChanged -join ', ')"
+if ($filesChanged.Count) { Write-Host "Updated:  $($filesChanged -join ', ')" }
 
 if ($NoPush) { Write-Host "-NoPush given: not committing."; exit 0 }
+
+# Commit whatever differs from the last commit (also catches edits left by a -NoPush run).
+$ErrorActionPreference = 'Continue'
+git -C "$Root" add -- My_Playlist.m3u channels.json
+git -C "$Root" diff --cached --quiet -- My_Playlist.m3u channels.json
+if ($LASTEXITCODE -eq 0) { Write-Host "Nothing new to commit."; exit 0 }
 
 $msg = "Auto-update playlist: $($working.Count)/$($channels.Count) channels working"
 if ($dropped.Count) { $msg += " (left out: $($dropped -join ', '))" }
 
-$ErrorActionPreference = 'Continue'
-git -C "$Root" add -- My_Playlist.m3u channels.json
 git -C "$Root" commit -q -m $msg
 if ($LASTEXITCODE -ne 0) { Write-Host "git commit failed."; exit 1 }
 git -C "$Root" push -q origin main
