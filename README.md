@@ -27,6 +27,12 @@ stream currently works, so some of these may be temporarily missing from it.
 | RJTV | Music | TV (HLS) |
 | FashionTV+ | Fashion | TV (HLS) |
 
+**Persiana Media Group** (free channels from [persianagroup.tv](https://persianagroup.tv/);
+Persiana+ requires a subscription and is not included):
+
+Family, Series, Cinema, Korea, Iranian, Comedy, Reality, Türkiye, Medical, Docs,
+Junior, Fight, Music, Nostalgia, Folk, SetMix, Travel, Podcast, Rap, China, Voyage
+
 ## Logos
 
 Channel logos are stored in [`Logos/`](Logos) and referenced from the playlist via raw GitHub URLs.
@@ -36,8 +42,8 @@ Channel logos are stored in [`Logos/`](Logos) and referenced from the playlist v
 `update_links.bat` checks every channel in `channels.json`:
 
 1. If the channel's link works, it goes in the playlist.
-2. If not, a replacement is looked up in public sources
-   ([iptv-org](https://github.com/iptv-org/iptv) and
+2. If not, a replacement is looked up in public sources (persianagroup.tv for Persiana channels,
+   [iptv-org](https://github.com/iptv-org/iptv) and
    [radio-browser.info](https://www.radio-browser.info/)). A working one is
    saved to `channels.json` and used.
 3. If nothing works, the channel is left out of `My_Playlist.m3u`. It stays in

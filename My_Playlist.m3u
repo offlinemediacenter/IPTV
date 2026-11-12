@@ -12,4 +12,46 @@ https://pmcrohls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="RJTV" tvg-name="RJTV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/RJTV.jpg" group-title="Music",RJTV
 https://rjtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="FashionTV+" tvg-name="FashionTV+" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/FashionTVPlus.jpg" group-title="Fashion",FashionTV+
-https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8
+https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8
+#EXTINF:-1 tvg-ID="PersianaFamily.fr" tvg-name="Persiana Family" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_family.png" group-title="Family",Persiana Family
+https://familyhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaSeries.fr" tvg-name="Persiana Series" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_series.png" group-title="Series",Persiana Series
+https://onehls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaCinema.fr" tvg-name="Persiana Cinema" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_cinema.png" group-title="Cinema",Persiana Cinema
+https://cinehls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaKorea.fr" tvg-name="Persiana Korea" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_korea.png" group-title="Korea",Persiana Korea
+https://korhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaIranian.fr" tvg-name="Persiana Iranian" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_iranian.png" group-title="Iranian",Persiana Iranian
+https://irhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaComedy.fr" tvg-name="Persiana Comedy" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_comedy.png" group-title="Comedy",Persiana Comedy
+https://comedyhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaReality.fr" tvg-name="Persiana Reality" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_reality.png" group-title="Reality",Persiana Reality
+https://realhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaTurkiye.fr" tvg-name="Persiana Türkiye" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_turkey.png" group-title="Türkiye",Persiana Türkiye
+https://turkhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaMedical.fr" tvg-name="Persiana Medical" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_medical.png" group-title="Medical",Persiana Medical
+https://phd2hls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaDocs.fr" tvg-name="Persiana Docs" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_docs.png" group-title="Docs",Persiana Docs
+https://scihls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaJunior.fr" tvg-name="Persiana Junior" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_junior.png" group-title="Junior",Persiana Junior
+https://junhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaFight.fr" tvg-name="Persiana Fight" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_fight.png" group-title="Fight",Persiana Fight
+https://fighthls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Music" tvg-name="Persiana Music" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_music.png" group-title="Music",Persiana Music
+https://musichls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaNostalgia.fr" tvg-name="Persiana Nostalgia" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_nostalgia.png" group-title="Nostalgia",Persiana Nostalgia
+https://noshls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaFolk.fr" tvg-name="Persiana Folk" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_folk.png" group-title="Folk",Persiana Folk
+https://sonhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana SetMix" tvg-name="Persiana SetMix" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_setmix.png" group-title="Set Mix",Persiana SetMix
+https://setmixhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaTravel.fr" tvg-name="Persiana Travel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_travel.png" group-title="Travel",Persiana Travel
+https://ptravelhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Podcast" tvg-name="Persiana Podcast" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_podcast.png" group-title="",Persiana Podcast
+https://podhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="PersianaVibe.fr" tvg-name="Persiana Rap" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_rap.png" group-title="rap",Persiana Rap
+https://raphls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana China" tvg-name="Persiana China" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_china.png" group-title="China",Persiana China
+https://chinahls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-ID="Persiana Voyage" tvg-name="Persiana Voyage" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_voyage.png" group-title="Voyage",Persiana Voyage
+https://voyhls.persiana.live/hls/stream.m3u8

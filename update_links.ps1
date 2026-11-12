@@ -3,8 +3,10 @@
 
   No login, no credentials. For every channel in channels.json it:
     1. tests the channel's URL; if it plays, the channel goes in the playlist;
-    2. otherwise looks for a replacement in the public iptv-org list ("iptvOrg" id)
+    2. otherwise looks for a replacement in persianagroup.tv's public channel list
+       ("persiana" site id, free channels only), the iptv-org list ("iptvOrg" id)
        and the radio-browser.info directory ("radio" name regex);
+    If a stream offers several qualities, the highest-bandwidth one is used.
     3. if a replacement responds, saves it to channels.json and uses it;
     4. if nothing works, the channel is LEFT OUT of My_Playlist.m3u.
   channels.json always keeps every channel, so a dropped channel comes back
@@ -47,6 +49,52 @@ function Test-Stream([string]$Url) {
     }
 }
 
+function Get-Text([string]$Url) {
+    try {
+        $wc = New-Object Net.WebClient
+        $wc.Encoding = [Text.Encoding]::UTF8
+        $wc.Headers.Add('User-Agent', $UA)
+        return $wc.DownloadString($Url)
+    } catch { return $null }
+}
+
+# If $Url is an HLS master playlist with several qualities, return the URL of the
+# highest-bandwidth variant (if it responds); otherwise return $Url unchanged.
+function Select-BestQuality([string]$Url) {
+    if ($Url -notmatch '\.m3u8') { return $Url }
+    $text = Get-Text $Url
+    if (-not $text -or $text -notmatch '#EXT-X-STREAM-INF') { return $Url }
+    $lines = $text -split "`r?`n"
+    $best = $null; $bestBw = -1
+    for ($i = 0; $i -lt $lines.Count - 1; $i++) {
+        if ($lines[$i] -match '^#EXT-X-STREAM-INF:.*?\bBANDWIDTH=(\d+)') {
+            $bw = [long]$Matches[1]
+            $uri = $lines[$i + 1].Trim()
+            if ($uri -and -not $uri.StartsWith('#') -and $bw -gt $bestBw) { $bestBw = $bw; $best = $uri }
+        }
+    }
+    if (-not $best) { return $Url }
+    $abs = (New-Object Uri ((New-Object Uri $Url), $best)).AbsoluteUri
+    if (Test-Stream $abs) { Write-Host ("  QUALITY  picked top variant ({0:N1} Mbps)" -f ($bestBw / 1e6)); return $abs }
+    return $Url
+}
+
+function Get-PersianaCandidates([string]$SiteId) {
+    if ($null -eq $script:PersianaChannels) {
+        try {
+            $json = Get-Text 'https://persianagroup.tv/api/v1/channels'
+            $script:PersianaChannels = @((ConvertFrom-Json $json).channels)
+        } catch {
+            Write-Host "  (persianagroup.tv lookup failed: $($_.Exception.Message))"
+            $script:PersianaChannels = @()
+        }
+    }
+    # Only free channels: anything marked requires_plus (subscription) is skipped.
+    return @($script:PersianaChannels |
+             Where-Object { $_.id -eq $SiteId -and -not $_.requires_plus -and $_.hls_url } |
+             ForEach-Object { $_.hls_url })
+}
+
 function Get-IptvOrgCandidates([string]$TvgId) {
     $pattern = 'tvg-id="' + [regex]::Escape($TvgId) + '@'
     $out = @()
@@ -76,7 +124,7 @@ function Get-RadioCandidates([string]$Pattern) {
 }
 
 function ConvertTo-MasterJson($Channels) {
-    $keys = 'name', 'id', 'group', 'logo', 'url', 'iptvOrg', 'radio'
+    $keys = 'name', 'id', 'group', 'logo', 'url', 'iptvOrg', 'radio', 'persiana'
     $esc  = { param($s) ([string]$s).Replace('\', '\\').Replace('"', '\"') }
     $blocks = foreach ($c in $Channels) {
         $fields = foreach ($k in $keys) {
@@ -104,7 +152,8 @@ try {
     Write-Host "  could not download iptv-org list: $($_.Exception.Message)"
     $script:IptvLines = @()
 }
-$script:RadioStations = $null
+$script:RadioStations    = $null
+$script:PersianaChannels = $null
 
 # ---------------------------------------------------------------- check
 $working       = @()
@@ -116,12 +165,15 @@ foreach ($ch in $channels) {
     Write-Host "[$($ch.name)]"
     if (Test-Stream $ch.url) {
         Write-Host "  OK       $($ch.url)"
+        $best = Select-BestQuality $ch.url
+        if ($best -ne $ch.url) { $ch.url = $best; $masterChanged = $true; Write-Host "  UPDATED  $best" }
         $working += $ch
         continue
     }
     Write-Host "  BROKEN   $($ch.url)"
 
     $candidates = @()
+    if ($ch.PSObject.Properties['persiana'] -and $ch.persiana) { $candidates += Get-PersianaCandidates $ch.persiana }
     if ($ch.PSObject.Properties['iptvOrg'] -and $ch.iptvOrg) { $candidates += Get-IptvOrgCandidates $ch.iptvOrg }
     if ($ch.PSObject.Properties['radio']   -and $ch.radio)   { $candidates += Get-RadioCandidates  $ch.radio }
     $candidates = @($candidates | Where-Object { $_ -and $_ -ne $ch.url } | Select-Object -Unique)
@@ -132,6 +184,7 @@ foreach ($ch in $channels) {
         Write-Host "  tried    $c (not responding)"
     }
     if ($found) {
+        $found = Select-BestQuality $found
         Write-Host "  UPDATED  $found"
         $ch.url = $found
         $masterChanged = $true

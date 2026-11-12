@@ -62,5 +62,188 @@
     "logo": "FashionTVPlus.jpg",
     "url": "https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8",
     "iptvOrg": "FashionTVParisLOriginal.fr"
+  },
+  {
+    "name": "Persiana Family",
+    "id": "PersianaFamily.fr",
+    "group": "Family",
+    "logo": "Persiana_family.png",
+    "url": "https://familyhls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaFamily.fr",
+    "persiana": "family"
+  },
+  {
+    "name": "Persiana Series",
+    "id": "PersianaSeries.fr",
+    "group": "Series",
+    "logo": "Persiana_series.png",
+    "url": "https://onehls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaSeries.fr",
+    "persiana": "series"
+  },
+  {
+    "name": "Persiana Cinema",
+    "id": "PersianaCinema.fr",
+    "group": "Cinema",
+    "logo": "Persiana_cinema.png",
+    "url": "https://cinehls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaCinema.fr",
+    "persiana": "cinema"
+  },
+  {
+    "name": "Persiana Korea",
+    "id": "PersianaKorea.fr",
+    "group": "Korea",
+    "logo": "Persiana_korea.png",
+    "url": "https://korhls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaKorea.fr",
+    "persiana": "korea"
+  },
+  {
+    "name": "Persiana Iranian",
+    "id": "PersianaIranian.fr",
+    "group": "Iranian",
+    "logo": "Persiana_iranian.png",
+    "url": "https://irhls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaIranian.fr",
+    "persiana": "iranian"
+  },
+  {
+    "name": "Persiana Comedy",
+    "id": "PersianaComedy.fr",
+    "group": "Comedy",
+    "logo": "Persiana_comedy.png",
+    "url": "https://comedyhls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaComedy.fr",
+    "persiana": "comedy"
+  },
+  {
+    "name": "Persiana Reality",
+    "id": "PersianaReality.fr",
+    "group": "Reality",
+    "logo": "Persiana_reality.png",
+    "url": "https://realhls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaReality.fr",
+    "persiana": "reality"
+  },
+  {
+    "name": "Persiana Türkiye",
+    "id": "PersianaTurkiye.fr",
+    "group": "Türkiye",
+    "logo": "Persiana_turkey.png",
+    "url": "https://turkhls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaTurkiye.fr",
+    "persiana": "turkey"
+  },
+  {
+    "name": "Persiana Medical",
+    "id": "PersianaMedical.fr",
+    "group": "Medical",
+    "logo": "Persiana_medical.png",
+    "url": "https://phd2hls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaMedical.fr",
+    "persiana": "medical"
+  },
+  {
+    "name": "Persiana Docs",
+    "id": "PersianaDocs.fr",
+    "group": "Docs",
+    "logo": "Persiana_docs.png",
+    "url": "https://scihls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaDocs.fr",
+    "persiana": "docs"
+  },
+  {
+    "name": "Persiana Junior",
+    "id": "PersianaJunior.fr",
+    "group": "Junior",
+    "logo": "Persiana_junior.png",
+    "url": "https://junhls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaJunior.fr",
+    "persiana": "junior"
+  },
+  {
+    "name": "Persiana Fight",
+    "id": "PersianaFight.fr",
+    "group": "Fight",
+    "logo": "Persiana_fight.png",
+    "url": "https://fighthls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaFight.fr",
+    "persiana": "fight"
+  },
+  {
+    "name": "Persiana Music",
+    "id": "Persiana Music",
+    "group": "Music",
+    "logo": "Persiana_music.png",
+    "url": "https://musichls.persiana.live/hls/stream.m3u8",
+    "persiana": "music"
+  },
+  {
+    "name": "Persiana Nostalgia",
+    "id": "PersianaNostalgia.fr",
+    "group": "Nostalgia",
+    "logo": "Persiana_nostalgia.png",
+    "url": "https://noshls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaNostalgia.fr",
+    "persiana": "nostalgia"
+  },
+  {
+    "name": "Persiana Folk",
+    "id": "PersianaFolk.fr",
+    "group": "Folk",
+    "logo": "Persiana_folk.png",
+    "url": "https://sonhls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaFolk.fr",
+    "persiana": "folk"
+  },
+  {
+    "name": "Persiana SetMix",
+    "id": "Persiana SetMix",
+    "group": "Set Mix",
+    "logo": "Persiana_setmix.png",
+    "url": "https://setmixhls.persiana.live/hls/stream.m3u8",
+    "persiana": "setmix"
+  },
+  {
+    "name": "Persiana Travel",
+    "id": "PersianaTravel.fr",
+    "group": "Travel",
+    "logo": "Persiana_travel.png",
+    "url": "https://ptravelhls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaTravel.fr",
+    "persiana": "travel"
+  },
+  {
+    "name": "Persiana Podcast",
+    "id": "Persiana Podcast",
+    "logo": "Persiana_podcast.png",
+    "url": "https://podhls.persiana.live/hls/stream.m3u8",
+    "persiana": "Podcast"
+  },
+  {
+    "name": "Persiana Rap",
+    "id": "PersianaVibe.fr",
+    "group": "rap",
+    "logo": "Persiana_rap.png",
+    "url": "https://raphls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaVibe.fr",
+    "persiana": "Rap"
+  },
+  {
+    "name": "Persiana China",
+    "id": "Persiana China",
+    "group": "China",
+    "logo": "Persiana_china.png",
+    "url": "https://chinahls.persiana.live/hls/stream.m3u8",
+    "persiana": "China"
+  },
+  {
+    "name": "Persiana Voyage",
+    "id": "Persiana Voyage",
+    "group": "Voyage",
+    "logo": "Persiana_voyage.png",
+    "url": "https://voyhls.persiana.live/hls/stream.m3u8",
+    "persiana": "Voyage"
   }
 ]
