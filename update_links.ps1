@@ -204,8 +204,9 @@ if ($working.Count -eq 0) {
 # ---------------------------------------------------------------- write
 $m3u = @('#EXTM3U')
 foreach ($ch in $working) {
-    $m3u += '#EXTINF:-1 tvg-ID="{0}" tvg-name="{1}" tvg-logo="{2}{3}" group-title="{4}",{5}' -f `
-            $ch.id, $ch.name, $LogoBase, $ch.logo, $ch.group, $ch.name
+    $logo = if ($ch.PSObject.Properties['logo'] -and $ch.logo) { $LogoBase + $ch.logo } else { '' }
+    $m3u += '#EXTINF:-1 tvg-ID="{0}" tvg-name="{1}" tvg-logo="{2}" group-title="{3}",{4}' -f `
+            $ch.id, $ch.name, $logo, $ch.group, $ch.name
     $m3u += $ch.url
 }
 $newM3u = ($m3u -join "`r`n") + "`r`n"

@@ -31,7 +31,9 @@ stream currently works, so some of these may be temporarily missing from it.
 Persiana+ requires a subscription and is not included):
 
 Family, Series, Cinema, Korea, Iranian, Comedy, Reality, Türkiye, Medical, Docs,
-Junior, Fight, Music, Nostalgia, Folk, SetMix, Travel, Podcast, Rap, China, Voyage
+Junior, Fight, Music, Nostalgia, Folk, SetMix, Travel, Podcast, Rap, China, Voyage,
+plus Latino and Teen (from iptv-org; currently offline, so they appear in the
+playlist only if their streams come back)
 
 ## Logos
 

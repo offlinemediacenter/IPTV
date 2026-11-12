@@ -245,5 +245,19 @@
     "logo": "Persiana_voyage.png",
     "url": "https://voyhls.persiana.live/hls/stream.m3u8",
     "persiana": "Voyage"
+  },
+  {
+    "name": "Persiana Latino",
+    "id": "PersianaLatino.fr",
+    "group": "Cinema",
+    "url": "https://latinohls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaLatino.fr"
+  },
+  {
+    "name": "Persiana Teen",
+    "id": "PersianaTeen.fr",
+    "group": "Junior",
+    "url": "https://kphls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "PersianaTeen.fr"
   }
 ]
