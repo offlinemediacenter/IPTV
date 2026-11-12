@@ -35,6 +35,7 @@ $UA        = 'VLC/3.0.20 LibVLC/3.0.20'
 $Utf8NoBom = New-Object Text.UTF8Encoding $false
 
 function Test-Stream([string]$Url) {
+    $script:LastStreamKey = $null
     if (-not $Url) { return $false }
     $req = $null
     try {
@@ -45,6 +46,11 @@ function Test-Stream([string]$Url) {
         $req.AddRange(0, 2047)
         $resp = $req.GetResponse()
         $code = [int]$resp.StatusCode
+        # Where the stream really ends up (after redirects), used to spot duplicate
+        # channels. Query strings (tokens) are ignored, and a numbered load-balancer
+        # node such as "n0a." / "s5." / "stream-163." is dropped from the host.
+        $h = $resp.ResponseUri.Host.ToLower() -replace '^[a-z]{0,6}-?\d+[a-z]?\d*\.(?=[^.]+\.[^.]+)', ''
+        $script:LastStreamKey = $h + $resp.ResponseUri.AbsolutePath.TrimEnd('/').ToLower()
         return ($code -ge 200 -and $code -lt 300)
     } catch {
         return $false
@@ -318,11 +324,21 @@ $working       = @()
 $dropped       = @()
 $masterChanged = $false
 
+$streamOwner = @{}     # final stream path -> first channel that uses it
+$duplicates  = @()
+
 foreach ($ch in $channels) {
     Write-Host ""
     Write-Host "[$($ch.name)]"
     if (Test-Stream $ch.url) {
         Write-Host "  OK       $($ch.url)"
+        $key = $script:LastStreamKey
+        if ($key) {
+            if ($streamOwner.ContainsKey($key)) {
+                Write-Host "  WARNING  same stream as [$($streamOwner[$key])] - duplicate?"
+                $duplicates += "$($ch.name) = $($streamOwner[$key])"
+            } else { $streamOwner[$key] = $ch.name }
+        }
         $best = Select-BestQuality $ch.url
         if ($best -ne $ch.url) { $ch.url = $best; $masterChanged = $true; Write-Host "  UPDATED  $best" }
         $working += $ch
@@ -388,6 +404,7 @@ if ($masterChanged) {
 
 Write-Host "Playlist: $($working.Count) of $($channels.Count) channels working."
 if ($dropped.Count) { Write-Host "Left out:  $($dropped -join ', ')" }
+if ($duplicates.Count) { Write-Host "Possible duplicates (check and remove one from channels.json): $($duplicates -join '; ')" }
 if ($filesChanged.Count) { Write-Host "Updated:  $($filesChanged -join ', ')" }
 
 if ($NoPush) { Write-Host "-NoPush given: not committing."; exit 0 }
