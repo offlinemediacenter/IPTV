@@ -27,6 +27,19 @@ https://raw.githubusercontent.com/offlinemediacenter/IPTV/main/My_Playlist.m3u
 
 Channel logos are stored in [`Logos/`](Logos) and referenced from the playlist via raw GitHub URLs.
 
+## Keeping links fresh
+
+`update_links.bat` checks the PMC streams. Any that stopped working are replaced
+from public sources ([iptv-org](https://github.com/iptv-org/iptv) and
+[radio-browser.info](https://www.radio-browser.info/)), then committed and pushed.
+It needs no login.
+
+```
+update_links.bat            run and wait for a key at the end
+update_links.bat /auto      no pause (for Windows Task Scheduler)
+update_links.bat /nopush    update the file only, don't commit/push
+```
+
 ## Notes
 
 Streams are public links provided by the broadcasters and may change or go offline without notice.
