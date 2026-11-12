@@ -123,15 +123,41 @@ function Get-PersianaCandidates([string]$SiteId) {
 }
 
 # ---------------------------------------------------------------- logos
-# Draw $Image centred on a transparent 512x512 canvas and save it as PNG.
+# Find the area of $Bmp that differs from its corner colour (i.e. trim plain margins).
+function Get-ContentRect($Bmp) {
+    $bg = $Bmp.GetPixel(0, 0)
+    $step = [Math]::Max(1, [int]([Math]::Max($Bmp.Width, $Bmp.Height) / 400))
+    $minX = $Bmp.Width; $minY = $Bmp.Height; $maxX = -1; $maxY = -1
+    for ($y = 0; $y -lt $Bmp.Height; $y += $step) {
+        for ($x = 0; $x -lt $Bmp.Width; $x += $step) {
+            $p = $Bmp.GetPixel($x, $y)
+            $diff = [Math]::Abs($p.R - $bg.R) + [Math]::Abs($p.G - $bg.G) + [Math]::Abs($p.B - $bg.B) + [Math]::Abs($p.A - $bg.A)
+            if ($diff -gt 40) {
+                if ($x -lt $minX) { $minX = $x }; if ($x -gt $maxX) { $maxX = $x }
+                if ($y -lt $minY) { $minY = $y }; if ($y -gt $maxY) { $maxY = $y }
+            }
+        }
+    }
+    if ($maxX -lt 0) { return New-Object Drawing.Rectangle 0, 0, $Bmp.Width, $Bmp.Height }
+    $minX = [Math]::Max(0, $minX - $step); $minY = [Math]::Max(0, $minY - $step)
+    $maxX = [Math]::Min($Bmp.Width - 1, $maxX + $step); $maxY = [Math]::Min($Bmp.Height - 1, $maxY + $step)
+    return New-Object Drawing.Rectangle $minX, $minY, ($maxX - $minX + 1), ($maxY - $minY + 1)
+}
+
+# Draw $Image (plain margins trimmed) centred on a transparent 512x512 canvas, save as PNG.
 function Save-Logo512($Image, [string]$Path) {
-    $s = [Math]::Min(512 / $Image.Width, 512 / $Image.Height)
-    $w = [int]($Image.Width * $s); $h = [int]($Image.Height * $s)
+    $src = New-Object Drawing.Bitmap $Image
+    $rect = Get-ContentRect $src
+    $box = 472                                   # leave a small border inside 512
+    $s = [Math]::Min($box / $rect.Width, $box / $rect.Height)
+    $w = [int]($rect.Width * $s); $h = [int]($rect.Height * $s)
     $bmp = New-Object Drawing.Bitmap 512, 512
     $g = [Drawing.Graphics]::FromImage($bmp)
     $g.Clear([Drawing.Color]::Transparent)
     $g.InterpolationMode = 'HighQualityBicubic'; $g.SmoothingMode = 'HighQuality'; $g.PixelOffsetMode = 'HighQuality'
-    $g.DrawImage($Image, [int]((512 - $w) / 2), [int]((512 - $h) / 2), $w, $h)
+    $dest = New-Object Drawing.Rectangle ([int]((512 - $w) / 2)), ([int]((512 - $h) / 2)), $w, $h
+    $g.DrawImage($src, $dest, $rect, [Drawing.GraphicsUnit]::Pixel)
+    $src.Dispose()
     $g.Dispose(); $bmp.Save($Path, [Drawing.Imaging.ImageFormat]::Png); $bmp.Dispose()
 }
 
@@ -143,6 +169,7 @@ function Save-LogoFromUrl([string]$Url, [string]$Path) {
         $bytes = $wc.DownloadData($Url)
         $ms = New-Object IO.MemoryStream (, $bytes)
         $img = [Drawing.Image]::FromStream($ms)
+        if ($img.Width -lt 64 -or $img.Height -lt 64) { $img.Dispose(); return $false }   # tiny favicon: would be blurry
         Save-Logo512 $img $Path
         $img.Dispose(); $ms.Dispose()
         return $true
@@ -194,6 +221,7 @@ function Set-MissingLogo($Ch) {
     $path = Join-Path $LogoDir $file
 
     $sources = @()
+    if ($Ch.PSObject.Properties['logoSrc'] -and $Ch.logoSrc) { $sources += $Ch.logoSrc }
     if ($Ch.PSObject.Properties['persiana'] -and $Ch.persiana) {
         $sources += @(Get-PersianaList | Where-Object { $_.id -eq $Ch.persiana -and $_.logo_url } |
                       ForEach-Object { 'https://persianagroup.tv/' + $_.logo_url.TrimStart('/') })
@@ -230,22 +258,31 @@ function Get-IptvOrgCandidates([string]$TvgId) {
     return $out
 }
 
+# "radio" is a station name (or regex). The text before the first regex symbol is used
+# as the radio-browser search term; results are then filtered with the full pattern.
 function Get-RadioCandidates([string]$Pattern) {
-    if ($null -eq $script:RadioStations) {
+    $term = ($Pattern -split '[\.\*\+\?\(\)\[\]\|\\^$]')[0].Trim()
+    if (-not $term) { return @() }
+    if (-not $script:RadioStations.ContainsKey($term)) {
         try {
-            $api = 'https://de1.api.radio-browser.info/json/stations/search?name=PMC&limit=200'
-            $script:RadioStations = @(Invoke-RestMethod -Uri $api -UserAgent 'IPTV-playlist-updater/1.0' -TimeoutSec 30)
+            $api = 'https://de1.api.radio-browser.info/json/stations/search?hidebroken=true&limit=200&name=' + [Uri]::EscapeDataString($term)
+            $script:RadioStations[$term] = @(Invoke-RestMethod -Uri $api -UserAgent 'IPTV-playlist-updater/1.0' -TimeoutSec 30)
         } catch {
             Write-Host "  (radio-browser lookup failed: $($_.Exception.Message))"
-            $script:RadioStations = @()
+            $script:RadioStations[$term] = @()
         }
     }
-    return @($script:RadioStations | Where-Object { $_.name -match $Pattern } |
-             ForEach-Object { if ($_.url_resolved) { $_.url_resolved } else { $_.url } })
+    # Prefer the station's base URL: url_resolved often carries short-lived tokens.
+    $out = @()
+    foreach ($s in ($script:RadioStations[$term] | Where-Object { $_.name -match $Pattern })) {
+        if ($s.url) { $out += $s.url }
+        if ($s.url_resolved) { $out += $s.url_resolved }
+    }
+    return $out
 }
 
 function ConvertTo-MasterJson($Channels) {
-    $keys = 'name', 'id', 'group', 'logo', 'url', 'iptvOrg', 'radio', 'persiana'
+    $keys = 'name', 'id', 'group', 'logo', 'logoSrc', 'url', 'iptvOrg', 'radio', 'persiana'
     $esc  = { param($s) ([string]$s).Replace('\', '\\').Replace('"', '\"') }
     $blocks = foreach ($c in $Channels) {
         $fields = foreach ($k in $keys) {
@@ -273,7 +310,7 @@ try {
     Write-Host "  could not download iptv-org list: $($_.Exception.Message)"
     $script:IptvLines = @()
 }
-$script:RadioStations    = $null
+$script:RadioStations    = @{}
 $script:PersianaChannels = $null
 
 # ---------------------------------------------------------------- check

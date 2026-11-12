@@ -16,34 +16,22 @@ All channels are defined in [`channels.json`](channels.json) (the master list).
 `My_Playlist.m3u` is generated from it and contains only the channels whose
 stream currently works, so some of these may be temporarily missing from it.
 
-| Channel | Group | Type |
-|---|---|---|
-| Avang TV | Music | TV (HLS) |
-| Navahang TV | Music | TV (HLS) |
-| PMC Radio (Planeta) | Music | Radio |
-| PMC Radio (Select) | Music | Radio |
-| PMC Music | Music | TV (HLS) |
-| PMC Royale | Music | TV (HLS) |
-| RJTV | Music | TV (HLS) |
-| FashionTV+ | Fashion | TV (HLS) |
+Sources: the broadcasters' own free streams, [persianagroup.tv](https://persianagroup.tv/)
+(free channels only; Persiana+ needs a subscription and is not included),
+the [iptv-org](https://github.com/iptv-org/iptv) Persian list and
+[radio-browser.info](https://www.radio-browser.info/) for radio.
 
-**Persiana Media Group** (free channels from [persianagroup.tv](https://persianagroup.tv/);
-Persiana+ requires a subscription and is not included):
-
-Family, Series, Cinema, Korea, Iranian, Comedy, Reality, Türkiye, Medical, Docs,
-Junior, Fight, Music, Nostalgia, Folk, SetMix, Travel, Podcast, Rap, China, Voyage,
-plus Latino and Teen (from iptv-org; currently offline, so they appear in the
-playlist only if their streams come back)
-
-**Other Persian channels** (free streams from the [iptv-org](https://github.com/iptv-org/iptv) Persian list):
-
-- **News:** BBC Persian, Iran International, IraneFarda TV, IRINN, IRINN 2, National Iranian Congress TV, VoA TV Persian
-- **Movies:** Afra Film, Cafe Film, Gold Star, Grand Cinema, iFilm 2, iFilm Persian, Maah TV, Meta Film TV, SL 1, SL 2, Tamasha
-- **Entertainment:** 247 Box TV, 4U TV, FX 1, MBC Persia, Namayesh TV, Nasim, OXIR TV, Shabakeh 7, Tin TV, TV ITN
-- **Music:** 4Kurd, AFN TV, High Vision TV, T2 TV
-- **Kids:** IRIB Omid, Pooya TV, Pooya TV Plus
-- **Sports:** IRIB 3, Varzesh TV
-- **National & provincial:** IRIB 1, IRIB 2, IRIB UHD, Isfahan TV, Tehran TV
+| Group | Channels |
+|---|---|
+| **News** (7) | BBC Persian, Iran International, IraneFarda TV, IRINN, IRINN 2, National Iranian Congress TV, VoA TV Persian |
+| **National** (5) | IRIB 1, IRIB 2, IRIB UHD, Isfahan TV, Tehran TV |
+| **Movies & Series** (19) | Persiana Family, Persiana Series, Persiana Cinema, Persiana Korea, Persiana Iranian, Persiana Türkiye, Persiana China, Persiana Latino, Afra Film, Cafe Film, Gold Star, Grand Cinema, iFilm 2, iFilm Persian, Maah TV, Meta Film TV, SL 1, SL 2, Tamasha |
+| **Entertainment** (14) | FashionTV+, Persiana Comedy, Persiana Reality, Persiana Podcast, 247 Box TV, 4U TV, FX 1, MBC Persia, Namayesh TV, Nasim, OXIR TV, Shabakeh 7, Tin TV, TV ITN |
+| **Music** (14) | Avang TV, Navahang TV, PMC Music, PMC Royale, RJTV, Persiana Music, Persiana Nostalgia, Persiana Folk, Persiana SetMix, Persiana Rap, 4Kurd, AFN TV, High Vision TV, T2 TV |
+| **Documentary** (4) | Persiana Medical, Persiana Docs, Persiana Travel, Persiana Voyage |
+| **Kids** (5) | Persiana Junior, Persiana Teen, IRIB Omid, Pooya TV, Pooya TV Plus |
+| **Sports** (3) | Persiana Fight, IRIB 3, Varzesh TV |
+| **Radio** (18) | PMC Radio (Planeta), PMC Radio (Select), Radio Farda, Iran International Radio, RFI Persian, Radio Faaz, Radio Navahang, Radio Simorgh, Radio Shadi, Persian Vibe Radio, Caltex Music, Farsi Frequency, Radio Yar Plus, Radio Yar LA, Iran On Air, Radio Hamrah, Radio Hamsafar, Radio ZZA |
 
 ## Logos
 
@@ -68,8 +56,10 @@ To add a channel, add an entry to `channels.json` (`name`, `id`, `group`,
 regex for finding replacements) and run the `.bat`.
 
 **Logos are automatic.** If a channel has no `logo` (or its file is missing),
-the `.bat` downloads the official one from persianagroup.tv or iptv-org,
-resizes it to 512x512 and saves it in `Logos/`. If none exists, it makes a text
+the `.bat` downloads the official one (from the optional `logoSrc` link,
+persianagroup.tv or iptv-org), trims plain margins,
+resizes it to 512x512 and saves it in `Logos/`. If none exists (or it is a tiny
+favicon), it makes a text
 placeholder with the channel name. To use your own logo instead, put a file in
 `Logos/` and set `logo` to its file name (or overwrite the existing file).
 
