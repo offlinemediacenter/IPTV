@@ -35,6 +35,16 @@ Junior, Fight, Music, Nostalgia, Folk, SetMix, Travel, Podcast, Rap, China, Voya
 plus Latino and Teen (from iptv-org; currently offline, so they appear in the
 playlist only if their streams come back)
 
+**Other Persian channels** (free streams from the [iptv-org](https://github.com/iptv-org/iptv) Persian list):
+
+- **News:** BBC Persian, Iran International, IraneFarda TV, IRINN, IRINN 2, National Iranian Congress TV, VoA TV Persian
+- **Movies:** Afra Film, Cafe Film, Gold Star, Grand Cinema, iFilm 2, iFilm Persian, Maah TV, Meta Film TV, SL 1, SL 2, Tamasha
+- **Entertainment:** 247 Box TV, 4U TV, FX 1, MBC Persia, Namayesh TV, Nasim, OXIR TV, Shabakeh 7, Tin TV, TV ITN
+- **Music:** 4Kurd, AFN TV, High Vision TV, T2 TV
+- **Kids:** IRIB Omid, Pooya TV, Pooya TV Plus
+- **Sports:** IRIB 3, Varzesh TV
+- **National & provincial:** IRIB 1, IRIB 2, IRIB UHD, Isfahan TV, Tehran TV
+
 ## Logos
 
 Channel logos are stored in [`Logos/`](Logos) and referenced from the playlist via raw GitHub URLs.

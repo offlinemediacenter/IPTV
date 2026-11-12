@@ -64,18 +64,36 @@ function Select-BestQuality([string]$Url) {
     if ($Url -notmatch '\.m3u8') { return $Url }
     $text = Get-Text $Url
     if (-not $text -or $text -notmatch '#EXT-X-STREAM-INF') { return $Url }
+    # Audio (or subtitles) delivered as separate renditions: a single video variant
+    # would play silently, so keep the master and let the player choose.
+    if ($text -match '#EXT-X-MEDIA:[^\r\n]*TYPE=AUDIO[^\r\n]*URI=') {
+        Write-Host "  QUALITY  separate audio track - keeping master playlist"
+        return $Url
+    }
     $lines = $text -split "`r?`n"
-    $best = $null; $bestBw = -1
+    # Rank by resolution first (some servers declare bogus bandwidths), then bandwidth.
+    $variants = @()
     for ($i = 0; $i -lt $lines.Count - 1; $i++) {
-        if ($lines[$i] -match '^#EXT-X-STREAM-INF:.*?\bBANDWIDTH=(\d+)') {
-            $bw = [long]$Matches[1]
+        if ($lines[$i] -match '^#EXT-X-STREAM-INF:(.*)$') {
+            $attrs = $Matches[1]
+            $bw = 0L; $px = 0L; $res = ''
+            if ($attrs -match '\bBANDWIDTH=(\d+)') { $bw = [long]$Matches[1] }
+            if ($attrs -match '\bRESOLUTION=(\d+)x(\d+)') { $px = [long]$Matches[1] * [long]$Matches[2]; $res = "$($Matches[1])x$($Matches[2])" }
             $uri = $lines[$i + 1].Trim()
-            if ($uri -and -not $uri.StartsWith('#') -and $bw -gt $bestBw) { $bestBw = $bw; $best = $uri }
+            if ($uri -and -not $uri.StartsWith('#')) {
+                $variants += New-Object PSObject -Property @{ Uri = $uri; Bw = $bw; Px = $px; Res = $res }
+            }
         }
     }
-    if (-not $best) { return $Url }
-    $abs = (New-Object Uri ((New-Object Uri $Url), $best)).AbsoluteUri
-    if (Test-Stream $abs) { Write-Host ("  QUALITY  picked top variant ({0:N1} Mbps)" -f ($bestBw / 1e6)); return $abs }
+    # Try best first; fall back to the next one if a variant doesn't respond.
+    foreach ($v in ($variants | Sort-Object -Property @{ e = 'Px'; Descending = $true }, @{ e = 'Bw'; Descending = $true })) {
+        $abs = (New-Object Uri ((New-Object Uri $Url), $v.Uri)).AbsoluteUri
+        if (Test-Stream $abs) {
+            $label = if ($v.Res) { $v.Res } else { '{0:N1} Mbps' -f ($v.Bw / 1e6) }
+            Write-Host "  QUALITY  picked top variant ($label)"
+            return $abs
+        }
+    }
     return $Url
 }
 

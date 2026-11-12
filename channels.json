@@ -259,5 +259,335 @@
     "group": "Junior",
     "url": "https://kphls.persiana.live/hls/stream.m3u8",
     "iptvOrg": "PersianaTeen.fr"
+  },
+  {
+    "name": "BBC Persian",
+    "id": "BBCPersian.uk",
+    "group": "News",
+    "logo": "IPTV_BBCPersian.png",
+    "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/hevc_iptv_mse_v0.mpd",
+    "iptvOrg": "BBCPersian.uk"
+  },
+  {
+    "name": "Iran International",
+    "id": "IranInternational.uk",
+    "group": "News",
+    "logo": "IPTV_IranInternational.png",
+    "url": "https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8",
+    "iptvOrg": "IranInternational.uk"
+  },
+  {
+    "name": "IraneFarda TV",
+    "id": "IraneFardaTV.uk",
+    "group": "News",
+    "logo": "IPTV_IraneFardaTV.png",
+    "url": "https://iranefardalive.com/stream/live.m3u8",
+    "iptvOrg": "IraneFardaTV.uk"
+  },
+  {
+    "name": "IRINN",
+    "id": "IRINN.ir",
+    "group": "News",
+    "logo": "IPTV_IRINN.png",
+    "url": "http://185.9.2.18/chid_926/tracks-v1a1/mono.m3u8",
+    "iptvOrg": "IRINN.ir"
+  },
+  {
+    "name": "IRINN 2",
+    "id": "IRINN2.ir",
+    "group": "News",
+    "logo": "IPTV_IRINN2.png",
+    "url": "https://ncdn.telewebion.ir/irinn2/live/1080p/index.m3u8",
+    "iptvOrg": "IRINN2.ir"
+  },
+  {
+    "name": "National Iranian Congress TV",
+    "id": "NationalIranianCongressTV.us",
+    "group": "News",
+    "logo": "IPTV_NationalIranianCongressTV.png",
+    "url": "https://tv.iraniancongress.com/stream/tv.m3u8",
+    "iptvOrg": "NationalIranianCongressTV.us"
+  },
+  {
+    "name": "VoA TV Persian",
+    "id": "VoATVPersian.us",
+    "group": "News",
+    "logo": "IPTV_VoATVPersian.png",
+    "url": "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist_1080.m3u8",
+    "iptvOrg": "VoATVPersian.us"
+  },
+  {
+    "name": "Afra Film",
+    "id": "AfraFilm.ir",
+    "group": "Movies",
+    "url": "https://afrafhls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "AfraFilm.ir"
+  },
+  {
+    "name": "Cafe Film",
+    "id": "CafeFilm.ir",
+    "group": "Movies",
+    "url": "https://cafefhls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "CafeFilm.ir"
+  },
+  {
+    "name": "Gold Star",
+    "id": "GoldStar.ir",
+    "group": "Movies",
+    "url": "https://moviethls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "GoldStar.ir"
+  },
+  {
+    "name": "Grand Cinema",
+    "id": "GrandCinema.tr",
+    "group": "Movies",
+    "url": "https://gcinemahls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "GrandCinema.tr"
+  },
+  {
+    "name": "iFilm 2",
+    "id": "iFilm2.ir",
+    "group": "Movies",
+    "logo": "IPTV_iFilm2.png",
+    "url": "https://live.presstv.co.uk/hls/ifilm2_4_482/index.m3u8",
+    "iptvOrg": "iFilm2.ir"
+  },
+  {
+    "name": "iFilm Persian",
+    "id": "iFilmPersian.ir",
+    "group": "Movies",
+    "logo": "IPTV_iFilmPersian.png",
+    "url": "https://live.presstv.co.uk/hls/ifilmfa_4_482/index.m3u8",
+    "iptvOrg": "iFilmPersian.ir"
+  },
+  {
+    "name": "Maah TV",
+    "id": "MaahTV.my",
+    "group": "Movies",
+    "logo": "IPTV_MaahTV.png",
+    "url": "https://hls.maahtv.live/hls/stream.m3u8",
+    "iptvOrg": "MaahTV.my"
+  },
+  {
+    "name": "Meta Film TV",
+    "id": "MetaFilmTV.ir",
+    "group": "Movies",
+    "url": "https://metafilmhls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "MetaFilmTV.ir"
+  },
+  {
+    "name": "SL 1",
+    "id": "SL1.ir",
+    "group": "Movies",
+    "logo": "IPTV_SL1.png",
+    "url": "https://slonehls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "SL1.ir"
+  },
+  {
+    "name": "SL 2",
+    "id": "SL2.ir",
+    "group": "Movies",
+    "logo": "IPTV_SL2.png",
+    "url": "https://sltwohls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "SL2.ir"
+  },
+  {
+    "name": "Tamasha",
+    "id": "Tamasha.ir",
+    "group": "Movies",
+    "logo": "IPTV_Tamasha.png",
+    "url": "https://ncdn.telewebion.ir/hdtest/live/1080p/index.m3u8",
+    "iptvOrg": "Tamasha.ir"
+  },
+  {
+    "name": "247 Box TV",
+    "id": "247BoxTV.ir",
+    "group": "Entertainment",
+    "logo": "IPTV_247BoxTV.png",
+    "url": "https://hls.247box.live/hls/stream.m3u8",
+    "iptvOrg": "247BoxTV.ir"
+  },
+  {
+    "name": "4U TV",
+    "id": "4UTV.tr",
+    "group": "Entertainment",
+    "logo": "IPTV_4UTV.png",
+    "url": "https://hls.4utv.live/hls/stream.m3u8",
+    "iptvOrg": "4UTV.tr"
+  },
+  {
+    "name": "FX 1",
+    "id": "FX1.ir",
+    "group": "Entertainment",
+    "url": "https://fxtvhls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "FX1.ir"
+  },
+  {
+    "name": "MBC Persia",
+    "id": "MBCPersia.ae",
+    "group": "Entertainment",
+    "logo": "IPTV_MBCPersia.png",
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8",
+    "iptvOrg": "MBCPersia.ae"
+  },
+  {
+    "name": "Namayesh TV",
+    "id": "NamayeshTV.ir",
+    "group": "Entertainment",
+    "logo": "IPTV_NamayeshTV.png",
+    "url": "https://ncdn.telewebion.ir/namayesh/live/1080p/index.m3u8",
+    "iptvOrg": "NamayeshTV.ir"
+  },
+  {
+    "name": "Nasim",
+    "id": "Nasim.ir",
+    "group": "Entertainment",
+    "logo": "IPTV_Nasim.png",
+    "url": "https://ncdn.telewebion.ir/nasim/live/1080p/index.m3u8",
+    "iptvOrg": "Nasim.ir"
+  },
+  {
+    "name": "OXIR TV",
+    "id": "OXIRTV.ir",
+    "group": "Entertainment",
+    "logo": "IPTV_OXIRTV.png",
+    "url": "https://hls.oxir.live/hls/stream.m3u8",
+    "iptvOrg": "OXIRTV.ir"
+  },
+  {
+    "name": "Shabakeh 7",
+    "id": "Shabakeh7.us",
+    "group": "Entertainment",
+    "logo": "IPTV_Shabakeh7.png",
+    "url": "https://sh7hls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "Shabakeh7.us"
+  },
+  {
+    "name": "Tin TV",
+    "id": "TinTV.us",
+    "group": "Entertainment",
+    "logo": "IPTV_TinTV.png",
+    "url": "https://tulixcdn.akamaized.net/tintv6/tintv/tintv/chunklist.m3u8",
+    "iptvOrg": "TinTV.us"
+  },
+  {
+    "name": "TV ITN",
+    "id": "TVITN.ir",
+    "group": "Entertainment",
+    "logo": "IPTV_TVITN.png",
+    "url": "https://itnhls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "TVITN.ir"
+  },
+  {
+    "name": "4Kurd",
+    "id": "4Kurd.fr",
+    "group": "Music",
+    "logo": "IPTV_4Kurd.png",
+    "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "4Kurd.fr"
+  },
+  {
+    "name": "AFN TV",
+    "id": "AFNTV.ir",
+    "group": "Music",
+    "logo": "IPTV_AFNTV.png",
+    "url": "https://bozztv.com/1gbw5/tintv2/tintv2/chunklist.m3u8",
+    "iptvOrg": "AFNTV.ir"
+  },
+  {
+    "name": "High Vision TV",
+    "id": "HighVisionTV.us",
+    "group": "Music",
+    "logo": "IPTV_HighVisionTV.png",
+    "url": "https://streamer1.connectto.com/HIGHVISION_WEB_1205/tracks-v1a1/mono.ts.m3u8",
+    "iptvOrg": "HighVisionTV.us"
+  },
+  {
+    "name": "T2 TV",
+    "id": "T2TV.ir",
+    "group": "Music",
+    "logo": "IPTV_T2TV.png",
+    "url": "https://t2hls.wns.live/hls/stream.m3u8",
+    "iptvOrg": "T2TV.ir"
+  },
+  {
+    "name": "IRIB Omid",
+    "id": "IRIBOmid.ir",
+    "group": "Kids",
+    "logo": "IPTV_IRIBOmid.png",
+    "url": "https://ncdn.telewebion.ir/omid/live/1080p/index.m3u8",
+    "iptvOrg": "IRIBOmid.ir"
+  },
+  {
+    "name": "Pooya TV",
+    "id": "PooyaTV.ir",
+    "group": "Kids",
+    "logo": "IPTV_PooyaTV.png",
+    "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-iribpooya/tracks-v1a1/mono.m3u8",
+    "iptvOrg": "PooyaTV.ir"
+  },
+  {
+    "name": "Pooya TV Plus",
+    "id": "PooyaTVPlus.ir",
+    "group": "Kids",
+    "logo": "IPTV_PooyaTVPlus.png",
+    "url": "https://ncdn.telewebion.ir/javaneh/live/576p/index.m3u8",
+    "iptvOrg": "PooyaTVPlus.ir"
+  },
+  {
+    "name": "IRIB 3",
+    "id": "IRIB3.ir",
+    "group": "Sports",
+    "logo": "IPTV_IRIB3.png",
+    "url": "https://ncdn.telewebion.ir/tv3/live/108050p/index.m3u8",
+    "iptvOrg": "IRIB3.ir"
+  },
+  {
+    "name": "Varzesh TV",
+    "id": "VarzeshTV.ir",
+    "group": "Sports",
+    "logo": "IPTV_VarzeshTV.png",
+    "url": "https://ncdn.telewebion.ir/varzesh/live/108050p/index.m3u8",
+    "iptvOrg": "VarzeshTV.ir"
+  },
+  {
+    "name": "IRIB 1",
+    "id": "IRIB1.ir",
+    "group": "General",
+    "logo": "IPTV_IRIB1.png",
+    "url": "https://ncdn.telewebion.ir/tv1/live/1080p/index.m3u8",
+    "iptvOrg": "IRIB1.ir"
+  },
+  {
+    "name": "IRIB 2",
+    "id": "IRIB2.ir",
+    "group": "General",
+    "logo": "IPTV_IRIB2.png",
+    "url": "https://ncdn.telewebion.ir/tv2/live/1080p/index.m3u8",
+    "iptvOrg": "IRIB2.ir"
+  },
+  {
+    "name": "IRIB UHD",
+    "id": "IRIBUHD.ir",
+    "group": "General",
+    "logo": "IPTV_IRIBUHD.png",
+    "url": "https://ncdn.telewebion.ir/faratar/live/2160p/index.m3u8",
+    "iptvOrg": "IRIBUHD.ir"
+  },
+  {
+    "name": "Isfahan TV",
+    "id": "IsfahanTV.ir",
+    "group": "General",
+    "logo": "IPTV_IsfahanTV.png",
+    "url": "https://ncdn.telewebion.ir/esfahan/live/1080p/index.m3u8",
+    "iptvOrg": "IsfahanTV.ir"
+  },
+  {
+    "name": "Tehran TV",
+    "id": "TehranTV.ir",
+    "group": "General",
+    "logo": "IPTV_TehranTV.png",
+    "url": "https://ncdn.telewebion.ir/tehran/live/1080p/index.m3u8",
+    "iptvOrg": "TehranTV.ir"
   }
 ]
