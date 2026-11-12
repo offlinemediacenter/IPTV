@@ -250,6 +250,7 @@
     "name": "Persiana Latino",
     "id": "PersianaLatino.fr",
     "group": "Cinema",
+    "logo": "Persiana_latino.png",
     "url": "https://latinohls.persiana.live/hls/stream.m3u8",
     "iptvOrg": "PersianaLatino.fr"
   },
@@ -257,6 +258,7 @@
     "name": "Persiana Teen",
     "id": "PersianaTeen.fr",
     "group": "Junior",
+    "logo": "Persiana_teen.png",
     "url": "https://kphls.persiana.live/hls/stream.m3u8",
     "iptvOrg": "PersianaTeen.fr"
   },
@@ -320,6 +322,7 @@
     "name": "Afra Film",
     "id": "AfraFilm.ir",
     "group": "Movies",
+    "logo": "IPTV_AfraFilm.png",
     "url": "https://afrafhls.wns.live/hls/stream.m3u8",
     "iptvOrg": "AfraFilm.ir"
   },
@@ -327,6 +330,7 @@
     "name": "Cafe Film",
     "id": "CafeFilm.ir",
     "group": "Movies",
+    "logo": "IPTV_CafeFilm.png",
     "url": "https://cafefhls.wns.live/hls/stream.m3u8",
     "iptvOrg": "CafeFilm.ir"
   },
@@ -334,6 +338,7 @@
     "name": "Gold Star",
     "id": "GoldStar.ir",
     "group": "Movies",
+    "logo": "IPTV_GoldStar.png",
     "url": "https://moviethls.wns.live/hls/stream.m3u8",
     "iptvOrg": "GoldStar.ir"
   },
@@ -341,6 +346,7 @@
     "name": "Grand Cinema",
     "id": "GrandCinema.tr",
     "group": "Movies",
+    "logo": "IPTV_GrandCinema.png",
     "url": "https://gcinemahls.wns.live/hls/stream.m3u8",
     "iptvOrg": "GrandCinema.tr"
   },
@@ -372,6 +378,7 @@
     "name": "Meta Film TV",
     "id": "MetaFilmTV.ir",
     "group": "Movies",
+    "logo": "IPTV_MetaFilmTV.png",
     "url": "https://metafilmhls.wns.live/hls/stream.m3u8",
     "iptvOrg": "MetaFilmTV.ir"
   },
@@ -419,6 +426,7 @@
     "name": "FX 1",
     "id": "FX1.ir",
     "group": "Entertainment",
+    "logo": "IPTV_FX1.png",
     "url": "https://fxtvhls.wns.live/hls/stream.m3u8",
     "iptvOrg": "FX1.ir"
   },
