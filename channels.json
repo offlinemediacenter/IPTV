@@ -380,7 +380,7 @@
     "id": "FashionTVSecrets.fr",
     "group": "Entertainment",
     "logo": "IPTV_FashionTVSecrets.png",
-    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/ea18bb29443e4c20800e47991fb58725/media/manifest.m3u8/0.m3u8",
+    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/9879dc9db0f647e69668a828d9bb8061/media/manifest.m3u8/0.m3u8",
     "iptvOrg": "FashionTVSecrets.fr"
   },
   {
@@ -551,7 +551,7 @@
     "id": "PowerDance.tr",
     "group": "Music",
     "logo": "IPTV_PowerDance.png",
-    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1180999842",
+    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1189415323",
     "iptvOrg": "PowerDance.tr"
   },
   {

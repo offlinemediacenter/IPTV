@@ -90,7 +90,7 @@ https://itnhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="ArirangTV.kr" tvg-name="Arirang TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ArirangTV.png" group-title="Entertainment",Arirang TV
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
 #EXTINF:-1 tvg-ID="FashionTVSecrets.fr" tvg-name="FashionTV Secrets" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVSecrets.png" group-title="Entertainment",FashionTV Secrets
-https://ssai.aniview.com/api/v1/hls/streams/sessions/ea18bb29443e4c20800e47991fb58725/media/manifest.m3u8/0.m3u8
+https://ssai.aniview.com/api/v1/hls/streams/sessions/9879dc9db0f647e69668a828d9bb8061/media/manifest.m3u8/0.m3u8
 #EXTINF:-1 tvg-ID="GlobalFashionChannel.us" tvg-name="Global Fashion Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GlobalFashionChannel.png" group-title="Entertainment",Global Fashion Channel
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/cdbe280e-0aea-4bbe-861f-fd115abcfec7_1080p.m3u8
 #EXTINF:-1 tvg-ID="Avang TV" tvg-name="Avang TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Avang.jpg" group-title="Music",Avang TV
@@ -132,7 +132,7 @@ https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 #EXTINF:-1 tvg-ID="DanceTVTechnoWarehouse.ee" tvg-name="DanceTV Techno Warehouse" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_DanceTVTechnoWarehouse.png" group-title="Music",DanceTV Techno Warehouse
 https://m2b2.worldcast.tv:7443/dancetelevisionthree/stream_2.m3u8
 #EXTINF:-1 tvg-ID="PowerDance.tr" tvg-name="Power Dance" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PowerDance.png" group-title="Music",Power Dance
-https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1180999842
+https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1189415323
 #EXTINF:-1 tvg-ID="TotalmusicDance.uk" tvg-name="Totalmusic Dance" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TotalmusicDance.png" group-title="Music",Totalmusic Dance
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-ID="Number1Dance.tr" tvg-name="Number 1 Dance" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Number1Dance.png" group-title="Music",Number 1 Dance
@@ -193,6 +193,8 @@ https://ncdn.telewebion.ir/javaneh/live/576p/index.m3u8
 https://fighthls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="IRIB3.ir" tvg-name="IRIB 3" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_IRIB3.png" group-title="Sports",IRIB 3
 https://ncdn.telewebion.ir/tv3/live/108050p/index.m3u8
+#EXTINF:-1 tvg-ID="VarzeshTV.ir" tvg-name="Varzesh TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VarzeshTV.png" group-title="Sports",Varzesh TV
+https://ncdn.telewebion.ir/varzesh/live/108050p/index.m3u8
 #EXTINF:-1 tvg-ID="PMC Radio Select" tvg-name="PMC Radio (Select)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/PMC.jpg" group-title="Radio",PMC Radio (Select)
 https://s5.radio.co/sf0a1af54c/listen
 #EXTINF:-1 tvg-ID="Radio Farda" tvg-name="Radio Farda" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioFarda.png" group-title="Radio",Radio Farda
