@@ -63,8 +63,6 @@ https://slonehls.wns.live/hls/stream.m3u8
 https://sltwohls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Tamasha.ir" tvg-name="Tamasha" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Tamasha.png" group-title="Movies & Series",Tamasha
 https://ncdn.telewebion.ir/hdtest/live/1080p/index.m3u8
-#EXTINF:-1 tvg-ID="FashionTV+" tvg-name="FashionTV+" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/FashionTVPlus.jpg" group-title="Entertainment",FashionTV+
-https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8
 #EXTINF:-1 tvg-ID="PersianaComedy.fr" tvg-name="Persiana Comedy" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_comedy.png" group-title="Entertainment",Persiana Comedy
 https://comedyhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="PersianaReality.fr" tvg-name="Persiana Reality" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Persiana_reality.png" group-title="Entertainment",Persiana Reality
@@ -93,10 +91,28 @@ https://tulixcdn.akamaized.net/tintv6/tintv/tintv/chunklist.m3u8
 https://itnhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="ArirangTV.kr" tvg-name="Arirang TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ArirangTV.png" group-title="Entertainment",Arirang TV
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
-#EXTINF:-1 tvg-ID="FashionTVSecrets.fr" tvg-name="FashionTV Secrets" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVSecrets.png" group-title="Entertainment",FashionTV Secrets
+#EXTINF:-1 tvg-ID="FashionTV+" tvg-name="FashionTV+" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/FashionTVPlus.jpg" group-title="Fashion",FashionTV+
+https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8
+#EXTINF:-1 tvg-ID="FashionTVSecrets.fr" tvg-name="FashionTV Secrets" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVSecrets.png" group-title="Fashion",FashionTV Secrets
 https://ssai.aniview.com/api/v1/hls/streams/sessions/3bf4d69e79ec4a04b033fb962a7500f0/media/manifest.m3u8/0.m3u8
-#EXTINF:-1 tvg-ID="GlobalFashionChannel.us" tvg-name="Global Fashion Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GlobalFashionChannel.png" group-title="Entertainment",Global Fashion Channel
+#EXTINF:-1 tvg-ID="GlobalFashionChannel.us" tvg-name="Global Fashion Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GlobalFashionChannel.png" group-title="Fashion",Global Fashion Channel
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/cdbe280e-0aea-4bbe-861f-fd115abcfec7_1080p.m3u8
+#EXTINF:-1 tvg-ID="FashionTVParisLOriginal.fr@SD" tvg-name="FashionTV Paris L'Original" tvg-logo="https://i.imgur.com/GFTAN5Q.png" group-title="Fashion",FashionTV Paris L'Original
+https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+#EXTINF:-1 tvg-ID="FashionTV.ru@SD" tvg-name="FashionTV (Russia)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" group-title="Fashion",FashionTV (Russia)
+http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
+#EXTINF:-1 tvg-ID="FashionBox.nl@SD" tvg-name="FashionBox" tvg-logo="https://i.imgur.com/Taqj4yi.png" group-title="Fashion",FashionBox
+https://dash2.antik.sk/live/test_fashionbox_medium_atk/playlist.m3u8
+#EXTINF:-1 tvg-ID="CCTVWomensFashion.cn@SD" tvg-name="CCTV Women's Fashion" tvg-logo="https://i.imgur.com/FVbP0aP.png" group-title="Fashion",CCTV Women's Fashion
+http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
+#EXTINF:-1 tvg-ID="BritainsNextTopModel.se@SE" tvg-name="Britain's Next Top Model" tvg-logo="https://images.pluto.tv/channels/67a09ddc21af380008088dc3/colorLogoPNG.png" group-title="Fashion",Britain's Next Top Model
+https://jmp2.uk/plu-67a09e5921af38000808900a.m3u8
+#EXTINF:-1 tvg-ID="QVCBeauty.uk@SD" tvg-name="QVC Beauty" tvg-logo="https://i.imgur.com/ZBHtqk1.png" group-title="Fashion",QVC Beauty
+https://qvcuk-live.akamaized.net/hls/live/2097112/qby/master.m3u8
+#EXTINF:-1 tvg-ID="AmericasNextTopModel.us@SD" tvg-name="America's Next Top Model" tvg-logo="https://images.pluto.tv/channels/68679fc6bb46d0bdd38ac9a4/colorLogoPNG_1756466390265.png" group-title="Fashion",America's Next Top Model
+https://jmp2.uk/plu-68757c45759366af05b3b199.m3u8
+#EXTINF:-1 tvg-ID="FashionFinds.us@SD" tvg-name="Fashion Finds" tvg-logo="https://i.imgur.com/GvDRZgq.png" group-title="Fashion",Fashion Finds
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
 #EXTINF:-1 tvg-ID="Avang TV" tvg-name="Avang TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Avang.jpg" group-title="Music",Avang TV
 https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="Navahang TV" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/Navahang.jpg" group-title="Music",Navahang TV
@@ -275,8 +291,6 @@ https://linear-12.frequency.stream/dist/plex/12/hls/master/playlist.m3u8
 https://jmp2.uk/plu-5e82530945600e0007ca076c.m3u8
 #EXTINF:-1 tvg-ID="AllWeddingsWEtv.us@SD" tvg-name="All Weddings WE tv" tvg-logo="https://i.imgur.com/OjLCew5.png" group-title="US Series",All Weddings WE tv
 https://amc-allweddings-1-us.xumo.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-ID="AmericasNextTopModel.us@SD" tvg-name="America's Next Top Model" tvg-logo="https://images.pluto.tv/channels/68679fc6bb46d0bdd38ac9a4/colorLogoPNG_1756466390265.png" group-title="US Entertainment",America's Next Top Model
-https://jmp2.uk/plu-68757c45759366af05b3b199.m3u8
 #EXTINF:-1 tvg-ID="AmericasTestKitchen.us@SD" tvg-name="America's Test Kitchen" tvg-logo="https://i.imgur.com/prMkTsZ.png" group-title="US Cooking",America's Test Kitchen
 https://jmp2.uk/plu-5e84f54a82f05300080e6746.m3u8
 #EXTINF:-1 tvg-ID="AmericanHorrors.us@SD" tvg-name="American Horrors" tvg-logo="https://image.roku.com/developer_channels/prod/16f5571a82819e8992a748c70b256cbe63105f4b546b73d129668dc2cb701d91.png" group-title="US Movies",American Horrors
@@ -493,8 +507,6 @@ https://failarmy-international-au.samsung.wurl.tv/playlist.m3u8
 https://jmp2.uk/plu-5f77939a630f530007dde654.m3u8
 #EXTINF:-1 tvg-ID="Farscape.us@SD" tvg-name="Farscape" tvg-logo="https://i.imgur.com/2WH4lSc.png" group-title="US Series",Farscape
 https://jmp2.uk/plu-699c1b4c9c3b075ecd513139.m3u8
-#EXTINF:-1 tvg-ID="FashionFinds.us@SD" tvg-name="Fashion Finds" tvg-logo="https://i.imgur.com/GvDRZgq.png" group-title="US Lifestyle",Fashion Finds
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
 #EXTINF:-1 tvg-ID="FearFactor.us@US" tvg-name="Fear Factor" tvg-logo="https://i.imgur.com/CIYnLWz.png" group-title="US Series",Fear Factor
 https://amg00627-banijaygroup-fearfactor-samsungau-9vdod.amagi.tv/playlist/amg00627-banijaygroup-fearfactor-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-ID="FeelGoodDrama.us@SD" tvg-name="Feel Good Drama" tvg-logo="https://images.pluto.tv/channels/65775af3b3801200084a3aa4/colorLogoPNG.png" group-title="US Series",Feel Good Drama

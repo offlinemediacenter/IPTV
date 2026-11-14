@@ -27,8 +27,9 @@ and fashion channels), Vevo's free channels (US and Spain) and
 | **News** (7) | BBC Persian, Iran International, IraneFarda TV, IRINN, IRINN 2, National Iranian Congress TV, VoA TV Persian |
 | **IRIB** (7) | IRIB 1, IRIB 2, IRIB 3, IRIB UHD, IRIB Omid, Isfahan TV, Tehran TV |
 | **Movies & Series** (19) | Persiana Family, Persiana Series, Persiana Cinema, Persiana Korea, Persiana Iranian, Persiana Türkiye, Persiana China, Persiana Latino, Afra Film, Cafe Film, Gold Star, Grand Cinema, iFilm 2, iFilm Persian, Maah TV, Meta Film TV, SL 1, SL 2, Tamasha |
-| **Entertainment** (17) | FashionTV+, Persiana Comedy, Persiana Reality, Persiana Podcast, 247 Box TV, 4U TV, FX 1, MBC Persia, Namayesh TV, Nasim, OXIR TV, Shabakeh 7, Tin TV, TV ITN, Arirang TV, FashionTV Secrets, Global Fashion Channel |
+| **Entertainment** (14) | Persiana Comedy, Persiana Reality, Persiana Podcast, 247 Box TV, 4U TV, FX 1, MBC Persia, Namayesh TV, Nasim, OXIR TV, Shabakeh 7, Tin TV, TV ITN, Arirang TV |
 | **Music** (25) | Avang TV, Navahang TV, PMC Music, PMC Royale, RJTV, Persiana Music, Persiana Nostalgia, Persiana Folk, Persiana SetMix, Persiana Rap, 4Kurd, AFN TV, High Vision TV, T2 TV, Clubbing TV, Deejay TV, Deluxe Dance, Best of Dance TV, DanceTV Techno Warehouse, Power Dance, Number 1 Dance, Dance FM, Stingray Today's K-Pop, NEW K-POP, Kpop Mix |
+| **Fashion** (18) | FashionTV+, FashionTV Secrets, Global Fashion Channel, FashionTV Paris L'Original, FashionTV Europe, FashionTV (Russia), FashionTV (India), FashionTV (Ukraine), FashionBox, Code Fashion TV, Fashion (Ukraine), Fashion & LifeStyle, CCTV Women's Fashion, Fashion Finds, America's Next Top Model, Britain's Next Top Model, QVC Beauty, TVSN Beauty |
 | **Vevo** (14) | Vevo Pop (US), Vevo '70s (US), Vevo '80s (US), Vevo '90s (US), Vevo 2K (US), Vevo True School Hip-Hop (US), Vevo R&B (US), Vevo Rock (US), Vevo Country (US), Vevo Íconos Latinos (US), Vevo Regional Mexicano (US), Vevo Holiday (US), Vevo Pop (Spain), Vevo Latino (Spain) |
 | **Documentary** (4) | Persiana Medical, Persiana Docs, Persiana Travel, Persiana Voyage |
 | **Kids** (4) | Persiana Junior, Persiana Teen, Pooya TV, Pooya TV Plus |
