@@ -312,6 +312,14 @@
     "persiana": "fight"
   },
   {
+    "name": "4Kurd",
+    "id": "4Kurd.fr",
+    "group": "Persiana",
+    "logo": "IPTV_4Kurd.png",
+    "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
+    "iptvOrg": "4Kurd.fr"
+  },
+  {
     "name": "Afra Film",
     "id": "AfraFilm.ir",
     "group": "Movies & Series",
@@ -685,14 +693,6 @@
     "logo": "RJTV.jpg",
     "url": "https://rjtvhls.wns.live/hls/stream.m3u8",
     "iptvOrg": "RJTV.us"
-  },
-  {
-    "name": "4Kurd",
-    "id": "4Kurd.fr",
-    "group": "Music",
-    "logo": "IPTV_4Kurd.png",
-    "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
-    "iptvOrg": "4Kurd.fr"
   },
   {
     "name": "AFN TV",
