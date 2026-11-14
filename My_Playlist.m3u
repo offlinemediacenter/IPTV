@@ -1193,8 +1193,6 @@ https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8
 https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8
 #EXTINF:-1 tvg-ID="AmericanNinjaWarrior.us@SD" tvg-name="American Ninja Warrior" tvg-logo="https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792421696158.png" group-title="US Sports",American Ninja Warrior
 https://d4whmvwm0rdvi.cloudfront.net/10007/99951318/hls/master.m3u8?ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_coppa=0&ads._fw_deviceMake=GitHubAction&ads._fw_deviceType=3-Connected_TV&ads._fw_device_model=PythonScript&ads._fw_did=a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_vcid2=512116:a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads.afid=405342864&ads.appName=XumoPlay&ads.appVersion=1.0.0&ads.asnw=169843&ads.channelId=99951318&ads.csid=xumo_web_NBCUAmericanNinjaWarrior_ssai_cro&ads.sfid=19647852&ads.xumo_channelId=99951318&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior
-#EXTINF:-1 tvg-ID="AmuTV.us@SD" tvg-name="Amu TV" tvg-logo="https://i.imgur.com/KXdvPum.png" group-title="US News",Amu TV
-https://jmc-live.ercdn.net/amutv/amutv.m3u8
 #EXTINF:-1 tvg-ID="beINSPORTSXTRA.us@SD" tvg-name="beIN SPORTS XTRA" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" group-title="US Sports",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="beINSPORTSXTRAenEspanol.us@SD" tvg-name="beIN SPORTS XTRA en Espanol" tvg-logo="https://i.imgur.com/V562tpO.png" group-title="US Sports",beIN SPORTS XTRA en Espanol
@@ -1229,8 +1227,6 @@ https://tvsen6.aynaott.com/cnn/tracks-v1a1/mono.ts.m3u8
 https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="CNNOriginals.us@SD" tvg-name="CNN Originals" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f351d697-1e1f-4e7d-86c7-5995698e593f/CNN_Originals_ChannelLogo_Dark_1500x1000_2025_-_Grace_Hartwig.png" group-title="US News",CNN Originals
 https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8
-#EXTINF:-1 tvg-ID="DidgahTV.us@SD" tvg-name="Didgah TV" tvg-logo="https://i.imgur.com/3SeAyBS.png" group-title="US News",Didgah TV
-https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
 #EXTINF:-1 tvg-ID="DraftKingsNetwork.us@SD" tvg-name="DraftKings Network" tvg-logo="https://i.imgur.com/SFYhgrt.png" group-title="US Sports",DraftKings Network
 https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
 #EXTINF:-1 tvg-ID="ESPN2.us@HD" tvg-name="ESPN 2 (United States) HD" tvg-logo="https://i.imgur.com/00tsvjE.png" group-title="US Sports",ESPN 2 (United States) HD
@@ -1241,8 +1237,6 @@ http://85.237.89.160:9590/usa-s/ESPN-HD/tracks-v1a1/mono.m3u8
 http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
 #EXTINF:-1 tvg-ID="ESPNU.us@HD" tvg-name="ESPNU HD" tvg-logo="https://i.imgur.com/HiBrysh.png" group-title="US Sports",ESPNU HD
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
-#EXTINF:-1 tvg-ID="EstrellaNews.us@SD" tvg-name="Estrella News" tvg-logo="https://i.imgur.com/HRrkhLq.png" group-title="US News",Estrella News
-https://estrella-news-oando.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="FIFAPlus.uk@UnitedStates" tvg-name="FIFA+ United States" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="US Sports",FIFA+ United States
 https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-ID="FITE247.us@SD" tvg-name="FITE 24/7" tvg-logo="https://i.imgur.com/ESV6qgH.png" group-title="US Sports",FITE 24/7
@@ -1277,8 +1271,6 @@ http://23.237.104.106:8080/USA_NBA/index.m3u8
 https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
 #EXTINF:-1 tvg-ID="NBCSportsNOW.us@SD" tvg-name="NBC Sports NOW" tvg-logo="https://i.imgur.com/EzNf2Yx.png" group-title="US Sports",NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
-#EXTINF:-1 tvg-ID="NewsoftheWorld.us@Arabic" tvg-name="News of the World Arabic" tvg-logo="https://i.imgur.com/MfyRQCs.png" group-title="US News",News of the World Arabic
-https://live.nowtelly.com/now_arabic/live/playlist.m3u8
 #EXTINF:-1 tvg-ID="NewsoftheWorld.us@Spanish" tvg-name="News of the World Spanish" tvg-logo="https://i.imgur.com/MfyRQCs.png" group-title="US News",News of the World Spanish
 https://live.nowtelly.com/now_spanish/live/playlist.m3u8
 #EXTINF:-1 tvg-ID="NewsoftheWorld.us@USA" tvg-name="News of the World USA" tvg-logo="https://i.imgur.com/MfyRQCs.png" group-title="US News",News of the World USA

@@ -6391,15 +6391,6 @@
     "bulk": "1"
   },
   {
-    "name": "Amu TV",
-    "id": "AmuTV.us@SD",
-    "group": "US News",
-    "logoUrl": "https://i.imgur.com/KXdvPum.png",
-    "url": "https://jmc-live.ercdn.net/amutv/amutv.m3u8",
-    "iptvOrg": "AmuTV.us",
-    "bulk": "1"
-  },
-  {
     "name": "beIN Sports USA",
     "id": "beINSportsUSA.us@SD",
     "group": "US Sports",
@@ -6670,15 +6661,6 @@
     "bulk": "1"
   },
   {
-    "name": "Didgah TV",
-    "id": "DidgahTV.us@SD",
-    "group": "US News",
-    "logoUrl": "https://i.imgur.com/3SeAyBS.png",
-    "url": "https://media.streambrothers.com:1936/8276/8276/playlist.m3u8",
-    "iptvOrg": "DidgahTV.us",
-    "bulk": "1"
-  },
-  {
     "name": "DraftKings Network",
     "id": "DraftKingsNetwork.us@SD",
     "group": "US Sports",
@@ -6730,15 +6712,6 @@
     "logoUrl": "https://i.imgur.com/HiBrysh.png",
     "url": "http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8",
     "iptvOrg": "ESPNU.us",
-    "bulk": "1"
-  },
-  {
-    "name": "Estrella News",
-    "id": "EstrellaNews.us@SD",
-    "group": "US News",
-    "logoUrl": "https://i.imgur.com/HRrkhLq.png",
-    "url": "https://estrella-news-oando.amagi.tv/playlist.m3u8",
-    "iptvOrg": "EstrellaNews.us",
     "bulk": "1"
   },
   {
@@ -7111,15 +7084,6 @@
     "bulk": "1"
   },
   {
-    "name": "News of the World Arabic",
-    "id": "NewsoftheWorld.us@Arabic",
-    "group": "US News",
-    "logoUrl": "https://i.imgur.com/MfyRQCs.png",
-    "url": "https://live.nowtelly.com/now_arabic/live/playlist.m3u8",
-    "iptvOrg": "NewsoftheWorld.us",
-    "bulk": "1"
-  },
-  {
     "name": "News of the World Spanish",
     "id": "NewsoftheWorld.us@Spanish",
     "group": "US News",
@@ -7324,15 +7288,6 @@
     "logoUrl": "https://i.imgur.com/6eQ2nCJ.png",
     "url": "https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8",
     "iptvOrg": "ReutersTV.us",
-    "bulk": "1"
-  },
-  {
-    "name": "RT en Espanol",
-    "id": "RTenEspanol.ru@SD",
-    "group": "US News",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png",
-    "url": "http://15.204.246.24:8080/RTHD/index.m3u8",
-    "iptvOrg": "RTenEspanol.ru",
     "bulk": "1"
   },
   {
