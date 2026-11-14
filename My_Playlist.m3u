@@ -179,8 +179,6 @@ https://cloud.tvomix.com/KPOPMIX/tracks-v1a1/mono.m3u8
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-ID="ArirangUN.kr@SD" tvg-name="Arirang UN" tvg-logo="https://i.imgur.com/Jdy3WNm.png" group-title="Music",Arirang UN
 https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8
-#EXTINF:-1 tvg-ID="PlutoTVKDrama.de@ES" tvg-name="Pluto TV K-Drama" tvg-logo="https://images.pluto.tv/channels/6475bfec536e0c0008858e9f/colorLogoPNG.png" group-title="Music",Pluto TV K-Drama
-https://jmp2.uk/plu-6475bfec536e0c0008858e9f.m3u8
 #EXTINF:-1 tvg-ID="VevoPop.us" tvg-name="Vevo Pop (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_VevoPop.png" group-title="Vevo",Vevo Pop (US)
 https://jmp2.uk/plu-5d93b635b43dd1a399b39eee.m3u8
 #EXTINF:-1 tvg-ID="Vevo70s.us" tvg-name="Vevo '70s (US)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Vevo70s.png" group-title="Vevo",Vevo '70s (US)

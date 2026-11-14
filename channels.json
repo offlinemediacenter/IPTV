@@ -825,15 +825,6 @@
     "bulk": "1"
   },
   {
-    "name": "Pluto TV K-Drama",
-    "id": "PlutoTVKDrama.de@ES",
-    "group": "Music",
-    "logoUrl": "https://images.pluto.tv/channels/6475bfec536e0c0008858e9f/colorLogoPNG.png",
-    "url": "https://jmp2.uk/plu-6475bfec536e0c0008858e9f.m3u8",
-    "iptvOrg": "PlutoTVKDrama.de",
-    "bulk": "1"
-  },
-  {
     "name": "KpopTV Play",
     "id": "KpopTVPlay.br@SD",
     "group": "Music",
