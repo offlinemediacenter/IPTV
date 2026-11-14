@@ -25,15 +25,28 @@ and fashion channels), Vevo's free channels (US and Spain) and
 | Group | Channels |
 |---|---|
 | **News** (7) | BBC Persian, Iran International, IraneFarda TV, IRINN, IRINN 2, National Iranian Congress TV, VoA TV Persian |
-| **National** (5) | IRIB 1, IRIB 2, IRIB UHD, Isfahan TV, Tehran TV |
+| **IRIB** (5) | IRIB 1, IRIB 2, IRIB 3, IRIB UHD, IRIB Omid |
+| **National** (2) | Isfahan TV, Tehran TV |
 | **Movies & Series** (19) | Persiana Family, Persiana Series, Persiana Cinema, Persiana Korea, Persiana Iranian, Persiana Türkiye, Persiana China, Persiana Latino, Afra Film, Cafe Film, Gold Star, Grand Cinema, iFilm 2, iFilm Persian, Maah TV, Meta Film TV, SL 1, SL 2, Tamasha |
 | **Entertainment** (17) | FashionTV+, Persiana Comedy, Persiana Reality, Persiana Podcast, 247 Box TV, 4U TV, FX 1, MBC Persia, Namayesh TV, Nasim, OXIR TV, Shabakeh 7, Tin TV, TV ITN, Arirang TV, FashionTV Secrets, Global Fashion Channel |
-| **Music** (26) | Avang TV, Navahang TV, PMC Music, PMC Royale, RJTV, Persiana Music, Persiana Nostalgia, Persiana Folk, Persiana SetMix, Persiana Rap, 4Kurd, AFN TV, High Vision TV, T2 TV, Clubbing TV, Deejay TV, Deluxe Dance, Best of Dance TV, DanceTV Techno Warehouse, Power Dance, Totalmusic Dance, Number 1 Dance, Dance FM, Stingray Today's K-Pop, NEW K-POP, Kpop Mix |
+| **Music** (25) | Avang TV, Navahang TV, PMC Music, PMC Royale, RJTV, Persiana Music, Persiana Nostalgia, Persiana Folk, Persiana SetMix, Persiana Rap, 4Kurd, AFN TV, High Vision TV, T2 TV, Clubbing TV, Deejay TV, Deluxe Dance, Best of Dance TV, DanceTV Techno Warehouse, Power Dance, Number 1 Dance, Dance FM, Stingray Today's K-Pop, NEW K-POP, Kpop Mix |
 | **Vevo** (14) | Vevo Pop (US), Vevo '70s (US), Vevo '80s (US), Vevo '90s (US), Vevo 2K (US), Vevo True School Hip-Hop (US), Vevo R&B (US), Vevo Rock (US), Vevo Country (US), Vevo Íconos Latinos (US), Vevo Regional Mexicano (US), Vevo Holiday (US), Vevo Pop (Spain), Vevo Latino (Spain) |
 | **Documentary** (4) | Persiana Medical, Persiana Docs, Persiana Travel, Persiana Voyage |
-| **Kids** (5) | Persiana Junior, Persiana Teen, IRIB Omid, Pooya TV, Pooya TV Plus |
-| **Sports** (3) | Persiana Fight, IRIB 3, Varzesh TV |
+| **Kids** (4) | Persiana Junior, Persiana Teen, Pooya TV, Pooya TV Plus |
+| **Sports** (2) | Persiana Fight, Varzesh TV |
 | **Radio** (16) | PMC Radio (Planeta), PMC Radio (Select), Radio Farda, Iran International Radio, RFI Persian, Radio Faaz, Radio Navahang, Radio Simorgh, Radio Shadi, Persian Vibe Radio, Farsi Frequency, Radio Yar Plus, Radio Yar LA, Iran On Air, Radio Hamrah, Radio ZZA |
+
+**US channels** (groups `US Music`, `US Movies`, `US Series`, `US Classic`, `US Entertainment`,
+`US Comedy`, `US Lifestyle`, `US Cooking`, `US Travel`, `US Culture`): music, movie, series and
+entertainment channels from the iptv-org US list (except Vevo, which has its own group above),
+including Pluto TV, Tubi and Plex channels. Logos link straight to the source, nothing is
+stored in `Logos/`.
+
+**iHeart radio** (one group, `iHeart Radio`): the original iHeart music channels
+plus the top local music stations (e.g. Z100 New York) from iHeart's public station directory.
+
+Bulk entries are marked `"bulk": "1"` in `channels.json` and are tested in parallel by
+the update script.
 
 ## Logos
 

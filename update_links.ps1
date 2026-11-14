@@ -24,6 +24,7 @@ param([switch]$NoPush)
 
 $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+[Net.ServicePointManager]::DefaultConnectionLimit = 200
 
 $Root      = Split-Path -Parent $MyInvocation.MyCommand.Path
 $Master    = Join-Path $Root 'channels.json'
@@ -302,6 +303,7 @@ function Save-TextLogo([string]$Name, [string]$Path) {
 # Give a channel a logo if it has none (or its file is missing).
 # Official logo from persianagroup.tv / iptv-org first, text placeholder otherwise.
 function Set-MissingLogo($Ch) {
+    if ($Ch.PSObject.Properties['logoUrl'] -and $Ch.logoUrl) { return $false }   # bulk channel: logo linked directly
     $has = $Ch.PSObject.Properties['logo'] -and $Ch.logo
     if ($has -and (Test-Path -LiteralPath (Join-Path $LogoDir $Ch.logo))) { return $false }
 
@@ -374,7 +376,7 @@ function Get-RadioCandidates([string]$Pattern) {
 }
 
 function ConvertTo-MasterJson($Channels) {
-    $keys = 'name', 'id', 'group', 'logo', 'logoSrc', 'url', 'iptvOrg', 'radio', 'persiana'
+    $keys = 'name', 'id', 'group', 'logo', 'logoSrc', 'logoUrl', 'url', 'iptvOrg', 'radio', 'persiana', 'bulk'
     $esc  = { param($s) ([string]$s).Replace('\', '\\').Replace('"', '\"') }
     $blocks = foreach ($c in $Channels) {
         $fields = foreach ($k in $keys) {
@@ -414,10 +416,50 @@ $streamOwner = @{}     # final stream path -> first channel that uses it
 $duplicates  = @()
 $playUrl     = @{}     # channel name -> pinned playlist URL (used in the M3U instead of url)
 
+# Bulk channels ("bulk" = US channels, iHeart radio; thousands of them) are tested in
+# parallel up front; their results are used below instead of testing one by one.
+$pre = @{}
+$bulk = @($channels | Where-Object { $_.PSObject.Properties['bulk'] -and $_.bulk })
+if ($bulk.Count) {
+    Write-Host "Testing $($bulk.Count) bulk channels in parallel..."
+    $fnText = (@('Test-Http', 'Get-TextAndUri', 'Test-HlsLive', 'Test-Stream') | ForEach-Object {
+        "function $_ {" + (Get-Item "function:$_").Definition + "}" }) -join "`n"
+    $worker = {
+        param($url, $ua, $fnText)
+        $UA = $ua
+        Invoke-Expression $fnText
+        $ok = $false
+        try { $ok = [bool](Test-Stream $url) } catch { }
+        New-Object PSObject -Property @{ Ok = $ok; Key = $script:LastStreamKey; Reason = $script:LastFailReason }
+    }
+    $pool = [runspacefactory]::CreateRunspacePool(1, 48)
+    $pool.Open()
+    $jobs = foreach ($b in $bulk) {
+        $ps = [powershell]::Create()
+        $ps.RunspacePool = $pool
+        $null = $ps.AddScript($worker).AddArgument($b.url).AddArgument($UA).AddArgument($fnText)
+        New-Object PSObject -Property @{ Id = $b.id; Ps = $ps; Handle = $ps.BeginInvoke() }
+    }
+    $n = 0
+    foreach ($j in $jobs) {
+        $r = $j.Ps.EndInvoke($j.Handle)
+        $pre[$j.Id] = if ($r) { $r[0] } else { New-Object PSObject -Property @{ Ok = $false; Key = $null; Reason = 'check failed' } }
+        $j.Ps.Dispose()
+        $n++; if ($n % 500 -eq 0) { Write-Host "  ...$n/$($bulk.Count) tested" }
+    }
+    $pool.Close()
+}
+
 foreach ($ch in $channels) {
-    Write-Host ""
-    Write-Host "[$($ch.name)]"
-    if (Test-Stream $ch.url) {
+    $isBulk = $ch.PSObject.Properties['bulk'] -and $ch.bulk
+    if (-not $isBulk) { Write-Host ""; Write-Host "[$($ch.name)]" }
+    if ($isBulk) {
+        $r = $pre[$ch.id]
+        $script:LastStreamKey = $r.Key; $script:LastFailReason = $r.Reason
+        $okNow = $r.Ok
+    } else { $okNow = Test-Stream $ch.url }
+    if ($okNow -and $isBulk) { $working += $ch; continue }   # bulk: no quality/duplicate handling
+    if ($okNow) {
         Write-Host "  OK       $($ch.url)"
         $key = $script:LastStreamKey
         if ($key) {
@@ -432,6 +474,7 @@ foreach ($ch in $channels) {
         $working += $ch
         continue
     }
+    if ($isBulk) { Write-Host "[$($ch.name)]" }
     Write-Host "  BROKEN   $($ch.url)  ($($script:LastFailReason))"
 
     $candidates = @()
@@ -473,7 +516,7 @@ foreach ($ch in $channels) {
 # ---------------------------------------------------------------- write
 $m3u = @('#EXTM3U')
 foreach ($ch in $working) {
-    $logo = if ($ch.PSObject.Properties['logo'] -and $ch.logo) { $LogoBase + $ch.logo } else { '' }
+    $logo = if ($ch.PSObject.Properties['logoUrl'] -and $ch.logoUrl) { $ch.logoUrl } elseif ($ch.PSObject.Properties['logo'] -and $ch.logo) { $LogoBase + $ch.logo } else { '' }
     $m3u += '#EXTINF:-1 tvg-ID="{0}" tvg-name="{1}" tvg-logo="{2}" group-title="{3}",{4}' -f `
             $ch.id, $ch.name, $logo, $ch.group, $ch.name
     $m3u += if ($playUrl.ContainsKey($ch.name)) { $StreamBase + $playUrl[$ch.name] } else { $ch.url }
@@ -499,7 +542,7 @@ if ($masterChanged) {
 }
 
 Write-Host "Playlist: $($working.Count) of $($channels.Count) channels working."
-if ($dropped.Count) { Write-Host "Left out:  $($dropped -join ', ')" }
+if ($dropped.Count) { Write-Host "Left out ($($dropped.Count)):  $($dropped -join ', ')" }
 if ($duplicates.Count) { Write-Host "Possible duplicates (check and remove one from channels.json): $($duplicates -join '; ')" }
 if ($filesChanged.Count) { Write-Host "Updated:  $($filesChanged -join ', ')" }
 
@@ -516,7 +559,7 @@ git -C "$Root" diff --cached --quiet -- $paths
 if ($LASTEXITCODE -eq 0) { Write-Host "Nothing new to commit."; exit 0 }
 
 $msg = "Auto-update playlist: $($working.Count)/$($channels.Count) channels working"
-if ($dropped.Count) { $msg += " (left out: $($dropped -join ', '))" }
+if ($dropped.Count -le 10) { $msg += " (left out: $($dropped -join ', '))" } else { $msg += " ($($dropped.Count) left out)" }
 if ($newLogos.Count) { $msg += "; new logos: $($newLogos.Count)" }
 
 git -C "$Root" commit -q -m $msg
