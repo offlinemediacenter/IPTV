@@ -25,8 +25,7 @@ and fashion channels), Vevo's free channels (US and Spain) and
 | Group | Channels |
 |---|---|
 | **News** (7) | BBC Persian, Iran International, IraneFarda TV, IRINN, IRINN 2, National Iranian Congress TV, VoA TV Persian |
-| **IRIB** (5) | IRIB 1, IRIB 2, IRIB 3, IRIB UHD, IRIB Omid |
-| **National** (2) | Isfahan TV, Tehran TV |
+| **IRIB** (7) | IRIB 1, IRIB 2, IRIB 3, IRIB UHD, IRIB Omid, Isfahan TV, Tehran TV |
 | **Movies & Series** (19) | Persiana Family, Persiana Series, Persiana Cinema, Persiana Korea, Persiana Iranian, Persiana Türkiye, Persiana China, Persiana Latino, Afra Film, Cafe Film, Gold Star, Grand Cinema, iFilm 2, iFilm Persian, Maah TV, Meta Film TV, SL 1, SL 2, Tamasha |
 | **Entertainment** (17) | FashionTV+, Persiana Comedy, Persiana Reality, Persiana Podcast, 247 Box TV, 4U TV, FX 1, MBC Persia, Namayesh TV, Nasim, OXIR TV, Shabakeh 7, Tin TV, TV ITN, Arirang TV, FashionTV Secrets, Global Fashion Channel |
 | **Music** (25) | Avang TV, Navahang TV, PMC Music, PMC Royale, RJTV, Persiana Music, Persiana Nostalgia, Persiana Folk, Persiana SetMix, Persiana Rap, 4Kurd, AFN TV, High Vision TV, T2 TV, Clubbing TV, Deejay TV, Deluxe Dance, Best of Dance TV, DanceTV Techno Warehouse, Power Dance, Number 1 Dance, Dance FM, Stingray Today's K-Pop, NEW K-POP, Kpop Mix |

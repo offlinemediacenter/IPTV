@@ -98,7 +98,7 @@
   {
     "name": "Isfahan TV",
     "id": "IsfahanTV.ir",
-    "group": "National",
+    "group": "IRIB",
     "logo": "IPTV_IsfahanTV.png",
     "url": "https://ncdn.telewebion.ir/esfahan/live/1080p/index.m3u8",
     "iptvOrg": "IsfahanTV.ir"
@@ -106,7 +106,7 @@
   {
     "name": "Tehran TV",
     "id": "TehranTV.ir",
-    "group": "National",
+    "group": "IRIB",
     "logo": "IPTV_TehranTV.png",
     "url": "https://ncdn.telewebion.ir/tehran/live/1080p/index.m3u8",
     "iptvOrg": "TehranTV.ir"
@@ -1618,7 +1618,7 @@
     "name": "Blue Bloods",
     "id": "BlueBloods.us@SD",
     "group": "US Series",
-    "logoUrl": "https://images.pluto.tv/channels/61b3b8c645b45d0007a9bb8d/colorLogoSVG.svg",
+    "logoUrl": "https://images.pluto.tv/channels/61b3b8c645b45d0007a9bb8d/colorLogoPNG.png",
     "url": "https://jmp2.uk/plu-61b3b8c645b45d0007a9bb8d.m3u8",
     "iptvOrg": "BlueBloods.us",
     "bulk": "1"
@@ -2131,7 +2131,7 @@
     "name": "Crime + Investigation",
     "id": "CrimePlusInvestigation.us@SD",
     "group": "US Entertainment",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg/960px-Crime_%2B_Investigation_Logo_10.2019.svg.png",
     "url": "http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8",
     "iptvOrg": "CrimePlusInvestigation.us",
     "bulk": "1"
@@ -2716,7 +2716,7 @@
     "name": "Hallmark Mystery [Geo-blocked]",
     "id": "HallmarkMystery.us@East",
     "group": "US Movies",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hallmark_Mystery_2024.svg",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Hallmark_Mystery_2024.svg/960px-Hallmark_Mystery_2024.svg.png",
     "url": "http://41.205.93.154/HALLMARK/index.m3u8",
     "iptvOrg": "HallmarkMystery.us",
     "bulk": "1"
@@ -3706,7 +3706,7 @@
     "name": "NBC LX Home",
     "id": "NBCLXHome.us@HD",
     "group": "US Entertainment",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/NBC_LX_Home_2023.svg",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/NBC_LX_Home_2023.svg/960px-NBC_LX_Home_2023.svg.png",
     "url": "https://plex-xumoent-ch485-e7l5l.fast.nbcuni.com/live/master_5.m3u8",
     "iptvOrg": "NBCLXHome.us",
     "bulk": "1"
