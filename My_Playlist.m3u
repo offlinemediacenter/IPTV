@@ -116,7 +116,7 @@ http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chu
 #EXTINF:-1 tvg-ID="FashionTV+" tvg-name="FashionTV+" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/FashionTVPlus.jpg" group-title="Fashion",FashionTV+
 https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8
 #EXTINF:-1 tvg-ID="FashionTVSecrets.fr" tvg-name="FashionTV Secrets" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVSecrets.png" group-title="Fashion",FashionTV Secrets
-https://ssai.aniview.com/api/v1/hls/streams/sessions/a96a688b8a914f22af8c13898a6f5969/media/manifest.m3u8/0.m3u8
+https://ssai.aniview.com/api/v1/hls/streams/sessions/91757fcbb3c6445ca6f53e7d36cb3da4/media/manifest.m3u8/0.m3u8
 #EXTINF:-1 tvg-ID="GlobalFashionChannel.us" tvg-name="Global Fashion Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GlobalFashionChannel.png" group-title="Fashion",Global Fashion Channel
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/cdbe280e-0aea-4bbe-861f-fd115abcfec7_1080p.m3u8
 #EXTINF:-1 tvg-ID="FashionTVParisLOriginal.fr@SD" tvg-name="FashionTV Paris L'Original" tvg-logo="https://i.imgur.com/GFTAN5Q.png" group-title="Fashion",FashionTV Paris L'Original
@@ -239,6 +239,30 @@ http://ice41.securenetsystems.net/KIRN
 https://stream.zenolive.com/gxdq0awu30duv.aac
 #EXTINF:-1 tvg-ID="Radio ZZA" tvg-name="Radio ZZA" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioZZA.png" group-title="Radio",Radio ZZA
 https://listen.radioking.com/radio/526993/stream/585379
+#EXTINF:-1 tvg-ID="RadioJavan.ir" tvg-name="Radio Javan" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioJavan.png" group-title="Radio",Radio Javan
+https://ncdn.telewebion.ir/radiojavan/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioAva.ir" tvg-name="Radio Ava" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioAva.png" group-title="Radio",Radio Ava
+https://ncdn.telewebion.ir/radioava/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioTehran.ir" tvg-name="Radio Tehran" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioTehran.png" group-title="Radio",Radio Tehran
+https://ncdn.telewebion.ir/radiotehran/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioGoftogoo.ir" tvg-name="Radio Goftogoo" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioGoftogoo.png" group-title="Radio",Radio Goftogoo
+https://ncdn.telewebion.ir/radiogoftogo/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioVarzesh.ir" tvg-name="Radio Varzesh" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioVarzesh.png" group-title="Radio",Radio Varzesh
+https://ncdn.telewebion.ir/radiovarzesh/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioEghtesad.ir" tvg-name="Radio Eghtesad" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioEghtesad.png" group-title="Radio",Radio Eghtesad
+https://ncdn.telewebion.ir/radioeghtesad/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioIran.ir" tvg-name="Radio Iran" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioIran.png" group-title="Radio",Radio Iran
+https://ncdn.telewebion.ir/radioiran/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioNamayesh.ir" tvg-name="Radio Namayesh" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioNamayesh.png" group-title="Radio",Radio Namayesh
+https://ncdn.telewebion.ir/radionamayesh/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioSaba.ir" tvg-name="Radio Saba" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioSaba.png" group-title="Radio",Radio Saba
+https://ncdn.telewebion.ir/radiosaba/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioFarhang.ir" tvg-name="Radio Farhang" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioFarhang.png" group-title="Radio",Radio Farhang
+https://ncdn.telewebion.ir/radiofarhang/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioPayam.ir" tvg-name="Radio Payam" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioPayam.png" group-title="Radio",Radio Payam
+https://ncdn.telewebion.ir/radiopayam/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioSalamat.ir" tvg-name="Radio Salamat" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioSalamat.png" group-title="Radio",Radio Salamat
+https://ncdn.telewebion.ir/radiosalamat/live/playlist.m3u8
 #EXTINF:-1 tvg-ID="00sReplay.us@SD" tvg-name="00s Replay" tvg-logo="https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png" group-title="US Movies",00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
 #EXTINF:-1 tvg-ID="3ABNPraiseHimMusicNetwork.us@SD" tvg-name="3ABN Praise Him Music Network" tvg-logo="https://i.imgur.com/iBcqT8L.png" group-title="US Music",3ABN Praise Him Music Network
@@ -305,8 +329,6 @@ https://amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv/playlist
 https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="AsianCrush.us@SD" tvg-name="AsianCrush" tvg-logo="https://i.imgur.com/hW6z1RG.png" group-title="US Entertainment",AsianCrush
 https://linear-900.frequency.stream/dist/cineverse/900/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-ID="ATXN3.us@SD" tvg-name="ATXN3" tvg-logo="https://i.imgur.com/tSMtDlz.png" group-title="US Culture",ATXN3
-https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(c55d1594-ad62-7434-aa17-4d71adb80f99)/index.m3u8
 #EXTINF:-1 tvg-ID="AutenticTravel.de@SD" tvg-name="Autentic Travel" tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentictravel_white.png" group-title="US Lifestyle",Autentic Travel
 https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
 #EXTINF:-1 tvg-ID="AVIRewind.us@SD" tvg-name="AVI Rewind" tvg-logo="https://zplay.cl/LogosV2/AVIREWINDS_NEW.png" group-title="US Movies",AVI Rewind
@@ -369,10 +391,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-bouncexl-tabl
 https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8
 #EXTINF:-1 tvg-ID="Buzzr.us@SD" tvg-name="Buzzr" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/12/0mk7F5ao.png/revision/latest/scale-to-width-down/512" group-title="US Entertainment",Buzzr
 http://23.237.104.106:8080/USA_BUZZR/index.m3u8
-#EXTINF:-1 tvg-ID="BXArts.us@SD" tvg-name="BX Arts" tvg-logo="https://i.imgur.com/PF71rdZ.png" group-title="US Culture",BX Arts
-https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8
-#EXTINF:-1 tvg-ID="BXCulture.us@SD" tvg-name="BX Culture" tvg-logo="https://i.imgur.com/PF71rdZ.png" group-title="US Culture",BX Culture
-https://reflect-stream-bronxnet.cablecast.tv/live-7/live/stream-3/live.m3u8
 #EXTINF:-1 tvg-ID="CameraSmileTV.us@SD" tvg-name="Camera Smile TV" tvg-logo="https://i.imgur.com/V5h4R83.png" group-title="US Comedy",Camera Smile TV
 https://rpn.bozztv.com/gusa/gusa-camerasmile/index.m3u8
 #EXTINF:-1 tvg-ID="CanelaTV.us@SD" tvg-name="Canela TV" tvg-logo="https://i.imgur.com/8Hllkpk.png" group-title="US Entertainment",Canela TV
@@ -513,16 +531,8 @@ https://amg00627-banijaygroup-fearfactor-samsungau-9vdod.amagi.tv/playlist/amg00
 https://jmp2.uk/plu-65775af3b3801200084a3aa4.m3u8
 #EXTINF:-1 tvg-ID="FlicksofFury.us@SD" tvg-name="Flicks of Fury" tvg-logo="https://i.imgur.com/rtL5L81.png" group-title="US Movies",Flicks of Fury
 https://jmp2.uk/plu-58e55b14ad8e9c364d55f717.m3u8
-#EXTINF:-1 tvg-ID="FlowersTVUSA.us@SD" tvg-name="Flowers TV USA" tvg-logo="https://upload.wikimedia.org/wikipedia/ml/1/1c/Flowers-Onam.png" group-title="US Culture",Flowers TV USA
-https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/flowers_nim_https/050522/flowers/playlist.m3u8
-#EXTINF:-1 tvg-ID="FNX.us@SD" tvg-name="FNX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png" group-title="US Culture",FNX
-https://fnx.lls.pbs.org/index.m3u8
-#EXTINF:-1 tvg-ID="FNX.us@KVCRDT" tvg-name="FNX KVCR-DT [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png" group-title="US Culture",FNX KVCR-DT [Geo-blocked]
-https://castus-vod-dev.s3.amazonaws.com/vod_clients/kvcr/live/ch1/video.m3u8
 #EXTINF:-1 tvg-ID="FoodNetwork.us@East" tvg-name="Food Network (United States)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" group-title="US Cooking",Food Network (United States)
 http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
-#EXTINF:-1 tvg-ID="FoxSoul.us@SD" tvg-name="Fox Soul" tvg-logo="https://i.imgur.com/YIamDGn.png" group-title="US Culture",Fox Soul
-https://foxsoul-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="FrightFlix.us@SD" tvg-name="FrightFlix" tvg-logo="https://i.imgur.com/rgNQYAl.png" group-title="US Movies",FrightFlix
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2229
 #EXTINF:-1 tvg-ID="FunnyAF.us@SD" tvg-name="Funny AF" tvg-logo="https://i.imgur.com/UCwjdtQ.png" group-title="US Comedy",Funny AF
@@ -569,10 +579,6 @@ https://jmp2.uk/plu-61f07513227feb00073ee6bc.m3u8
 https://linear-59.frequency.stream/dist/plex/59/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-ID="HMIPROMZNEWS.us@SD" tvg-name="HMI PROMZ NEWS" tvg-logo="https://i.imgur.com/gwPaw3v.png" group-title="US Music",HMI PROMZ NEWS
 https://video1.getstreamhosting.com:1936/8326/8326/playlist.m3u8
-#EXTINF:-1 tvg-ID="HmongStarTV.us@SD" tvg-name="Hmong Star TV [Not 24/7]" tvg-logo="https://i.imgur.com/dRsacao.png" group-title="US Culture",Hmong Star TV [Not 24/7]
-https://livefta.malimarcdn.com/ftaedge00/hmongstartv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-ID="HmongTVNetwork.us@SD" tvg-name="Hmong TV Network" tvg-logo="https://yt3.googleusercontent.com/aj3kdBQTgfxP-bDnleou4m1ykjPRFexvfTZZuvWlNc75Hn9-NTqXYEdEJ_KOcTSsbKj24K1B9BM=s512-c-k-c0x00ffffff-no-rj" group-title="US Culture",Hmong TV Network
-https://livefta.malimarcdn.com/ftaedge00/cvabroadcasting.stream/playlist.m3u8
 #EXTINF:-1 tvg-ID="HogansHeroes.us@SD" tvg-name="Hogan's Heroes" tvg-logo="https://images.pluto.tv/channels/68939e206727ec919bb39061/colorLogoPNG_1757523507747.png" group-title="US Classic",Hogan's Heroes
 https://jmp2.uk/plu-68939e206727ec919bb39061.m3u8
 #EXTINF:-1 tvg-ID="HollyWire.us@SD" tvg-name="HollyWire" tvg-logo="https://i.imgur.com/oVNjFoj.png" group-title="US Entertainment",HollyWire
@@ -605,8 +611,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo
 http://23.237.104.106:8080/USA_ION/index.m3u8
 #EXTINF:-1 tvg-ID="JerseyShore.us@SD" tvg-name="Jersey Shore (United States)" tvg-logo="https://i.imgur.com/SssCaj1.png" group-title="US Series",Jersey Shore (United States)
 https://jmp2.uk/plu-609bfa51fbecc1000733152e.m3u8
-#EXTINF:-1 tvg-ID="JewishLifeTelevision.us@SD" tvg-name="Jewish Life Television" tvg-logo="https://yt3.googleusercontent.com/i6ETvgNzA8vvGCo-Ih6eo2XZUwz2VVMnstLyNZVXBlwa4uOeUIEl-3tzphB8phJaibe-FPQ5Fw=s512-c-k-c0x00ffffff-no-rj" group-title="US Culture",Jewish Life Television
-https://jlt-jltv-strimm.otteravision.com/jlt/jltv/jltv.m3u8
 #EXTINF:-1 tvg-ID="JohnnyCarsonTV.us@SD" tvg-name="Johnny Carson TV" tvg-logo="https://i.imgur.com/KBTqpJ7.png" group-title="US Series",Johnny Carson TV
 https://aegis-cloudfront-1.tubi.video/475550ae-8708-46a5-a7c3-54acb3d91480/playlist.m3u8
 #EXTINF:-1 tvg-ID="JudgeNosey.us@US" tvg-name="Judge Nosey" tvg-logo="https://i.imgur.com/S4r98AB.png" group-title="US Series",Judge Nosey
@@ -617,14 +621,8 @@ https://streams2.sofast.tv/ptnr-yupptv/title-JUST_FOR_LAUGHS_GAGS_YUPPTV/v1/mast
 https://a-cdn.klowdtv.com/live2/justicecentral_720p/playlist.m3u8
 #EXTINF:-1 tvg-ID="KContentbyCJENM.us@SD" tvg-name="K-Content by CJ ENM" tvg-logo="https://i.imgur.com/lRy231d.png" group-title="US Entertainment",K-Content by CJ ENM
 https://d2q0mzb9bm4w5z.cloudfront.net/68fee8e1_605a_437b_b968_244c3c0d5f24/hls/playlist.m3u8
-#EXTINF:-1 tvg-ID="KajouTV.us@SD" tvg-name="Kajou TV [Not 24/7]" tvg-logo="https://i.imgur.com/2XzghdT.png" group-title="US Culture",Kajou TV [Not 24/7]
-https://video1.getstreamhosting.com:1936/8055/8055/playlist.m3u8
 #EXTINF:-1 tvg-ID="KaloopyTV.us@SD" tvg-name="Kaloopy TV" tvg-logo="https://vcz-kapang-tv.b-cdn.net/files/thumbs/2026/05/06/1778037346ayAfpsWIMj-300x300-square.png" group-title="US Lifestyle",Kaloopy TV
 https://streamingserver000.viewtv.cloud/VIEWTVNETWORK-KALOOPY/index.m3u8
-#EXTINF:-1 tvg-ID="KIIOLD101.us@HD" tvg-name="KIIO-LD 10.1" tvg-logo="https://i.imgur.com/wkzwXFO.png" group-title="US Culture",KIIO-LD 10.1
-http://livestream.usatv.com/hls/master-iUSATVLIVENET.m3u8
-#EXTINF:-1 tvg-ID="KIIOLD104.us@SD" tvg-name="KIIO-LD 10.4" tvg-logo="https://i.imgur.com/Spu4s89.png" group-title="US Culture",KIIO-LD 10.4
-https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8
 #EXTINF:-1 tvg-ID="KMCTTV391.us@HD" tvg-name="KMCT-TV 39.1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d9/KMCT_Monroe%27s_Christian_Television_logo.png" group-title="US Entertainment",KMCT-TV 39.1
 https://wggstv16.ddns.net:9953/hls/KMCT1.m3u8
 #EXTINF:-1 tvg-ID="KNino.us@SD" tvg-name="KNino" tvg-logo="https://ipuntotv.com/IMAGES/Knino-logo.png" group-title="US Entertainment",KNino
@@ -649,18 +647,12 @@ https://jmp2.uk/plu-687fea9a4fa995eff284a1c8.m3u8
 https://jmp2.uk/plu-60f754f98185580007eb0754.m3u8
 #EXTINF:-1 tvg-ID="MaverickBlackCinema.us@SD" tvg-name="Maverick Black Cinema" tvg-logo="https://images.fubo.tv/station_logos/maverick_black_cinema_c.png" group-title="US Movies",Maverick Black Cinema
 https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-ID="MBCAmerica.us@SD" tvg-name="MBC America" tvg-logo="https://i.imgur.com/RRc23ra.png" group-title="US Culture",MBC America
-https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
 #EXTINF:-1 tvg-ID="MBCDramaUSA.us@SD" tvg-name="MBC Drama USA" tvg-logo="https://i.imgur.com/g5PWnqp.png" group-title="US Series",MBC Drama USA
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama-usa/ea2f5db904aff224b7066e59c7f585a2/index.m3u8
 #EXTINF:-1 tvg-ID="MetaleitorTV.us@SD" tvg-name="Metaleitor TV" tvg-logo="https://new.opencaster.com/uploads/logos/logo_14_1752798826.png" group-title="US Music",Metaleitor TV
 https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8
 #EXTINF:-1 tvg-ID="MidnightPulp.us@SD" tvg-name="Midnight Pulp" tvg-logo="https://provider-static.plex.tv/a/epg/channels/logos/gracenote/a1a2cdc3d6f0714c586e9959732580c7.png" group-title="US Entertainment",Midnight Pulp
 https://linear-897.frequency.stream/dist/cineverse/897/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-ID="MidpenMediaCenterChannel30.us@SD" tvg-name="Midpen Media Center Channel 30" tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="US Culture",Midpen Media Center Channel 30
-https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8
-#EXTINF:-1 tvg-ID="MidpenMediaCenterChannel75.us@SD" tvg-name="Midpen Media Center Channel 75" tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="US Culture",Midpen Media Center Channel 75
-https://5c2974786200d.streamlock.net/live-chan75/ngrp:ch75_all/playlist.m3u8
 #EXTINF:-1 tvg-ID="MidsomerMurders.us@SD" tvg-name="Midsomer Murders" tvg-logo="https://i.imgur.com/VFqfyfY.png" group-title="US Series",Midsomer Murders
 https://all3media-midsomer-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="MissionImpossible.us@SD" tvg-name="Mission Impossible (United States)" tvg-logo="https://images.pluto.tv/channels/62ea43aa0c43540007f2db96/colorLogoPNG.png" group-title="US Series",Mission Impossible (United States)
@@ -715,8 +707,6 @@ https://jmp2.uk/plu-5dc2ba1a9c91420009db4858.m3u8
 https://a-cdn.klowdtv.com/live2/nost_720p/playlist.m3u8
 #EXTINF:-1 tvg-ID="Novelisima.us@SD" tvg-name="Novelisima" tvg-logo="https://i.imgur.com/8dUS3Ih.png" group-title="US Series",Novelisima
 http://138.59.177.78:9999/play/a0gg/index.m3u8
-#EXTINF:-1 tvg-ID="Olelo53.us@SD" tvg-name="Olelo 53" tvg-logo="https://i.imgur.com/xDuUrj9.png" group-title="US Culture",Olelo 53
-https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_011/playlist.m3u8
 #EXTINF:-1 tvg-ID="Olelo55.us@SD" tvg-name="Olelo 55" tvg-logo="https://i.imgur.com/0qe2R8b.png" group-title="US Entertainment",Olelo 55
 https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_013/playlist.m3u8
 #EXTINF:-1 tvg-ID="OmideIranTV.us@SD" tvg-name="Omid e Iran TV" tvg-logo="https://i.imgur.com/CeMf68L.png" group-title="US Entertainment",Omid e Iran TV

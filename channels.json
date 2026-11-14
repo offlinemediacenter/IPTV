@@ -500,7 +500,7 @@
     "id": "FashionTVSecrets.fr",
     "group": "Fashion",
     "logo": "IPTV_FashionTVSecrets.png",
-    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/a96a688b8a914f22af8c13898a6f5969/media/manifest.m3u8/0.m3u8",
+    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/91757fcbb3c6445ca6f53e7d36cb3da4/media/manifest.m3u8/0.m3u8",
     "iptvOrg": "FashionTVSecrets.fr"
   },
   {
@@ -1103,6 +1103,102 @@
     "radio": "Radio ZZA"
   },
   {
+    "name": "Radio Javan",
+    "id": "RadioJavan.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioJavan.png",
+    "url": "https://ncdn.telewebion.ir/radiojavan/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
+    "name": "Radio Ava",
+    "id": "RadioAva.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioAva.png",
+    "url": "https://ncdn.telewebion.ir/radioava/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
+    "name": "Radio Tehran",
+    "id": "RadioTehran.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioTehran.png",
+    "url": "https://ncdn.telewebion.ir/radiotehran/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
+    "name": "Radio Goftogoo",
+    "id": "RadioGoftogoo.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioGoftogoo.png",
+    "url": "https://ncdn.telewebion.ir/radiogoftogo/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
+    "name": "Radio Varzesh",
+    "id": "RadioVarzesh.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioVarzesh.png",
+    "url": "https://ncdn.telewebion.ir/radiovarzesh/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
+    "name": "Radio Eghtesad",
+    "id": "RadioEghtesad.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioEghtesad.png",
+    "url": "https://ncdn.telewebion.ir/radioeghtesad/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
+    "name": "Radio Iran",
+    "id": "RadioIran.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioIran.png",
+    "url": "https://ncdn.telewebion.ir/radioiran/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
+    "name": "Radio Namayesh",
+    "id": "RadioNamayesh.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioNamayesh.png",
+    "url": "https://ncdn.telewebion.ir/radionamayesh/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
+    "name": "Radio Saba",
+    "id": "RadioSaba.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioSaba.png",
+    "url": "https://ncdn.telewebion.ir/radiosaba/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
+    "name": "Radio Farhang",
+    "id": "RadioFarhang.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioFarhang.png",
+    "url": "https://ncdn.telewebion.ir/radiofarhang/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
+    "name": "Radio Payam",
+    "id": "RadioPayam.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioPayam.png",
+    "url": "https://ncdn.telewebion.ir/radiopayam/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
+    "name": "Radio Salamat",
+    "id": "RadioSalamat.ir",
+    "group": "Radio",
+    "logo": "IPTV_RadioSalamat.png",
+    "url": "https://ncdn.telewebion.ir/radiosalamat/live/playlist.m3u8",
+    "bulk": "1"
+  },
+  {
     "name": "00s Replay",
     "id": "00sReplay.us@SD",
     "group": "US Movies",
@@ -1409,15 +1505,6 @@
     "bulk": "1"
   },
   {
-    "name": "AMP 2",
-    "id": "AMP2.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/nfur3FR.png",
-    "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch2/video.m3u8",
-    "iptvOrg": "AMP2.us",
-    "bulk": "1"
-  },
-  {
     "name": "Aneflix Live",
     "id": "AneflixLive.us@HD",
     "group": "US Movies",
@@ -1496,15 +1583,6 @@
     "logoUrl": "https://i.imgur.com/WfKlGbX.png",
     "url": "https://d1ik2p49apxqjf.cloudfront.net/playlist.m3u8",
     "iptvOrg": "AtHomewithFamilyHandyman.us",
-    "bulk": "1"
-  },
-  {
-    "name": "ATXN3",
-    "id": "ATXN3.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/tSMtDlz.png",
-    "url": "https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(c55d1594-ad62-7434-aa17-4d71adb80f99)/index.m3u8",
-    "iptvOrg": "ATXN3.us",
     "bulk": "1"
   },
   {
@@ -1823,24 +1901,6 @@
     "bulk": "1"
   },
   {
-    "name": "BX Arts",
-    "id": "BXArts.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/PF71rdZ.png",
-    "url": "https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8",
-    "iptvOrg": "BXArts.us",
-    "bulk": "1"
-  },
-  {
-    "name": "BX Culture",
-    "id": "BXCulture.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/PF71rdZ.png",
-    "url": "https://reflect-stream-bronxnet.cablecast.tv/live-7/live/stream-3/live.m3u8",
-    "iptvOrg": "BXCulture.us",
-    "bulk": "1"
-  },
-  {
     "name": "California Music Channel",
     "id": "CaliforniaMusicChannel.us@SD",
     "group": "US Music",
@@ -1892,15 +1952,6 @@
     "logoUrl": "https://provider-static.plex.tv/epg/cms/production/773232e1-5c36-490b-922e-e5be8ec12eb2/celebrityd5796a3e14bf45513f7b3071b90d030.png",
     "url": "https://amg00353-amg00353c19-xumo-us-2608.playouts.now.amagi.tv/lionsgate-clbng/playlist.m3u8",
     "iptvOrg": "CelebrityNameGame.us",
-    "bulk": "1"
-  },
-  {
-    "name": "Channel One (United States)",
-    "id": "ChannelOne.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/igskUo0.png",
-    "url": "https://pemirateshls.persiana.live/hls/stream.m3u8",
-    "iptvOrg": "ChannelOne.us",
     "bulk": "1"
   },
   {
@@ -2624,48 +2675,12 @@
     "bulk": "1"
   },
   {
-    "name": "Flowers TV USA",
-    "id": "FlowersTVUSA.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/ml/1/1c/Flowers-Onam.png",
-    "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/flowers_nim_https/050522/flowers/playlist.m3u8",
-    "iptvOrg": "FlowersTVUSA.us",
-    "bulk": "1"
-  },
-  {
-    "name": "FNX",
-    "id": "FNX.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png",
-    "url": "https://fnx.lls.pbs.org/index.m3u8",
-    "iptvOrg": "FNX.us",
-    "bulk": "1"
-  },
-  {
-    "name": "FNX KVCR-DT [Geo-blocked]",
-    "id": "FNX.us@KVCRDT",
-    "group": "US Culture",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png",
-    "url": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/kvcr/live/ch1/video.m3u8",
-    "iptvOrg": "FNX.us",
-    "bulk": "1"
-  },
-  {
     "name": "Food Network (United States)",
     "id": "FoodNetwork.us@East",
     "group": "US Cooking",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png",
     "url": "http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8",
     "iptvOrg": "FoodNetwork.us",
-    "bulk": "1"
-  },
-  {
-    "name": "Fox Soul",
-    "id": "FoxSoul.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/YIamDGn.png",
-    "url": "https://foxsoul-vizio.amagi.tv/playlist.m3u8",
-    "iptvOrg": "FoxSoul.us",
     "bulk": "1"
   },
   {
@@ -2876,15 +2891,6 @@
     "bulk": "1"
   },
   {
-    "name": "HarPal Geo",
-    "id": "HarPalGeo.pk@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/NX3vvAX.png",
-    "url": "https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8",
-    "iptvOrg": "HarPalGeo.pk",
-    "bulk": "1"
-  },
-  {
     "name": "HauntTV",
     "id": "HauntTV.ca@SD",
     "group": "US Series",
@@ -2954,24 +2960,6 @@
     "logoUrl": "https://i.imgur.com/gwPaw3v.png",
     "url": "https://video1.getstreamhosting.com:1936/8326/8326/playlist.m3u8",
     "iptvOrg": "HMIPROMZNEWS.us",
-    "bulk": "1"
-  },
-  {
-    "name": "Hmong Star TV [Not 24/7]",
-    "id": "HmongStarTV.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/dRsacao.png",
-    "url": "https://livefta.malimarcdn.com/ftaedge00/hmongstartv.sdp/playlist.m3u8",
-    "iptvOrg": "HmongStarTV.us",
-    "bulk": "1"
-  },
-  {
-    "name": "Hmong TV Network",
-    "id": "HmongTVNetwork.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://yt3.googleusercontent.com/aj3kdBQTgfxP-bDnleou4m1ykjPRFexvfTZZuvWlNc75Hn9-NTqXYEdEJ_KOcTSsbKj24K1B9BM=s512-c-k-c0x00ffffff-no-rj",
-    "url": "https://livefta.malimarcdn.com/ftaedge00/cvabroadcasting.stream/playlist.m3u8",
-    "iptvOrg": "HmongTVNetwork.us",
     "bulk": "1"
   },
   {
@@ -3155,15 +3143,6 @@
     "bulk": "1"
   },
   {
-    "name": "Jewish Life Television",
-    "id": "JewishLifeTelevision.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://yt3.googleusercontent.com/i6ETvgNzA8vvGCo-Ih6eo2XZUwz2VVMnstLyNZVXBlwa4uOeUIEl-3tzphB8phJaibe-FPQ5Fw=s512-c-k-c0x00ffffff-no-rj",
-    "url": "https://jlt-jltv-strimm.otteravision.com/jlt/jltv/jltv.m3u8",
-    "iptvOrg": "JewishLifeTelevision.us",
-    "bulk": "1"
-  },
-  {
     "name": "Johnny Carson TV",
     "id": "JohnnyCarsonTV.us@SD",
     "group": "US Series",
@@ -3188,33 +3167,6 @@
     "logoUrl": "https://i.imgur.com/S4r98AB.png",
     "url": "https://amg00514-noseybaxterllc-realnosey-cineverse-tqbpv.amagi.tv/playlist/amg00514-noseybaxterllc-realnosey-cineverse/playlist.m3u8",
     "iptvOrg": "JudgeNosey.us",
-    "bulk": "1"
-  },
-  {
-    "name": "Jus Hindi",
-    "id": "JusHindi.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/5GI7Nh7.png",
-    "url": "http://103.154.3.101:5001/live/960.m3u8",
-    "iptvOrg": "JusHindi.us",
-    "bulk": "1"
-  },
-  {
-    "name": "Jus One",
-    "id": "JusOne.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/8NutGr2.png",
-    "url": "http://103.154.3.101:5001/live/961.m3u8",
-    "iptvOrg": "JusOne.us",
-    "bulk": "1"
-  },
-  {
-    "name": "Jus Punjabi",
-    "id": "JusPunjabi.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://jiotvimages.cdn.jio.com/dare_images/images/JUSPunjabi.png",
-    "url": "http://103.154.3.101:5001/live/959.m3u8",
-    "iptvOrg": "JusPunjabi.us",
     "bulk": "1"
   },
   {
@@ -3245,15 +3197,6 @@
     "bulk": "1"
   },
   {
-    "name": "Kajou TV [Not 24/7]",
-    "id": "KajouTV.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/2XzghdT.png",
-    "url": "https://video1.getstreamhosting.com:1936/8055/8055/playlist.m3u8",
-    "iptvOrg": "KajouTV.us",
-    "bulk": "1"
-  },
-  {
     "name": "Kaloopy TV",
     "id": "KaloopyTV.us@SD",
     "group": "US Lifestyle",
@@ -3269,24 +3212,6 @@
     "logoUrl": "https://i.imgur.com/Tiy3Ur2.png",
     "url": "https://d1kt53vrikzr5o.cloudfront.net/v1/lol_lolnetwork_5/samsungheadend_us/latest/main/hls/playlist.m3u8",
     "iptvOrg": "KevinHartsLOLNetwork.us",
-    "bulk": "1"
-  },
-  {
-    "name": "KIIO-LD 10.1",
-    "id": "KIIOLD101.us@HD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/wkzwXFO.png",
-    "url": "http://livestream.usatv.com/hls/master-iUSATVLIVENET.m3u8",
-    "iptvOrg": "KIIOLD101.us",
-    "bulk": "1"
-  },
-  {
-    "name": "KIIO-LD 10.4",
-    "id": "KIIOLD104.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/Spu4s89.png",
-    "url": "https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8",
-    "iptvOrg": "KIIOLD104.us",
     "bulk": "1"
   },
   {
@@ -3533,30 +3458,12 @@
     "bulk": "1"
   },
   {
-    "name": "MBC America",
-    "id": "MBCAmerica.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/RRc23ra.png",
-    "url": "https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8",
-    "iptvOrg": "MBCAmerica.us",
-    "bulk": "1"
-  },
-  {
     "name": "MBC Drama USA",
     "id": "MBCDramaUSA.us@SD",
     "group": "US Series",
     "logoUrl": "https://i.imgur.com/g5PWnqp.png",
     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama-usa/ea2f5db904aff224b7066e59c7f585a2/index.m3u8",
     "iptvOrg": "MBCDramaUSA.us",
-    "bulk": "1"
-  },
-  {
-    "name": "MCN6 Arts Channel [Not 24/7]",
-    "id": "MCN6ArtsChannel.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/j6IiysJ.png",
-    "url": "https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_COMEDY.smil/Playlist.m3u8",
-    "iptvOrg": "MCN6ArtsChannel.us",
     "bulk": "1"
   },
   {
@@ -3602,24 +3509,6 @@
     "logoUrl": "https://provider-static.plex.tv/a/epg/channels/logos/gracenote/a1a2cdc3d6f0714c586e9959732580c7.png",
     "url": "https://linear-897.frequency.stream/dist/cineverse/897/hls/master/playlist.m3u8",
     "iptvOrg": "MidnightPulp.us",
-    "bulk": "1"
-  },
-  {
-    "name": "Midpen Media Center Channel 30",
-    "id": "MidpenMediaCenterChannel30.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/RPJiolQ.png",
-    "url": "https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8",
-    "iptvOrg": "MidpenMediaCenterChannel30.us",
-    "bulk": "1"
-  },
-  {
-    "name": "Midpen Media Center Channel 75",
-    "id": "MidpenMediaCenterChannel75.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/RPJiolQ.png",
-    "url": "https://5c2974786200d.streamlock.net/live-chan75/ngrp:ch75_all/playlist.m3u8",
-    "iptvOrg": "MidpenMediaCenterChannel75.us",
     "bulk": "1"
   },
   {
@@ -3890,24 +3779,6 @@
     "logoUrl": "https://i.imgur.com/8dUS3Ih.png",
     "url": "http://138.59.177.78:9999/play/a0gg/index.m3u8",
     "iptvOrg": "Novelisima.us",
-    "bulk": "1"
-  },
-  {
-    "name": "NYXT",
-    "id": "NYXT.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/7kuluji.png",
-    "url": "https://reflect-stream-bronxnet.cablecast.tv/live-10/live/live.m3u8",
-    "iptvOrg": "NYXT.us",
-    "bulk": "1"
-  },
-  {
-    "name": "Olelo 53",
-    "id": "Olelo53.us@SD",
-    "group": "US Culture",
-    "logoUrl": "https://i.imgur.com/xDuUrj9.png",
-    "url": "https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_011/playlist.m3u8",
-    "iptvOrg": "Olelo53.us",
     "bulk": "1"
   },
   {

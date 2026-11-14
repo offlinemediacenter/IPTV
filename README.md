@@ -34,10 +34,10 @@ and fashion channels), Vevo's free channels (US and Spain) and
 | **Documentary** (4) | Persiana Medical, Persiana Docs, Persiana Travel, Persiana Voyage |
 | **Kids** (4) | Persiana Junior, Persiana Teen, Pooya TV, Pooya TV Plus |
 | **Sports** (2) | Persiana Fight, Varzesh TV |
-| **Radio** (16) | PMC Radio (Planeta), PMC Radio (Select), Radio Farda, Iran International Radio, RFI Persian, Radio Faaz, Radio Navahang, Radio Simorgh, Radio Shadi, Persian Vibe Radio, Farsi Frequency, Radio Yar Plus, Radio Yar LA, Iran On Air, Radio Hamrah, Radio ZZA |
+| **Radio** (28) | PMC Radio (Planeta), PMC Radio (Select), Radio Farda, Iran International Radio, RFI Persian, Radio Faaz, Radio Navahang, Radio Simorgh, Radio Shadi, Persian Vibe Radio, Farsi Frequency, Radio Yar Plus, Radio Yar LA, Iran On Air, Radio Hamrah, Radio ZZA, Radio Javan, Radio Ava, Radio Tehran, Radio Payam, Radio Goftogoo, Radio Eghtesad, Radio Iran, Radio Namayesh, Radio Saba, Radio Farhang, Radio Salamat, Radio Varzesh |
 
 **US channels** (groups `US Music`, `US Movies`, `US Series`, `US Classic`, `US Entertainment`,
-`US Comedy`, `US Lifestyle`, `US Cooking`, `US Travel`, `US Culture`): music, movie, series and
+`US Comedy`, `US Lifestyle`, `US Cooking`, `US Travel`): music, movie, series and
 entertainment channels from the iptv-org US list (except Vevo, which has its own group above),
 including Pluto TV, Tubi and Plex channels. Logos link straight to the source, nothing is
 stored in `Logos/`.
