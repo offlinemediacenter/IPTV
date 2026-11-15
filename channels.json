@@ -508,7 +508,7 @@
     "id": "FashionTVSecrets.fr",
     "group": "Fashion",
     "logo": "IPTV_FashionTVSecrets.png",
-    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/91757fcbb3c6445ca6f53e7d36cb3da4/media/manifest.m3u8/0.m3u8",
+    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/a41131d6ea9244c8b44f27f26c92e34d/media/manifest.m3u8/0.m3u8",
     "iptvOrg": "FashionTVSecrets.fr"
   },
   {
@@ -763,7 +763,7 @@
     "id": "PowerDance.tr",
     "group": "Music",
     "logo": "IPTV_PowerDance.png",
-    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1189415323",
+    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1191989922",
     "iptvOrg": "PowerDance.tr"
   },
   {
@@ -3417,7 +3417,7 @@
     "id": "Maxcine2.us@HD",
     "group": "US Movies",
     "logoUrl": "https://gia.tv/streams/pptv/209163.png",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8",
+    "url": "https://183.giatvcdn.com/giatvplayout7/giatv-209163/tracks-v1a1/mono.ts.m3u8",
     "iptvOrg": "Maxcine2.us",
     "bulk": "1"
   },
@@ -3426,7 +3426,7 @@
     "id": "Maxcine.us@HD",
     "group": "US Movies",
     "logoUrl": "https://gia.tv/streams/pptv/208138.png",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-208138/playlist.m3u8",
+    "url": "https://183.giatvcdn.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.ts.m3u8",
     "iptvOrg": "Maxcine.us",
     "bulk": "1"
   },
@@ -3435,7 +3435,7 @@
     "id": "MaxcineComedy.us@HD",
     "group": "US Movies",
     "logoUrl": "https://gia.tv/streams/pptv/208730.png",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8",
+    "url": "https://183.giatvcdn.com/giatvplayout7/giatv-208730/tracks-v1a1/mono.ts.m3u8",
     "iptvOrg": "MaxcineComedy.us",
     "bulk": "1"
   },
@@ -3444,7 +3444,7 @@
     "id": "MaxcineFamily.us@HD",
     "group": "US Movies",
     "logoUrl": "https://gia.tv/streams/pptv/208817.png",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8",
+    "url": "https://183.giatvcdn.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.ts.m3u8",
     "iptvOrg": "MaxcineFamily.us",
     "bulk": "1"
   },
@@ -3453,7 +3453,7 @@
     "id": "MaxcineKids.us@HD",
     "group": "US Movies",
     "logoUrl": "https://gia.tv/streams/pptv/209909.png",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8",
+    "url": "https://183.giatvcdn.com/giatvplayout7/giatv-209909/tracks-v1a1/mono.ts.m3u8",
     "iptvOrg": "MaxcineKids.us",
     "bulk": "1"
   },

@@ -118,7 +118,7 @@ http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chu
 #EXTINF:-1 tvg-ID="FashionTV+" tvg-name="FashionTV+" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/FashionTVPlus.jpg" group-title="Fashion",FashionTV+
 https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8
 #EXTINF:-1 tvg-ID="FashionTVSecrets.fr" tvg-name="FashionTV Secrets" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVSecrets.png" group-title="Fashion",FashionTV Secrets
-https://ssai.aniview.com/api/v1/hls/streams/sessions/91757fcbb3c6445ca6f53e7d36cb3da4/media/manifest.m3u8/0.m3u8
+https://ssai.aniview.com/api/v1/hls/streams/sessions/a41131d6ea9244c8b44f27f26c92e34d/media/manifest.m3u8/0.m3u8
 #EXTINF:-1 tvg-ID="GlobalFashionChannel.us" tvg-name="Global Fashion Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GlobalFashionChannel.png" group-title="Fashion",Global Fashion Channel
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/cdbe280e-0aea-4bbe-861f-fd115abcfec7_1080p.m3u8
 #EXTINF:-1 tvg-ID="FashionTVParisLOriginal.fr@SD" tvg-name="FashionTV Paris L'Original" tvg-logo="https://i.imgur.com/GFTAN5Q.png" group-title="Fashion",FashionTV Paris L'Original
@@ -157,14 +157,12 @@ https://t2hls.wns.live/hls/stream.m3u8
 https://a-cdn.klowdtv.com/live3/clubbingtv_720p/chunks.m3u8
 #EXTINF:-1 tvg-ID="DeejayTV.it" tvg-name="Deejay TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_DeejayTV.png" group-title="Music",Deejay TV
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b3230963.m3u8
-#EXTINF:-1 tvg-ID="DeluxeDance.de" tvg-name="Deluxe Dance" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_DeluxeDance.png" group-title="Music",Deluxe Dance
-https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Streams/DeluxeDance.m3u8
 #EXTINF:-1 tvg-ID="BestofDanceTV.ee" tvg-name="Best of Dance TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BestofDanceTV.png" group-title="Music",Best of Dance TV
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 #EXTINF:-1 tvg-ID="DanceTVTechnoWarehouse.ee" tvg-name="DanceTV Techno Warehouse" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_DanceTVTechnoWarehouse.png" group-title="Music",DanceTV Techno Warehouse
 https://m2b2.worldcast.tv:7443/dancetelevisionthree/stream_2.m3u8
 #EXTINF:-1 tvg-ID="PowerDance.tr" tvg-name="Power Dance" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PowerDance.png" group-title="Music",Power Dance
-https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1189415323
+https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1191989922
 #EXTINF:-1 tvg-ID="Number1Dance.tr" tvg-name="Number 1 Dance" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Number1Dance.png" group-title="Music",Number 1 Dance
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/chunklist.m3u8
 #EXTINF:-1 tvg-ID="DanceFM.cl" tvg-name="Dance FM" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_DanceFM.png" group-title="Music",Dance FM
@@ -339,14 +337,6 @@ https://jmp2.uk/plu-60a3d889a5b3690008dc7fe8.m3u8
 https://bbb-barkt-streamstak.otteravision.com/bbb/barkt/barkt.m3u8
 #EXTINF:-1 tvg-ID="BattlestarGalactica.us@SD" tvg-name="Battlestar Galactica" tvg-logo="https://images.pluto.tv/channels/69d7ebff029c431826bd328e/colorLogoPNG_1776982986391.png" group-title="US Movies",Battlestar Galactica
 https://jmp2.uk/plu-69d7ebff029c431826bd328e.m3u8
-#EXTINF:-1 tvg-ID="BeachTVFloridaAlabama.us@SD" tvg-name="Beach TV Florida & Alabama" tvg-logo="https://i.imgur.com/weypM9C.png" group-title="US Travel",Beach TV Florida & Alabama
-http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8
-#EXTINF:-1 tvg-ID="BeachTVKeyWestFloridaKeys.us@SD" tvg-name="Beach TV Key West & Florida Keys" tvg-logo="https://i.imgur.com/XhDBdff.png" group-title="US Travel",Beach TV Key West & Florida Keys
-https://5ed325193d4e1.streamlock.net:444/LiveTV/KTVHD/playlist.m3u8
-#EXTINF:-1 tvg-ID="BeachTVMyrtleBeachTheGrandStrand.us@SD" tvg-name="Beach TV Myrtle Beach & The Grand Strand" tvg-logo="https://i.imgur.com/aLYz7Bv.png" group-title="US Travel",Beach TV Myrtle Beach & The Grand Strand
-http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
-#EXTINF:-1 tvg-ID="BeachTVPanamaCity.us@SD" tvg-name="Beach TV Panama City" tvg-logo="https://i.imgur.com/HCQDvEe.png" group-title="US Travel",Beach TV Panama City
-http://media4.tripsmarter.com:1935/LiveTV/BTVHD/playlist.m3u8
 #EXTINF:-1 tvg-ID="BestofDrPhil.us@SD" tvg-name="Best of Dr Phil" tvg-logo="https://i.imgur.com/Jj0wTFQ.png" group-title="US Entertainment",Best of Dr Phil
 https://jmp2.uk/plu-666815f24b9fb400083f7e31.m3u8
 #EXTINF:-1 tvg-ID="BETCinema.us@SD" tvg-name="BET Cinema" tvg-logo="https://images.pluto.tv/channels/58af4c093a41ca9d4ecabe96/colorLogoPNG_1759338280891.png" group-title="US Movies",BET Cinema
@@ -627,8 +617,6 @@ https://streamingserver000.viewtv.cloud/VIEWTVNETWORK-KALOOPY/index.m3u8
 https://wggstv16.ddns.net:9953/hls/KMCT1.m3u8
 #EXTINF:-1 tvg-ID="KNino.us@SD" tvg-name="KNino" tvg-logo="https://ipuntotv.com/IMAGES/Knino-logo.png" group-title="US Entertainment",KNino
 https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/kninohdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-#EXTINF:-1 tvg-ID="KNOVCD411.us@HD" tvg-name="KNOV-CD 41.1" tvg-logo="https://i.imgur.com/D7Lzqyl.png" group-title="US Travel",KNOV-CD 41.1
-http://media4.tripsmarter.com:1935/LiveTV/NOTVHD/playlist.m3u8
 #EXTINF:-1 tvg-ID="LiveMusic.us@SD" tvg-name="Live Music" tvg-logo="https://images.pluto.tv/channels/5873fc21cad696fb37aa9054/colorLogoPNG.png" group-title="US Entertainment",Live Music
 https://jmp2.uk/plu-5873fc21cad696fb37aa9054.m3u8
 #EXTINF:-1 tvg-ID="LIVExLIVE.us@SD" tvg-name="LIVExLIVE" tvg-logo="https://i.imgur.com/KFzEoed.png" group-title="US Music",LIVExLIVE
@@ -647,6 +635,16 @@ https://jmp2.uk/plu-687fea9a4fa995eff284a1c8.m3u8
 https://jmp2.uk/plu-60f754f98185580007eb0754.m3u8
 #EXTINF:-1 tvg-ID="MaverickBlackCinema.us@SD" tvg-name="Maverick Black Cinema" tvg-logo="https://images.fubo.tv/station_logos/maverick_black_cinema_c.png" group-title="US Movies",Maverick Black Cinema
 https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-ID="Maxcine2.us@HD" tvg-name="Maxcine 2" tvg-logo="https://gia.tv/streams/pptv/209163.png" group-title="US Movies",Maxcine 2
+https://183.giatvcdn.com/giatvplayout7/giatv-209163/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-ID="Maxcine.us@HD" tvg-name="Maxcine" tvg-logo="https://gia.tv/streams/pptv/208138.png" group-title="US Movies",Maxcine
+https://183.giatvcdn.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-ID="MaxcineComedy.us@HD" tvg-name="Maxcine Comedy" tvg-logo="https://gia.tv/streams/pptv/208730.png" group-title="US Movies",Maxcine Comedy
+https://183.giatvcdn.com/giatvplayout7/giatv-208730/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-ID="MaxcineFamily.us@HD" tvg-name="Maxcine Family" tvg-logo="https://gia.tv/streams/pptv/208817.png" group-title="US Movies",Maxcine Family
+https://183.giatvcdn.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-ID="MaxcineKids.us@HD" tvg-name="Maxcine Kids" tvg-logo="https://gia.tv/streams/pptv/209909.png" group-title="US Movies",Maxcine Kids
+https://183.giatvcdn.com/giatvplayout7/giatv-209909/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-ID="MBCDramaUSA.us@SD" tvg-name="MBC Drama USA" tvg-logo="https://i.imgur.com/g5PWnqp.png" group-title="US Series",MBC Drama USA
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama-usa/ea2f5db904aff224b7066e59c7f585a2/index.m3u8
 #EXTINF:-1 tvg-ID="MetaleitorTV.us@SD" tvg-name="Metaleitor TV" tvg-logo="https://new.opencaster.com/uploads/logos/logo_14_1752798826.png" group-title="US Music",Metaleitor TV
@@ -1181,6 +1179,8 @@ https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8
 https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8
 #EXTINF:-1 tvg-ID="AmericanNinjaWarrior.us@SD" tvg-name="American Ninja Warrior" tvg-logo="https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792421696158.png" group-title="US Sports",American Ninja Warrior
 https://d4whmvwm0rdvi.cloudfront.net/10007/99951318/hls/master.m3u8?ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_coppa=0&ads._fw_deviceMake=GitHubAction&ads._fw_deviceType=3-Connected_TV&ads._fw_device_model=PythonScript&ads._fw_did=a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_vcid2=512116:a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads.afid=405342864&ads.appName=XumoPlay&ads.appVersion=1.0.0&ads.asnw=169843&ads.channelId=99951318&ads.csid=xumo_web_NBCUAmericanNinjaWarrior_ssai_cro&ads.sfid=19647852&ads.xumo_channelId=99951318&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior
+#EXTINF:-1 tvg-ID="beINSportsUSA.us@SD" tvg-name="beIN Sports USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="US Sports",beIN Sports USA
+https://tvsen6.aynaott.com/beinsports/index.m3u8
 #EXTINF:-1 tvg-ID="beINSPORTSXTRA.us@SD" tvg-name="beIN SPORTS XTRA" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" group-title="US Sports",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="beINSPORTSXTRAenEspanol.us@SD" tvg-name="beIN SPORTS XTRA en Espanol" tvg-logo="https://i.imgur.com/V562tpO.png" group-title="US Sports",beIN SPORTS XTRA en Espanol
@@ -1229,6 +1229,8 @@ http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-ID="FITE247.us@SD" tvg-name="FITE 24/7" tvg-logo="https://i.imgur.com/ESV6qgH.png" group-title="US Sports",FITE 24/7
 https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
+#EXTINF:-1 tvg-ID="FoxNewsChannel.us@SD" tvg-name="Fox News Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="US News",Fox News Channel
+https://tvsen6.aynaott.com/foxnews/index.m3u8
 #EXTINF:-1 tvg-ID="FoxNewsInternational.us@SD" tvg-name="Fox News International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="US News",Fox News International
 http://103.253.74.210:7070/stream/124/index.m3u8
 #EXTINF:-1 tvg-ID="FoxNewsRadio.us@SD" tvg-name="Fox News Radio" tvg-logo="https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png" group-title="US News",Fox News Radio
@@ -1241,6 +1243,8 @@ https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41
 https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
 #EXTINF:-1 tvg-ID="GolazoNetwork.us@SD" tvg-name="Golazo Network" tvg-logo="https://images.pluto.tv/channels/63a0e33a45264d000850ed7e/colorLogoPNG_1731835813404.png" group-title="US Sports",Golazo Network
 https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8
+#EXTINF:-1 tvg-ID="GolfChannel.us@SD" tvg-name="Golf Channel (United States)" tvg-logo="https://i.imgur.com/Lgux6Ik.png" group-title="US Sports",Golf Channel (United States)
+https://tvsen6.aynaott.com/golfchannel/index.m3u8
 #EXTINF:-1 tvg-ID="HBCUGOSports.us@SD" tvg-name="HBCU-GO Sports" tvg-logo="https://i.imgur.com/TY6sx5W.png" group-title="US Sports",HBCU-GO Sports
 https://a-cdn.klowdtv.com/live3/hbcugo_720p/playlist.m3u8
 #EXTINF:-1 tvg-ID="HLN.us@SD" tvg-name="HLN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/HLN_%28TV_network%29_2017_logo.svg/960px-HLN_%28TV_network%29_2017_logo.svg.png" group-title="US News",HLN
@@ -1253,6 +1257,8 @@ https://aka-live1050.delivery.roku.com/eaf7d889-16e0-4c14-a299-a2932df9f467/t2-o
 https://tvsen6.aynaott.com/MarqueeSportsNetwork/index.m3u8
 #EXTINF:-1 tvg-ID="MLB.us@SD" tvg-name="MLB" tvg-logo="https://i.imgur.com/ym3su2J.png" group-title="US Sports",MLB
 https://jmp2.uk/plu-5e66968a70f34c0007d050be.m3u8
+#EXTINF:-1 tvg-ID="MSNOW.us@SD" tvg-name="MS NOW" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/MS_NOW_logo.svg/960px-MS_NOW_logo.svg.png" group-title="US News",MS NOW
+https://tvsen6.aynaott.com/msnbc/index.m3u8
 #EXTINF:-1 tvg-ID="NBATV.us@SD" tvg-name="NBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" group-title="US Sports",NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
 #EXTINF:-1 tvg-ID="NBCNewsNOW.us@SD" tvg-name="NBC News NOW" tvg-logo="https://i.imgur.com/JZt2qh5.png" group-title="US News",NBC News NOW
@@ -1337,8 +1343,6 @@ https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
 #EXTINF:-1 tvg-ID="TVSWomenSports.us@SD" tvg-name="TVS Women Sports" tvg-logo="https://i.imgur.com/8hC4PfF.png" group-title="US Sports",TVS Women Sports
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
-#EXTINF:-1 tvg-ID="TyCSportsUSA.ar@SD" tvg-name="TyC Sports USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="US Sports",TyC Sports USA
-http://45.170.130.224:8000/play/a020/index.m3u8
 #EXTINF:-1 tvg-ID="Unbeaten.us@SD" tvg-name="Unbeaten" tvg-logo="https://i.imgur.com/LmkNt3v.png" group-title="US Sports",Unbeaten
 https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
 #EXTINF:-1 tvg-ID="USATODAY.us@SD" tvg-name="USA TODAY" tvg-logo="https://i.imgur.com/37K0AZX.png" group-title="US News",USA TODAY
