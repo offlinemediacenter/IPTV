@@ -5342,7 +5342,7 @@
     "name": "Wild 'N Out",
     "id": "WildNOut.us@SD",
     "group": "US Series",
-    "logoUrl": "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true",
+    "logo": "IPTV_WildNOut.png",
     "url": "https://jmp2.uk/plu-5d48678d34ceb37d3c458a55.m3u8",
     "iptvOrg": "WildNOut.us",
     "bulk": "1"
