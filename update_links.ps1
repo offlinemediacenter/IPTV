@@ -257,9 +257,21 @@ function Save-Logo512($Image, [string]$Path) {
 # Download an image and save it as a 512x512 PNG. Returns $true on success.
 function Save-LogoFromUrl([string]$Url, [string]$Path) {
     try {
-        $wc = New-Object Net.WebClient
-        $wc.Headers.Add('User-Agent', 'Mozilla/5.0')
-        $bytes = $wc.DownloadData($Url)
+        $bytes = $null
+        foreach ($wait in 0, 4, 10, 20) {
+            if ($wait) { Start-Sleep -Seconds $wait }
+            try {
+                $wc = New-Object Net.WebClient
+                $wc.Headers.Add('User-Agent', 'IPTV-playlist-updater/1.0 (personal playlist)')
+                $bytes = $wc.DownloadData($Url)
+                break
+            } catch {
+                $code = if ($_.Exception.InnerException -is [Net.WebException] -and $_.Exception.InnerException.Response) { [int]$_.Exception.InnerException.Response.StatusCode } else { 0 }
+                if ($code -ne 429) { return $false }     # only rate limits are worth retrying
+            }
+        }
+        if (-not $bytes) { return $false }
+        if ($Url -match 'wikimedia\.org') { Start-Sleep -Milliseconds 800 }   # be polite to Wikimedia
         $ms = New-Object IO.MemoryStream (, $bytes)
         $img = [Drawing.Image]::FromStream($ms)
         if ($img.Width -lt 64 -or $img.Height -lt 64) { $img.Dispose(); return $false }   # tiny favicon: would be blurry
@@ -303,7 +315,6 @@ function Save-TextLogo([string]$Name, [string]$Path) {
 # Give a channel a logo if it has none (or its file is missing).
 # Official logo from persianagroup.tv / iptv-org first, text placeholder otherwise.
 function Set-MissingLogo($Ch) {
-    if ($Ch.PSObject.Properties['logoUrl'] -and $Ch.logoUrl) { return $false }   # bulk channel: logo linked directly
     $has = $Ch.PSObject.Properties['logo'] -and $Ch.logo
     if ($has -and (Test-Path -LiteralPath (Join-Path $LogoDir $Ch.logo))) { return $false }
 
@@ -513,10 +524,24 @@ foreach ($ch in $channels) {
     if (Set-MissingLogo $ch) { $newLogos += 'Logos/' + $ch.logo; $masterChanged = $true }
 }
 
+# Delete logo files no channel uses. Files in Logos\keep\ are never touched.
+$usedLogos = @{}
+foreach ($ch in $channels) { if ($ch.PSObject.Properties['logo'] -and $ch.logo) { $usedLogos[$ch.logo.ToLower()] = $true } }
+$removedLogos = @()
+if ($usedLogos.Count -gt 0) {
+    foreach ($f in Get-ChildItem -LiteralPath $LogoDir -File) {
+        if (-not $usedLogos.ContainsKey($f.Name.ToLower())) {
+            Remove-Item -LiteralPath $f.FullName
+            $removedLogos += $f.Name
+            Write-Host "  removed unused Logos/$($f.Name)"
+        }
+    }
+}
+
 # ---------------------------------------------------------------- write
 $m3u = @('#EXTM3U')
 foreach ($ch in $working) {
-    $logo = if ($ch.PSObject.Properties['logoUrl'] -and $ch.logoUrl) { $ch.logoUrl } elseif ($ch.PSObject.Properties['logo'] -and $ch.logo) { $LogoBase + $ch.logo } else { '' }
+    $logo = if ($ch.PSObject.Properties['logo'] -and $ch.logo) { $LogoBase + $ch.logo } elseif ($ch.PSObject.Properties['logoUrl'] -and $ch.logoUrl) { $ch.logoUrl } else { '' }
     $m3u += '#EXTINF:-1 tvg-ID="{0}" tvg-name="{1}" tvg-logo="{2}" group-title="{3}",{4}' -f `
             $ch.id, $ch.name, $logo, $ch.group, $ch.name
     $m3u += if ($playUrl.ContainsKey($ch.name)) { $StreamBase + $playUrl[$ch.name] } else { $ch.url }
@@ -561,6 +586,7 @@ if ($LASTEXITCODE -eq 0) { Write-Host "Nothing new to commit."; exit 0 }
 $msg = "Auto-update playlist: $($working.Count)/$($channels.Count) channels working"
 if ($dropped.Count -le 10) { $msg += " (left out: $($dropped -join ', '))" } else { $msg += " ($($dropped.Count) left out)" }
 if ($newLogos.Count) { $msg += "; new logos: $($newLogos.Count)" }
+if ($removedLogos.Count) { $msg += "; removed unused logos: $($removedLogos.Count)" }
 
 git -C "$Root" commit -q -m $msg
 if ($LASTEXITCODE -ne 0) { Write-Host "git commit failed."; exit 1 }

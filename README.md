@@ -39,8 +39,7 @@ and fashion channels), Vevo's free channels (US and Spain) and
 **US channels** (groups `US Music`, `US Movies`, `US Series`, `US Classic`, `US Entertainment`,
 `US Comedy`, `US Lifestyle`, `US Cooking`, `US Travel`): music, movie, series and
 entertainment channels from the iptv-org US list (except Vevo, which has its own group above),
-including Pluto TV, Tubi and Plex channels. Logos link straight to the source, nothing is
-stored in `Logos/`.
+including Pluto TV, Tubi and Plex channels.
 
 **iHeart radio** (one group, `iHeart Radio`): the original iHeart music channels
 plus the top local music stations (e.g. Z100 New York) from iHeart's public station directory.
@@ -75,6 +74,10 @@ highest resolution. If the audio comes as a separate track (e.g. MBC Persia), it
 writes a small pinned playlist to `Streams/` with just the top video quality plus
 the audio, and the playlist points there. Streams whose links carry expiring
 tokens (Pluto TV) are left adaptive.
+
+**All logos are stored locally.** Every channel's logo is saved in `Logos/` (512x512 PNG) and
+the playlist links to that copy, so a logo can't break when its original website changes. The `.bat`
+also deletes files in `Logos/` that no channel uses; put a file in `Logos/keep/` to protect it.
 
 **Logos are automatic.** If a channel has no `logo` (or its file is missing),
 the `.bat` downloads the official one (from the optional `logoSrc` link,
