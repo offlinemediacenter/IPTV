@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-ID="BBCPersian.uk" tvg-name="BBC Persian" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BBCPersian.png" group-title="News",BBC Persian
-https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/hevc_iptv_mse_v0.mpd
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8
 #EXTINF:-1 tvg-ID="IranInternational.uk" tvg-name="Iran International" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_IranInternational.png" group-title="News",Iran International
 https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Streams/IranInternational.m3u8
 #EXTINF:-1 tvg-ID="IraneFardaTV.uk" tvg-name="IraneFarda TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_IraneFardaTV.png" group-title="News",IraneFarda TV

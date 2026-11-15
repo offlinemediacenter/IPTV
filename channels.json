@@ -4,7 +4,7 @@
     "id": "BBCPersian.uk",
     "group": "News",
     "logo": "IPTV_BBCPersian.png",
-    "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/hevc_iptv_mse_v0.mpd",
+    "url": "https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8",
     "iptvOrg": "BBCPersian.uk"
   },
   {
