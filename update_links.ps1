@@ -8,7 +8,7 @@
        and the radio-browser.info directory ("radio" name regex);
     If a stream offers several qualities, the highest-resolution one is used.
   Any channel without a logo gets one: the official logo from persianagroup.tv /
-  iptv-org if available (resized to 512x512), otherwise a text placeholder.
+  iptv-org if available (resized to 256x256), otherwise a text placeholder.
     3. if a replacement responds, saves it to channels.json and uses it;
     4. if nothing works, the channel is LEFT OUT of My_Playlist.m3u.
   channels.json always keeps every channel, so a dropped channel comes back
@@ -237,24 +237,26 @@ function Get-ContentRect($Bmp) {
     return New-Object Drawing.Rectangle $minX, $minY, ($maxX - $minX + 1), ($maxY - $minY + 1)
 }
 
-# Draw $Image (plain margins trimmed) centred on a transparent 512x512 canvas, save as PNG.
+$LogoSize = 256
+
+# Draw $Image (plain margins trimmed) centred on a transparent 256x256 canvas, save as PNG.
 function Save-Logo512($Image, [string]$Path) {
     $src = New-Object Drawing.Bitmap $Image
     $rect = Get-ContentRect $src
-    $box = 472                                   # leave a small border inside 512
+    $box = $LogoSize - 40                        # leave a small border
     $s = [Math]::Min($box / $rect.Width, $box / $rect.Height)
     $w = [int]($rect.Width * $s); $h = [int]($rect.Height * $s)
-    $bmp = New-Object Drawing.Bitmap 512, 512
+    $bmp = New-Object Drawing.Bitmap $LogoSize, $LogoSize
     $g = [Drawing.Graphics]::FromImage($bmp)
     $g.Clear([Drawing.Color]::Transparent)
     $g.InterpolationMode = 'HighQualityBicubic'; $g.SmoothingMode = 'HighQuality'; $g.PixelOffsetMode = 'HighQuality'
-    $dest = New-Object Drawing.Rectangle ([int]((512 - $w) / 2)), ([int]((512 - $h) / 2)), $w, $h
+    $dest = New-Object Drawing.Rectangle ([int](($LogoSize - $w) / 2)), ([int](($LogoSize - $h) / 2)), $w, $h
     $g.DrawImage($src, $dest, $rect, [Drawing.GraphicsUnit]::Pixel)
     $src.Dispose()
     $g.Dispose(); $bmp.Save($Path, [Drawing.Imaging.ImageFormat]::Png); $bmp.Dispose()
 }
 
-# Download an image and save it as a 512x512 PNG. Returns $true on success.
+# Download an image and save it as a 256x256 PNG. Returns $true on success.
 function Save-LogoFromUrl([string]$Url, [string]$Path) {
     try {
         $bytes = $null
@@ -294,10 +296,11 @@ function Save-TextLogo([string]$Name, [string]$Path) {
         }
         $text = $text.Substring(0, $best) + "`n" + $text.Substring($best + 1)
     }
-    $bmp = New-Object Drawing.Bitmap 512, 512
+    $bmp = New-Object Drawing.Bitmap $LogoSize, $LogoSize
     $g = [Drawing.Graphics]::FromImage($bmp)
     $g.SmoothingMode = 'AntiAlias'; $g.TextRenderingHint = 'AntiAliasGridFit'
     $g.Clear([Drawing.Color]::Transparent)
+    $g.ScaleTransform($LogoSize / 512, $LogoSize / 512)   # drawing below is laid out for 512
     $r = 72; $p = New-Object Drawing.Drawing2D.GraphicsPath
     $p.AddArc(16, 16, $r, $r, 180, 90); $p.AddArc(496 - $r, 16, $r, $r, 270, 90)
     $p.AddArc(496 - $r, 496 - $r, $r, $r, 0, 90); $p.AddArc(16, 496 - $r, $r, $r, 90, 90); $p.CloseFigure()
