@@ -508,7 +508,7 @@
     "id": "FashionTVSecrets.fr",
     "group": "Fashion",
     "logo": "IPTV_FashionTVSecrets.png",
-    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/86e1924e4c9d466ca0d2f4f9111e10d1/media/manifest.m3u8/0.m3u8",
+    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/979ecd7c21e644fa929dc1c8d797603f/media/manifest.m3u8/0.m3u8",
     "iptvOrg": "FashionTVSecrets.fr"
   },
   {
@@ -778,7 +778,7 @@
     "id": "PowerDance.tr",
     "group": "Music",
     "logo": "IPTV_PowerDance.png",
-    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1206913411",
+    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1209001912",
     "iptvOrg": "PowerDance.tr"
   },
   {
@@ -7308,7 +7308,7 @@
     "group": "US Sports",
     "logo": "IPTV_FuboSportsNetworkusSD.png",
     "logoSrc": "https://i.imgur.com/qFNRJLb.png",
-    "url": "https://dnf08l6u6uxnz.cloudfront.net/master.m3u8",
+    "url": "http://107.167.16.138/fubosportsnetwork/tracks-v1a1/mono.ts.m3u8?token=test",
     "iptvOrg": "FuboSportsNetwork.us",
     "bulk": "1"
   },
