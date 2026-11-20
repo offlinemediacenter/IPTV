@@ -100,7 +100,7 @@
     "id": "IsfahanTV.ir",
     "group": "IRIB",
     "logo": "IPTV_IsfahanTV.png",
-    "url": "https://ncdn.telewebion.ir/esfahan/live/1080p/index.m3u8",
+    "url": "https://live-aburayhan1108.telewebion.ir/ek/esfahan/live/576p/index.m3u8",
     "iptvOrg": "IsfahanTV.ir"
   },
   {
@@ -508,7 +508,7 @@
     "id": "FashionTVSecrets.fr",
     "group": "Fashion",
     "logo": "IPTV_FashionTVSecrets.png",
-    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/979ecd7c21e644fa929dc1c8d797603f/media/manifest.m3u8/0.m3u8",
+    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/e59d0c4918444c3b8f29ffac93fcfe58/media/manifest.m3u8/0.m3u8",
     "iptvOrg": "FashionTVSecrets.fr"
   },
   {
@@ -778,7 +778,7 @@
     "id": "PowerDance.tr",
     "group": "Music",
     "logo": "IPTV_PowerDance.png",
-    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1209001912",
+    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1213618161",
     "iptvOrg": "PowerDance.tr"
   },
   {
@@ -1501,7 +1501,7 @@
     "group": "US Entertainment",
     "logo": "IPTV_ALLBLKGemsusSD.png",
     "logoSrc": "https://i.imgur.com/gnkepQJ.png",
-    "url": "https://df1zke3zj042m.cloudfront.net/playlist.m3u8",
+    "url": "https://amc-allblk-gems-1-us.vizio.wurl.tv/4300.m3u8",
     "iptvOrg": "ALLBLKGems.us",
     "bulk": "1"
   },
@@ -1531,7 +1531,7 @@
     "group": "US Entertainment",
     "logo": "IPTV_AMCenEspanolusSD.png",
     "logoSrc": "https://i.imgur.com/L1h6W5Q.png",
-    "url": "https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8",
+    "url": "https://amc-amcespanol-1-us.vizio.wurl.tv/4300.m3u8",
     "iptvOrg": "AMCenEspanol.us",
     "bulk": "1"
   },
@@ -3351,7 +3351,7 @@
     "group": "US Entertainment",
     "logo": "IPTV_IONTVusEast.png",
     "logoSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/960px-Ion_logo.svg.png",
-    "url": "http://23.237.104.106:8080/USA_ION/index.m3u8",
+    "url": "https://wurlewscripps.global.transmit.live/hls/68b9b0338cacd6fc468c222c/v1/scripps_ion_1/vizio_us/latest/main/hls/playlist.m3u8",
     "iptvOrg": "IONTV.us",
     "bulk": "1"
   },
@@ -5148,7 +5148,7 @@
     "group": "US Classic",
     "logo": "IPTV_TheCarolBurnettShowusSD.png",
     "logoSrc": "https://i.imgur.com/1a03FlX.png",
-    "url": "https://carolburnett-vizio.amagi.tv/playlist.m3u8",
+    "url": "https://vizioaaaa-carol-burnett-vizio-xam92.amagi.tv/ts-us-e2-n1/playlist/vizioAAAA-carol-burnett-vizio/cb573e1f786c6c8a84ce3878d2f34682f3601ef24833ca3571a8548709984d3ff9cfeec0f34bf16a5c8d0bdc63036a575535c3048b7850cfc37ba90735611e769d98af2fdbcf470fb6de5d7c28b37a7cfccf3437e8a4fc8bb8997b72e718863b6020f808675840fcd76bd813725954c7b9551ffee89f3e79287062a7bae06b917c9580a704108c33b3a224ae28a174c5b033aafe34dbc28d05cd1ac627ad4dd9dbe0d48500f3c5d526eb0ee3274b2a4ab90b631ae1a872ccb2bb7a2d896321470d1f81c9f6ad1d6cd716111f909aba5cc555d2eb4700a1191da0e3d76382472a21c72cb2f341b0a8f4f243452badc0611f4dd8d38ca9b4667ded28a9f2a9f17a7eafda373714873d96707b4af087ab1ee591f5f76b861a030fbde05ecf5e3af3adf0af72a50053ec94/2/1920x1080_6137560/index.m3u8",
     "iptvOrg": "TheCarolBurnettShow.us",
     "bulk": "1"
   },
