@@ -508,7 +508,7 @@
     "id": "FashionTVSecrets.fr",
     "group": "Fashion",
     "logo": "IPTV_FashionTVSecrets.png",
-    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/e59d0c4918444c3b8f29ffac93fcfe58/media/manifest.m3u8/0.m3u8",
+    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/8396b221a9174e42b0361dc317328e10/media/manifest.m3u8/0.m3u8",
     "iptvOrg": "FashionTVSecrets.fr"
   },
   {
@@ -746,7 +746,7 @@
     "id": "DeejayTV.it",
     "group": "Music",
     "logo": "IPTV_DeejayTV.png",
-    "url": "https://streamcdni2-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b3179586.m3u8",
+    "url": "https://streamcdni2-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b3247616.m3u8",
     "iptvOrg": "DeejayTV.it"
   },
   {
@@ -778,7 +778,7 @@
     "id": "PowerDance.tr",
     "group": "Music",
     "logo": "IPTV_PowerDance.png",
-    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1213618161",
+    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1222666096",
     "iptvOrg": "PowerDance.tr"
   },
   {
