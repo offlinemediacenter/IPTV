@@ -718,14 +718,6 @@
     "iptvOrg": "AFNTV.ir"
   },
   {
-    "name": "High Vision TV",
-    "id": "HighVisionTV.us",
-    "group": "Music",
-    "logo": "IPTV_HighVisionTV.png",
-    "url": "https://streamer1.connectto.com/HIGHVISION_WEB_1205/tracks-v1a1/mono.ts.m3u8",
-    "iptvOrg": "HighVisionTV.us"
-  },
-  {
     "name": "T2 TV",
     "id": "T2TV.ir",
     "group": "Music",
