@@ -508,7 +508,7 @@
     "id": "FashionTVSecrets.fr",
     "group": "Fashion",
     "logo": "IPTV_FashionTVSecrets.png",
-    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/0e19a72e87df492897a7e6bf52b1dd0d/media/manifest.m3u8/0.m3u8",
+    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/c1ecd7d10eb6492ca2528100fa4754cc/media/manifest.m3u8/0.m3u8",
     "iptvOrg": "FashionTVSecrets.fr"
   },
   {
@@ -778,7 +778,7 @@
     "id": "PowerDance.tr",
     "group": "Music",
     "logo": "IPTV_PowerDance.png",
-    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1226855920",
+    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1231097658",
     "iptvOrg": "PowerDance.tr"
   },
   {
@@ -7688,7 +7688,7 @@
     "group": "US Sports",
     "logo": "IPTV_NFLNetworkusSD.png",
     "logoSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png",
-    "url": "http://198.58.104.90:8989/nfl/index.m3u8",
+    "url": "https://tvsen6.aynaott.com/nfl/tracks-v1a1/mono.ts.m3u8",
     "iptvOrg": "NFLNetwork.us",
     "bulk": "1"
   },
