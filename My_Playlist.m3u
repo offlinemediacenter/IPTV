@@ -118,15 +118,13 @@ http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chu
 #EXTINF:-1 tvg-ID="FashionTV+" tvg-name="FashionTV+" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/FashionTVPlus.jpg" group-title="Fashion",FashionTV+
 https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8
 #EXTINF:-1 tvg-ID="FashionTVSecrets.fr" tvg-name="FashionTV Secrets" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVSecrets.png" group-title="Fashion",FashionTV Secrets
-https://ssai.aniview.com/api/v1/hls/streams/sessions/c1ecd7d10eb6492ca2528100fa4754cc/media/manifest.m3u8/0.m3u8
+https://ssai.aniview.com/api/v1/hls/streams/sessions/dbbe42ad3f584becae8d12dbe0775532/media/manifest.m3u8/0.m3u8
 #EXTINF:-1 tvg-ID="GlobalFashionChannel.us" tvg-name="Global Fashion Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GlobalFashionChannel.png" group-title="Fashion",Global Fashion Channel
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/cdbe280e-0aea-4bbe-861f-fd115abcfec7_1080p.m3u8
 #EXTINF:-1 tvg-ID="FashionTVParisLOriginal.fr@SD" tvg-name="FashionTV Paris L'Original" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVParisLOriginalfrSD.png" group-title="Fashion",FashionTV Paris L'Original
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
 #EXTINF:-1 tvg-ID="FashionTV.ru@SD" tvg-name="FashionTV (Russia)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVruSD.png" group-title="Fashion",FashionTV (Russia)
 http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
-#EXTINF:-1 tvg-ID="FashionTV.in@SD" tvg-name="FashionTV (India)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVinSD.png" group-title="Fashion",FashionTV (India)
-http://163.61.226.31:9981/stream/channelid/448803688?profile=pass
 #EXTINF:-1 tvg-ID="FashionBox.nl@SD" tvg-name="FashionBox" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionBoxnlSD.png" group-title="Fashion",FashionBox
 https://dash2.antik.sk/live/test_fashionbox_medium_atk/playlist.m3u8
 #EXTINF:-1 tvg-ID="CCTVWomensFashion.cn@SD" tvg-name="CCTV Women's Fashion" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CCTVWomensFashioncnSD.png" group-title="Fashion",CCTV Women's Fashion
@@ -164,7 +162,7 @@ https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 #EXTINF:-1 tvg-ID="DanceTVTechnoWarehouse.ee" tvg-name="DanceTV Techno Warehouse" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_DanceTVTechnoWarehouse.png" group-title="Music",DanceTV Techno Warehouse
 https://m2b2.worldcast.tv:7443/dancetelevisionthree/stream_2.m3u8
 #EXTINF:-1 tvg-ID="PowerDance.tr" tvg-name="Power Dance" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PowerDance.png" group-title="Music",Power Dance
-https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1231097658
+https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1235526049
 #EXTINF:-1 tvg-ID="Number1Dance.tr" tvg-name="Number 1 Dance" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Number1Dance.png" group-title="Music",Number 1 Dance
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/chunklist.m3u8
 #EXTINF:-1 tvg-ID="DanceFM.cl" tvg-name="Dance FM" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_DanceFM.png" group-title="Music",Dance FM
@@ -543,8 +541,6 @@ http://23.237.104.106:8080/USA_FUSE/index.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2230
 #EXTINF:-1 tvg-ID="GameShowCentral.us@SD" tvg-name="Game Show Central" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GameShowCentralusSD.png" group-title="US Entertainment",Game Show Central
 https://jmp2.uk/plu-5e54187aae660e00093561d6.m3u8
-#EXTINF:-1 tvg-ID="GameShowNetwork.us@East" tvg-name="Game Show Network [Not 24/7]" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GameShowNetworkusEast.png" group-title="US Entertainment",Game Show Network [Not 24/7]
-https://a-cdn.klowdtv.com/live2/gsn_720p/playlist.m3u8
 #EXTINF:-1 tvg-ID="GirlfriendsFilms.us@SD" tvg-name="Girlfriends Films" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GirlfriendsFilmsusSD.png" group-title="US Movies",Girlfriends Films
 https://jmp2.uk/plu-66ba1e4446762a000855cd87.m3u8
 #EXTINF:-1 tvg-ID="GlobalWorldTV.us@SD" tvg-name="GlobalWorldTV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GlobalWorldTVusSD.png" group-title="US Entertainment",GlobalWorldTV
@@ -619,8 +615,6 @@ https://streams2.sofast.tv/ptnr-yupptv/title-JUST_FOR_LAUGHS_GAGS_YUPPTV/v1/mast
 https://a-cdn.klowdtv.com/live2/justicecentral_720p/playlist.m3u8
 #EXTINF:-1 tvg-ID="KContentbyCJENM.us@SD" tvg-name="K-Content by CJ ENM" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_KContentbyCJENMusSD.png" group-title="US Entertainment",K-Content by CJ ENM
 https://d2q0mzb9bm4w5z.cloudfront.net/68fee8e1_605a_437b_b968_244c3c0d5f24/hls/playlist.m3u8
-#EXTINF:-1 tvg-ID="KaloopyTV.us@SD" tvg-name="Kaloopy TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_KaloopyTVusSD.png" group-title="US Lifestyle",Kaloopy TV
-https://streamingserver000.viewtv.cloud/VIEWTVNETWORK-KALOOPY/index.m3u8
 #EXTINF:-1 tvg-ID="KMCTTV391.us@HD" tvg-name="KMCT-TV 39.1" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_KMCTTV391usHD.png" group-title="US Entertainment",KMCT-TV 39.1
 https://wggstv16.ddns.net:9953/hls/KMCT1.m3u8
 #EXTINF:-1 tvg-ID="KNino.us@SD" tvg-name="KNino" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_KNinousSD.png" group-title="US Entertainment",KNino
