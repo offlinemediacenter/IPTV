@@ -508,7 +508,7 @@
     "id": "FashionTVSecrets.fr",
     "group": "Fashion",
     "logo": "IPTV_FashionTVSecrets.png",
-    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/dbbe42ad3f584becae8d12dbe0775532/media/manifest.m3u8/0.m3u8",
+    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/ce9bb37fa84740e898771aac2289558b/media/manifest.m3u8/0.m3u8",
     "iptvOrg": "FashionTVSecrets.fr"
   },
   {
@@ -625,7 +625,7 @@
     "group": "Fashion",
     "logo": "IPTV_BritainsNextTopModelseSE.png",
     "logoSrc": "https://images.pluto.tv/channels/67a09ddc21af380008088dc3/colorLogoPNG.png",
-    "url": "https://jmp2.uk/plu-67a09e5921af38000808900a.m3u8",
+    "url": "https://jmp2.uk/plu-67a09ddc21af380008088dc3.m3u8",
     "iptvOrg": "BritainsNextTopModel.se",
     "bulk": "1"
   },
@@ -738,7 +738,7 @@
     "id": "DeejayTV.it",
     "group": "Music",
     "logo": "IPTV_DeejayTV.png",
-    "url": "https://streamcdni2-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b3247616.m3u8",
+    "url": "https://streamcdni1-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b3864027.m3u8",
     "iptvOrg": "DeejayTV.it"
   },
   {
@@ -770,7 +770,7 @@
     "id": "PowerDance.tr",
     "group": "Music",
     "logo": "IPTV_PowerDance.png",
-    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1235526049",
+    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1240299233",
     "iptvOrg": "PowerDance.tr"
   },
   {
@@ -1403,7 +1403,7 @@
     "group": "US Entertainment",
     "logo": "IPTV_AceTVusSD.png",
     "logoSrc": "https://i.imgur.com/KtXQeeZ.png",
-    "url": "https://c.streamhoster.com/link/hls/W5s3fS/inLo5pcsHjo/iqg9wps0m1x_5/playlist.m3u8",
+    "url": "https://2-fss-1.streamhoster.com/pl_154/amlst:205432-2055980/720/aspen720SCTE35.m3u8",
     "iptvOrg": "AceTV.us",
     "bulk": "1"
   },
@@ -1453,7 +1453,7 @@
     "group": "US Comedy",
     "logo": "IPTV_AFVusSD.png",
     "logoSrc": "https://i.imgur.com/TOB9vmW.png",
-    "url": "https://linear-12.frequency.stream/dist/plex/12/hls/master/playlist.m3u8",
+    "url": "https://linear-1208.frequency.stream/mt/vizio/1208/hls/master/playlist_1920x1080.m3u8",
     "iptvOrg": "AFV.us",
     "bulk": "1"
   },
@@ -3233,7 +3233,7 @@
     "group": "US Classic",
     "logo": "IPTV_ILoveLucyusSD.png",
     "logoSrc": "https://images.pluto.tv/channels/63a2f1dda0d69700078b7cba/colorLogoPNG.png",
-    "url": "https://jmp2.uk/plu-63a2f1dda0d69700078b7cba.m3u8",
+    "url": "https://jmp2.uk/plu-634f3011f4fff20007431641.m3u8",
     "iptvOrg": "ILoveLucy.us",
     "bulk": "1"
   },
@@ -3243,7 +3243,7 @@
     "group": "US Series",
     "logo": "IPTV_iCarlyusSD.png",
     "logoSrc": "https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png",
-    "url": "https://jmp2.uk/plu-6450209d939a5900084dba1d.m3u8",
+    "url": "https://jmp2.uk/plu-620ff46e0a576e0007dc2f89.m3u8",
     "iptvOrg": "iCarly.us",
     "bulk": "1"
   },
@@ -3793,7 +3793,7 @@
     "group": "US Series",
     "logo": "IPTV_MissionImpossibleusSD.png",
     "logoSrc": "https://images.pluto.tv/channels/62ea43aa0c43540007f2db96/colorLogoPNG.png",
-    "url": "https://jmp2.uk/plu-5f77977bd924d80007eee60c.m3u8",
+    "url": "https://jmp2.uk/plu-62ea43aa0c43540007f2db96.m3u8",
     "iptvOrg": "MissionImpossible.us",
     "bulk": "1"
   },
@@ -4273,7 +4273,7 @@
     "group": "US Movies",
     "logo": "IPTV_PlutoTVCrimeDramausSD.png",
     "logoSrc": "https://images.pluto.tv/channels/62e92708a7ce600007b2676a/colorLogoPNG.png",
-    "url": "https://jmp2.uk/plu-62e92708a7ce600007b2676a.m3u8",
+    "url": "https://jmp2.uk/plu-5f31fd1b4c510e00071c3103.m3u8",
     "iptvOrg": "PlutoTVCrimeDrama.us",
     "bulk": "1"
   },
@@ -4483,7 +4483,7 @@
     "group": "US Movies",
     "logo": "IPTV_PlutoTVSciFiusUS.png",
     "logoSrc": "https://images.pluto.tv/channels/66166cb1307fa30008f275e7/colorLogoPNG.png",
-    "url": "https://jmp2.uk/plu-5b4fc274694c027be6ed3eea.m3u8",
+    "url": "https://jmp2.uk/plu-66166cb1307fa30008f275e7.m3u8",
     "iptvOrg": "PlutoTVSciFi.us",
     "bulk": "1"
   },
@@ -4613,7 +4613,7 @@
     "group": "US Movies",
     "logo": "IPTV_RawhideusSD.png",
     "logoSrc": "https://images.pluto.tv/channels/65660223635c3c00086c2578/colorLogoPNG.png",
-    "url": "https://jmp2.uk/plu-65660223635c3c00086c2578.m3u8",
+    "url": "https://jmp2.uk/plu-634f307c7a068e00072c9982.m3u8",
     "iptvOrg": "Rawhide.us",
     "bulk": "1"
   },
@@ -5270,7 +5270,7 @@
     "group": "US Entertainment",
     "logo": "IPTV_ThePriceIsRightusHD.png",
     "logoSrc": "https://images.pluto.tv/channels/64c2214c2a7f2200089a0c4b/colorLogoPNG.png",
-    "url": "https://jmp2.uk/plu-643f035d5a0cd50008361534.m3u8",
+    "url": "https://jmp2.uk/plu-64c2214c2a7f2200089a0c4b.m3u8",
     "iptvOrg": "ThePriceIsRight.us",
     "bulk": "1"
   },
@@ -5679,7 +5679,7 @@
     "group": "US Series",
     "logo": "IPTV_UnsolvedMysteriesusUS.png",
     "logoSrc": "https://i.imgur.com/De3khrX.png",
-    "url": "https://d31z96rdrmwfsp.cloudfront.net/master.m3u8",
+    "url": "https://jmp2.uk/plu-5bd05b4694d45d266bc951f2.m3u8",
     "iptvOrg": "UnsolvedMysteries.us",
     "bulk": "1"
   },
