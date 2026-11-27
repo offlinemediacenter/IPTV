@@ -118,11 +118,17 @@ http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chu
 #EXTINF:-1 tvg-ID="FashionTV+" tvg-name="FashionTV+" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/FashionTVPlus.jpg" group-title="Fashion",FashionTV+
 https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8
 #EXTINF:-1 tvg-ID="FashionTVSecrets.fr" tvg-name="FashionTV Secrets" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVSecrets.png" group-title="Fashion",FashionTV Secrets
-https://ssai.aniview.com/api/v1/hls/streams/sessions/ce9bb37fa84740e898771aac2289558b/media/manifest.m3u8/0.m3u8
+https://ssai.aniview.com/api/v1/hls/streams/sessions/e3fc54a089b845779c5ef2fda1ec1283/media/manifest.m3u8/0.m3u8
 #EXTINF:-1 tvg-ID="GlobalFashionChannel.us" tvg-name="Global Fashion Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GlobalFashionChannel.png" group-title="Fashion",Global Fashion Channel
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/cdbe280e-0aea-4bbe-861f-fd115abcfec7_1080p.m3u8
+#EXTINF:-1 tvg-ID="FashionTVParisLOriginal.fr@SD" tvg-name="FashionTV Paris L'Original" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVParisLOriginalfrSD.png" group-title="Fashion",FashionTV Paris L'Original
+https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+#EXTINF:-1 tvg-ID="FashionTV.ru@SD" tvg-name="FashionTV (Russia)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionTVruSD.png" group-title="Fashion",FashionTV (Russia)
+http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
 #EXTINF:-1 tvg-ID="FashionBox.nl@SD" tvg-name="FashionBox" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FashionBoxnlSD.png" group-title="Fashion",FashionBox
 https://dash2.antik.sk/live/test_fashionbox_medium_atk/playlist.m3u8
+#EXTINF:-1 tvg-ID="CodeFashionTV.bg@SD" tvg-name="Code Fashion TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CodeFashionTVbgSD.png" group-title="Fashion",Code Fashion TV
+https://cdn2.invivo.bg/Codefashion_5500/index.m3u8
 #EXTINF:-1 tvg-ID="CCTVWomensFashion.cn@SD" tvg-name="CCTV Women's Fashion" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CCTVWomensFashioncnSD.png" group-title="Fashion",CCTV Women's Fashion
 http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
 #EXTINF:-1 tvg-ID="BritainsNextTopModel.se@SE" tvg-name="Britain's Next Top Model" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BritainsNextTopModelseSE.png" group-title="Fashion",Britain's Next Top Model
@@ -150,7 +156,7 @@ https://t2hls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="ClubbingTV.us" tvg-name="Clubbing TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ClubbingTV.png" group-title="Music",Clubbing TV
 https://a-cdn.klowdtv.com/live3/clubbingtv_720p/chunks.m3u8
 #EXTINF:-1 tvg-ID="DeejayTV.it" tvg-name="Deejay TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_DeejayTV.png" group-title="Music",Deejay TV
-https://streamcdni1-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b3864027.m3u8
+https://streamcdni1-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b3500067.m3u8
 #EXTINF:-1 tvg-ID="DeluxeDance.de" tvg-name="Deluxe Dance" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_DeluxeDance.png" group-title="Music",Deluxe Dance
 https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Streams/DeluxeDance.m3u8
 #EXTINF:-1 tvg-ID="BestofDanceTV.ee" tvg-name="Best of Dance TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BestofDanceTV.png" group-title="Music",Best of Dance TV
@@ -158,7 +164,7 @@ https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 #EXTINF:-1 tvg-ID="DanceTVTechnoWarehouse.ee" tvg-name="DanceTV Techno Warehouse" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_DanceTVTechnoWarehouse.png" group-title="Music",DanceTV Techno Warehouse
 https://m2b2.worldcast.tv:7443/dancetelevisionthree/stream_2.m3u8
 #EXTINF:-1 tvg-ID="PowerDance.tr" tvg-name="Power Dance" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PowerDance.png" group-title="Music",Power Dance
-https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1240299233
+https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1244435054
 #EXTINF:-1 tvg-ID="Number1Dance.tr" tvg-name="Number 1 Dance" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Number1Dance.png" group-title="Music",Number 1 Dance
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/chunklist.m3u8
 #EXTINF:-1 tvg-ID="DanceFM.cl" tvg-name="Dance FM" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_DanceFM.png" group-title="Music",Dance FM
@@ -211,6 +217,8 @@ https://s5.radio.co/sf0a1af54c/listen
 http://rfe21.akacast.akamaistream.net/7/751/437779/v1/ibb.akacast.akamaistream.net/rfe21
 #EXTINF:-1 tvg-ID="Iran International Radio" tvg-name="Iran International Radio" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_IranInternational.png" group-title="Radio",Iran International Radio
 https://radio.iraninternational.app/iintl_c
+#EXTINF:-1 tvg-ID="RFI Persian" tvg-name="RFI Persian" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RFIPersian.png" group-title="Radio",RFI Persian
+http://live02.rfi.fr/rfienpersan-64k.mp3
 #EXTINF:-1 tvg-ID="Radio Faaz" tvg-name="Radio Faaz" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioFaaz.png" group-title="Radio",Radio Faaz
 http://www.radiofaaz.com:8000/radiofaaz
 #EXTINF:-1 tvg-ID="Radio Navahang" tvg-name="Radio Navahang" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioNavahang.png" group-title="Radio",Radio Navahang
@@ -233,6 +241,8 @@ http://ice41.securenetsystems.net/KIRN
 https://stream.zenolive.com/gxdq0awu30duv.aac
 #EXTINF:-1 tvg-ID="Radio ZZA" tvg-name="Radio ZZA" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioZZA.png" group-title="Radio",Radio ZZA
 https://listen.radioking.com/radio/526993/stream/585379
+#EXTINF:-1 tvg-ID="RadioJavan.ir" tvg-name="Radio Javan" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioJavan.png" group-title="Radio",Radio Javan
+https://ncdn.telewebion.ir/radiojavan/live/playlist.m3u8
 #EXTINF:-1 tvg-ID="RadioAva.ir" tvg-name="Radio Ava" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioAva.png" group-title="Radio",Radio Ava
 https://ncdn.telewebion.ir/radioava/live/playlist.m3u8
 #EXTINF:-1 tvg-ID="RadioTehran.ir" tvg-name="Radio Tehran" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioTehran.png" group-title="Radio",Radio Tehran
@@ -241,18 +251,28 @@ https://ncdn.telewebion.ir/radiotehran/live/playlist.m3u8
 https://ncdn.telewebion.ir/radiogoftogo/live/playlist.m3u8
 #EXTINF:-1 tvg-ID="RadioVarzesh.ir" tvg-name="Radio Varzesh" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioVarzesh.png" group-title="Radio",Radio Varzesh
 https://ncdn.telewebion.ir/radiovarzesh/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioEghtesad.ir" tvg-name="Radio Eghtesad" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioEghtesad.png" group-title="Radio",Radio Eghtesad
+https://ncdn.telewebion.ir/radioeghtesad/live/playlist.m3u8
 #EXTINF:-1 tvg-ID="RadioIran.ir" tvg-name="Radio Iran" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioIran.png" group-title="Radio",Radio Iran
 https://ncdn.telewebion.ir/radioiran/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioNamayesh.ir" tvg-name="Radio Namayesh" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioNamayesh.png" group-title="Radio",Radio Namayesh
+https://ncdn.telewebion.ir/radionamayesh/live/playlist.m3u8
 #EXTINF:-1 tvg-ID="RadioSaba.ir" tvg-name="Radio Saba" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioSaba.png" group-title="Radio",Radio Saba
 https://ncdn.telewebion.ir/radiosaba/live/playlist.m3u8
 #EXTINF:-1 tvg-ID="RadioFarhang.ir" tvg-name="Radio Farhang" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioFarhang.png" group-title="Radio",Radio Farhang
 https://ncdn.telewebion.ir/radiofarhang/live/playlist.m3u8
 #EXTINF:-1 tvg-ID="RadioPayam.ir" tvg-name="Radio Payam" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioPayam.png" group-title="Radio",Radio Payam
 https://ncdn.telewebion.ir/radiopayam/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="RadioSalamat.ir" tvg-name="Radio Salamat" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RadioSalamat.png" group-title="Radio",Radio Salamat
+https://ncdn.telewebion.ir/radiosalamat/live/playlist.m3u8
+#EXTINF:-1 tvg-ID="00sReplay.us@SD" tvg-name="00s Replay" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_00sReplayusSD.png" group-title="US Movies",00s Replay
+https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
 #EXTINF:-1 tvg-ID="3ABNPraiseHimMusicNetwork.us@SD" tvg-name="3ABN Praise Him Music Network" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_3ABNPraiseHimMusicNetworkusSD.png" group-title="US Music",3ABN Praise Him Music Network
 https://3abn.bozztv.com/3abn1/PraiseHim/smil:PraiseHim.smil/playlist.m3u8
 #EXTINF:-1 tvg-ID="24HourFreeMovies.us@SD" tvg-name="24 Hour Free Movies" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_24HourFreeMoviesusSD.png" group-title="US Movies",24 Hour Free Movies
 https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8
+#EXTINF:-1 tvg-ID="30AGeorgiaHollywoodReview.us@SD" tvg-name="30A Georgia Hollywood Review" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_30AGeorgiaHollywoodReviewusSD.png" group-title="US Entertainment",30A Georgia Hollywood Review
+https://30a-tv.com/gh.m3u8
 #EXTINF:-1 tvg-ID="30ALuxeLifeDiscovered.us@SD" tvg-name="30A Luxe Life Discovered" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_30ALuxeLifeDiscoveredusSD.png" group-title="US Lifestyle",30A Luxe Life Discovered
 https://30a-tv.com/feeds/vidaa/luxelife.m3u8
 #EXTINF:-1 tvg-ID="30AMusic.us@SD" tvg-name="30A Music" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_30AMusicusSD.png" group-title="US Music",30A Music
@@ -261,16 +281,28 @@ https://30a-tv.com/music.m3u8
 https://30a-tv.com/feeds/720p/63.m3u8
 #EXTINF:-1 tvg-ID="30ASidewalks.us@SD" tvg-name="30A Sidewalks" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_30ASidewalksusSD.png" group-title="US Entertainment",30A Sidewalks
 https://30a-tv.com/sidewalks.m3u8
+#EXTINF:-1 tvg-ID="30ATelevisionChannel.us@SD" tvg-name="30A Television Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_30ATelevisionChannelusSD.png" group-title="US Entertainment",30A Television Channel
+https://30a-tv.com/feeds/masters/30atv.m3u8
+#EXTINF:-1 tvg-ID="30ATVClassicMovies.us@SD" tvg-name="30A TV Classic Movies" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_30ATVClassicMovies.png" group-title="US Movies",30A TV Classic Movies
+https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 #EXTINF:-1 tvg-ID="48Hours.us@US" tvg-name="48 Hours" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_48HoursusUS.png" group-title="US Series",48 Hours
 https://jmp2.uk/plu-62e925bc68d18a00077bb990.m3u8
 #EXTINF:-1 tvg-ID="50CentAction.us@SD" tvg-name="50 Cent Action" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_50CentActionusSD.png" group-title="US Movies",50 Cent Action
 https://jmp2.uk/plu-68487fb3f212bedacf5a53e3.m3u8
+#EXTINF:-1 tvg-ID="70sCinema.us@SD" tvg-name="70s Cinema" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_70sCinemausSD.png" group-title="US Movies",70s Cinema
+https://jmp2.uk/plu-5f4d878d3d19b30007d2e782.m3u8
 #EXTINF:-1 tvg-ID="80sRewind.us@SD" tvg-name="80s Rewind" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_80sRewindusSD.png" group-title="US Movies",80s Rewind
 https://jmp2.uk/plu-5ca525b650be2571e3943c63.m3u8
 #EXTINF:-1 tvg-ID="90sThrowback.us@SD" tvg-name="90s Throwback" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_90sThrowbackusSD.png" group-title="US Movies",90s Throwback
 https://jmp2.uk/plu-5f4d86f519358a00072b978e.m3u8
+#EXTINF:-1 tvg-ID="ABNBibleMoviesChannel.us@SD" tvg-name="ABN Bible Movies Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ABNBibleMoviesChannelusSD.png" group-title="US Movies",ABN Bible Movies Channel
+https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8
+#EXTINF:-1 tvg-ID="AbsoluteRealitybyWETV.us@SD" tvg-name="Absolute Reality by WE TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_AbsoluteRealitybyWETVusSD.png" group-title="US Entertainment",Absolute Reality by WE TV
+https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="AcapulcoShore.us@US" tvg-name="Acapulco Shore US" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_AcapulcoShoreusUS.png" group-title="US Series",Acapulco Shore US
 https://jmp2.uk/plu-64dab1f835425100080e1e7b.m3u8
+#EXTINF:-1 tvg-ID="ACECountryRadio.us@KPVMLD" tvg-name="ACE Country Radio KPVM-LD" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ACECountryRadiousKPVMLD.png" group-title="US Music",ACE Country Radio KPVM-LD
+https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8
 #EXTINF:-1 tvg-ID="AceTV.us@SD" tvg-name="Ace TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_AceTVusSD.png" group-title="US Entertainment",Ace TV
 https://2-fss-1.streamhoster.com/pl_154/amlst:205432-2055980/720/aspen720SCTE35.m3u8
 #EXTINF:-1 tvg-ID="AceTV.us@KCKSLD" tvg-name="Ace TV KCKS-LD" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_AceTVusKCKSLD.png" group-title="US Entertainment",Ace TV KCKS-LD
@@ -283,6 +315,8 @@ https://alt-al.otteravision.com/alt/al/al.m3u8
 https://linear-1208.frequency.stream/mt/vizio/1208/hls/master/playlist_1920x1080.m3u8
 #EXTINF:-1 tvg-ID="AllRealitybyWEtv.us@SD" tvg-name="All Reality by WE tv" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_AllRealitybyWEtvusSD.png" group-title="US Series",All Reality by WE tv
 https://jmp2.uk/plu-5e82530945600e0007ca076c.m3u8
+#EXTINF:-1 tvg-ID="AllWeddingsWEtv.us@SD" tvg-name="All Weddings WE tv" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_AllWeddingsWEtvusSD.png" group-title="US Series",All Weddings WE tv
+https://amc-allweddings-1-us.xumo.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="ALLBLKGems.us@SD" tvg-name="ALLBLK Gems" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ALLBLKGemsusSD.png" group-title="US Entertainment",ALLBLK Gems
 https://amc-allblk-gems-1-us.vizio.wurl.tv/4300.m3u8
 #EXTINF:-1 tvg-ID="AMCenEspanol.us@SD" tvg-name="AMC en Espanol" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_AMCenEspanolusSD.png" group-title="US Entertainment",AMC en Espanol
@@ -309,14 +343,10 @@ http://45.70.201.81:8000/play/a010/index.m3u8
 https://jmp2.uk/plu-60a3d889a5b3690008dc7fe8.m3u8
 #EXTINF:-1 tvg-ID="BarkTV.us@SD" tvg-name="Bark TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BarkTVusSD.png" group-title="US Entertainment",Bark TV
 https://bbb-barkt-streamstak.otteravision.com/bbb/barkt/barkt.m3u8
-#EXTINF:-1 tvg-ID="BeachTVFloridaAlabama.us@SD" tvg-name="Beach TV Florida & Alabama" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BeachTVFloridaAlabamausSD.png" group-title="US Travel",Beach TV Florida & Alabama
-http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8
+#EXTINF:-1 tvg-ID="BattlestarGalactica.us@SD" tvg-name="Battlestar Galactica" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BattlestarGalacticausSD.png" group-title="US Movies",Battlestar Galactica
+https://jmp2.uk/plu-69d7ebff029c431826bd328e.m3u8
 #EXTINF:-1 tvg-ID="BeachTVKeyWestFloridaKeys.us@SD" tvg-name="Beach TV Key West & Florida Keys" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BeachTVKeyWestFloridaKeysusSD.png" group-title="US Travel",Beach TV Key West & Florida Keys
 https://5ed325193d4e1.streamlock.net:444/LiveTV/KTVHD/playlist.m3u8
-#EXTINF:-1 tvg-ID="BeachTVMyrtleBeachTheGrandStrand.us@SD" tvg-name="Beach TV Myrtle Beach & The Grand Strand" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BeachTVMyrtleBeachTheGrandStrandusSD.png" group-title="US Travel",Beach TV Myrtle Beach & The Grand Strand
-http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
-#EXTINF:-1 tvg-ID="BeachTVPanamaCity.us@SD" tvg-name="Beach TV Panama City" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BeachTVPanamaCityusSD.png" group-title="US Travel",Beach TV Panama City
-http://media4.tripsmarter.com:1935/LiveTV/BTVHD/playlist.m3u8
 #EXTINF:-1 tvg-ID="BestofDrPhil.us@SD" tvg-name="Best of Dr Phil" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BestofDrPhilusSD.png" group-title="US Entertainment",Best of Dr Phil
 https://jmp2.uk/plu-666815f24b9fb400083f7e31.m3u8
 #EXTINF:-1 tvg-ID="BETCinema.us@SD" tvg-name="BET Cinema" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BETCinemausSD.png" group-title="US Movies",BET Cinema
@@ -327,6 +357,10 @@ https://jmp2.uk/plu-60f85644a9493e0007a1f035.m3u8
 https://jmp2.uk/plu-68c32d88f56983aba40052bd.m3u8
 #EXTINF:-1 tvg-ID="BETPlutoTV.us@US" tvg-name="BET Pluto TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BETPlutoTVusUS.png" group-title="US Entertainment",BET Pluto TV
 https://jmp2.uk/plu-5ca670f6593a5d78f0e85aed.m3u8
+#EXTINF:-1 tvg-ID="BETThrowbacks.us@SD" tvg-name="BET Throwbacks" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BETThrowbacksusSD.png" group-title="US Comedy",BET Throwbacks
+https://jmp2.uk/plu-61326275b3c86a00078e4833.m3u8
+#EXTINF:-1 tvg-ID="BETVisionaries.us@SD" tvg-name="BET Visionaries" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BETVisionariesusSD.png" group-title="US Movies",BET Visionaries
+https://jmp2.uk/plu-663946c1b18d700008d9c168.m3u8
 #EXTINF:-1 tvg-ID="BetterHealthTV.us@SD" tvg-name="Better Health TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BetterHealthTVusSD.png" group-title="US Lifestyle",Better Health TV
 https://tgn.bozztv.com/betterlife/betterhealth/betterhealth/index.m3u8
 #EXTINF:-1 tvg-ID="BeverlyHillbillies.us@US" tvg-name="Beverly Hillbillies" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BeverlyHillbilliesusUS.png" group-title="US Classic",Beverly Hillbillies
@@ -335,12 +369,18 @@ https://jmp2.uk/plu-5f7796e470510900070d4e3d.m3u8
 https://jmp2.uk/plu-5f4d83e0a382c00007bc02e7.m3u8
 #EXTINF:-1 tvg-ID="BeyondtheGates.us@SD" tvg-name="Beyond the Gates" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BeyondtheGatesusSD.png" group-title="US Entertainment",Beyond the Gates
 https://jmp2.uk/plu-687ff00ff6bc08130f16ab81.m3u8
+#EXTINF:-1 tvg-ID="BigBrother.us@SD" tvg-name="Big Brother" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BigBrotherusSD.png" group-title="US Entertainment",Big Brother
+https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
+#EXTINF:-1 tvg-ID="BizTV.us@SD" tvg-name="Biz TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BizTVusSD.png" group-title="US Lifestyle",Biz TV
+https://2-fss-1.streamhoster.com/pl_154/205722-2251224-1/playlist.m3u8
 #EXTINF:-1 tvg-ID="BlackFamilySitcoms.us@SD" tvg-name="Black Family Sitcoms" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BlackFamilySitcomsusSD.png" group-title="US Comedy",Black Family Sitcoms
 https://jmp2.uk/plu-686d61503484d6073283059d.m3u8
 #EXTINF:-1 tvg-ID="BlackInkCrew.us@SD" tvg-name="Black Ink Crew" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BlackInkCrewusSD.png" group-title="US Series",Black Ink Crew
 https://jmp2.uk/plu-5d51e2bceca5b4b2c0e06c50.m3u8
 #EXTINF:-1 tvg-ID="BlueBloods.us@SD" tvg-name="Blue Bloods" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BlueBloodsusSD.png" group-title="US Series",Blue Bloods
 https://jmp2.uk/plu-61b3b8c645b45d0007a9bb8d.m3u8
+#EXTINF:-1 tvg-ID="bonappetit.us@SD" tvg-name="bon appetit" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_bonappetitusSD.png" group-title="US Cooking",bon appetit
+https://bonappetit-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="Bonanza.us@SD" tvg-name="Bonanza" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BonanzausSD.png" group-title="US Movies",Bonanza
 https://jmp2.uk/plu-696e647b07ea70192d49f6a5.m3u8
 #EXTINF:-1 tvg-ID="BotflixRadioo.us@HD" tvg-name="Botflix Radioo" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_BotflixRadioousHD.png" group-title="US Music",Botflix Radioo
@@ -361,6 +401,10 @@ https://jmp2.uk/plu-65244c403fd33c0008ffff31.m3u8
 https://jmp2.uk/plu-668c5cb4f01dbe0008dd4082.m3u8
 #EXTINF:-1 tvg-ID="Charge.us@SD" tvg-name="Charge!" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ChargeusSD.png" group-title="US Movies",Charge!
 https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
+#EXTINF:-1 tvg-ID="CheersPlusFrasier.us@SD" tvg-name="Cheers + Frasier" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CheersPlusFrasierusSD.png" group-title="US Comedy",Cheers + Frasier
+https://jmp2.uk/plu-66ba495ffe11e5000881f049.m3u8
+#EXTINF:-1 tvg-ID="ChefChampion.us@SD" tvg-name="Chef Champion [Not 24/7]" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ChefChampionusSD.png" group-title="US Cooking",Chef Champion [Not 24/7]
+https://rpn.bozztv.com/gusa/gusa-chefchampion/index.m3u8
 #EXTINF:-1 tvg-ID="ChefRocShow.us@SD" tvg-name="Chef Roc Show [Not 24/7]" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ChefRocShowusSD.png" group-title="US Cooking",Chef Roc Show [Not 24/7]
 https://rpn.bozztv.com/gusa/gusa-chefrock/index.m3u8
 #EXTINF:-1 tvg-ID="CineAdrenalina.us@SD" tvg-name="Cine Adrenalina" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CineAdrenalinausSD.png" group-title="US Movies",Cine Adrenalina
@@ -387,6 +431,8 @@ http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
 http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
 #EXTINF:-1 tvg-ID="CinePride.us@SD" tvg-name="CinePride" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CinePrideusSD.png" group-title="US Lifestyle",CinePride
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2223
+#EXTINF:-1 tvg-ID="Cinevault80s.us@SD" tvg-name="Cinevault 80s" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Cinevault80susSD.png" group-title="US Movies",Cinevault 80s
+https://gsn-cinevault-80s-2-us.roku.wurl.tv/2000.m3u8
 #EXTINF:-1 tvg-ID="CinevaultWesterns.us@SD" tvg-name="Cinevault Westerns [Geo-blocked]" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CinevaultWesternsusSD.png" group-title="US Classic",Cinevault Westerns [Geo-blocked]
 https://gsn-cinevault-westerns-2-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="Circle.us@SD" tvg-name="Circle" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CircleusSD.png" group-title="US Entertainment",Circle
@@ -397,6 +443,8 @@ https://rpn.bozztv.com/gusa/gusa-classiccinema/index.m3u8
 https://jmp2.uk/plu-61f33318210549000806a530.m3u8
 #EXTINF:-1 tvg-ID="ClassicMoviesChannel.us@SD" tvg-name="Classic Movies Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ClassicMoviesChannelusSD.png" group-title="US Movies",Classic Movies Channel
 https://jmp2.uk/plu-561c5b0dada51f8004c4d855.m3u8
+#EXTINF:-1 tvg-ID="ClassicTVComedy.us@SD" tvg-name="Classic TV Comedy" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ClassicTVComedyusSD.png" group-title="US Comedy",Classic TV Comedy
+https://jmp2.uk/plu-5f15e32b297f96000768f928.m3u8
 #EXTINF:-1 tvg-ID="ClassicTVCrimeDrama.us@SD" tvg-name="Classic TV Crime Drama" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ClassicTVCrimeDramausSD.png" group-title="US Classic",Classic TV Crime Drama
 https://jmp2.uk/plu-61325c4f982acd000723287e.m3u8
 #EXTINF:-1 tvg-ID="ClassicTVDrama.us@SD" tvg-name="Classic TV Drama" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ClassicTVDramausSD.png" group-title="US Classic",Classic TV Drama
@@ -409,6 +457,8 @@ https://jmp2.uk/plu-5f779951372da90007fd45e8.m3u8
 https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8
 #EXTINF:-1 tvg-ID="CMT.us@East" tvg-name="CMT" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CMTusEast.png" group-title="US Music",CMT
 http://23.237.104.106:8080/USA_CMT/index.m3u8
+#EXTINF:-1 tvg-ID="CMTEqualPlay.us@SD" tvg-name="CMT Equal Play" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CMTEqualPlayusSD.png" group-title="US Music",CMT Equal Play
+https://jmp2.uk/plu-5f68f53eb1e5800007390bf8.m3u8
 #EXTINF:-1 tvg-ID="ColdCaseFiles.us@SD" tvg-name="Cold Case Files" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ColdCaseFilesusSD.png" group-title="US Series",Cold Case Files
 https://aegis-cloudfront-1.tubi.video/1e764712-0649-4946-bd7e-f1bbba3be6fa/playlist.m3u8
 #EXTINF:-1 tvg-ID="ComedyCentralAnimation.us@SD" tvg-name="Comedy Central Animation" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ComedyCentralAnimationusSD.png" group-title="US Comedy",Comedy Central Animation
@@ -417,6 +467,8 @@ https://jmp2.uk/plu-64f8a949f5b5e4000862467c.m3u8
 https://jmp2.uk/plu-5cf96dad1652631e36d43320.m3u8
 #EXTINF:-1 tvg-ID="ComedyCentralPlutoTV.us@US" tvg-name="Comedy Central Pluto TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ComedyCentralPlutoTVusUS.png" group-title="US Comedy",Comedy Central Pluto TV
 https://jmp2.uk/plu-5f357e91b18f0b00073583d2.m3u8
+#EXTINF:-1 tvg-ID="ComedyTV.us@SD" tvg-name="Comedy.TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ComedyTVusSD.png" group-title="US Comedy",Comedy.TV
+https://a-cdn.klowdtv.com/live2/comedytv_720p/playlist.m3u8
 #EXTINF:-1 tvg-ID="Comet.us@SD" tvg-name="Comet" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CometusSD.png" group-title="US Entertainment",Comet
 https://fast-channels.sinclairstoryline.com/COMET/index.m3u8
 #EXTINF:-1 tvg-ID="CookingChannel.us@SD" tvg-name="Cooking Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CookingChannelusSD.png" group-title="US Cooking",Cooking Channel
@@ -481,12 +533,18 @@ https://amg00627-banijaygroup-fearfactor-samsungau-9vdod.amagi.tv/playlist/amg00
 https://jmp2.uk/plu-65775af3b3801200084a3aa4.m3u8
 #EXTINF:-1 tvg-ID="FlicksofFury.us@SD" tvg-name="Flicks of Fury" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FlicksofFuryusSD.png" group-title="US Movies",Flicks of Fury
 https://jmp2.uk/plu-58e55b14ad8e9c364d55f717.m3u8
+#EXTINF:-1 tvg-ID="FoodNetwork.us@East" tvg-name="Food Network (United States)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FoodNetworkusEast.png" group-title="US Cooking",Food Network (United States)
+http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-ID="FrightFlix.us@SD" tvg-name="FrightFlix" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FrightFlixusSD.png" group-title="US Movies",FrightFlix
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2229
 #EXTINF:-1 tvg-ID="FunnyAF.us@SD" tvg-name="Funny AF" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FunnyAFusSD.png" group-title="US Comedy",Funny AF
 https://jmp2.uk/plu-580e87ff497c73ba2f321dd3.m3u8
 #EXTINF:-1 tvg-ID="Fuse.us@East" tvg-name="Fuse" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_FuseusEast.png" group-title="US Entertainment",Fuse
 http://23.237.104.106:8080/USA_FUSE/index.m3u8
+#EXTINF:-1 tvg-ID="Gagsnetwork.us@SD" tvg-name="Gagsnetwork" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GagsnetworkusSD.png" group-title="US Comedy",Gagsnetwork
+http://s7.merlive.am/gagsnetwork/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-ID="GalxyTV.us@SD" tvg-name="Galxy TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GalxyTVusSD.png" group-title="US Entertainment",Galxy TV
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2230
 #EXTINF:-1 tvg-ID="GameShowCentral.us@SD" tvg-name="Game Show Central" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GameShowCentralusSD.png" group-title="US Entertainment",Game Show Central
 https://jmp2.uk/plu-5e54187aae660e00093561d6.m3u8
 #EXTINF:-1 tvg-ID="GameShowNetwork.us@East" tvg-name="Game Show Network [Not 24/7]" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GameShowNetworkusEast.png" group-title="US Entertainment",Game Show Network [Not 24/7]
@@ -495,6 +553,8 @@ https://a-cdn.klowdtv.com/live2/gsn_720p/playlist.m3u8
 https://jmp2.uk/plu-66ba1e4446762a000855cd87.m3u8
 #EXTINF:-1 tvg-ID="GlobalWorldTV.us@SD" tvg-name="GlobalWorldTV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GlobalWorldTVusSD.png" group-title="US Entertainment",GlobalWorldTV
 https://media.streambrothers.com:1936/8052/8052/playlist.m3u8
+#EXTINF:-1 tvg-ID="GordonRamsaysHellsKitchen.us@SD" tvg-name="Gordon Ramsay's Hell's Kitchen" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GordonRamsaysHellsKitchenusSD.png" group-title="US Cooking",Gordon Ramsay's Hell's Kitchen
+https://jmp2.uk/plu-62ea45010d0611000839868c.m3u8
 #EXTINF:-1 tvg-ID="GravitasMovies.us@SD" tvg-name="Gravitas Movies" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GravitasMoviesusSD.png" group-title="US Movies",Gravitas Movies
 https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8
 #EXTINF:-1 tvg-ID="GreatEntertainmentTelevision.us@SD" tvg-name="Great Entertainment Television" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_GreatEntertainmentTelevisionusSD.png" group-title="US Entertainment",Great Entertainment Television
@@ -537,6 +597,8 @@ https://jmp2.uk/plu-634f3011f4fff20007431641.m3u8
 https://jmp2.uk/plu-620ff46e0a576e0007dc2f89.m3u8
 #EXTINF:-1 tvg-ID="IFC.us@East" tvg-name="IFC" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_IFCusEast.png" group-title="US Movies",IFC
 http://23.237.104.106:8080/USA_IFC/index.m3u8
+#EXTINF:-1 tvg-ID="ImpactNetwork.us@SD" tvg-name="Impact Network" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ImpactNetworkusSD.png" group-title="US Entertainment",Impact Network
+https://edge1.lifestreamcdn.com/live/impactroku1/index.m3u8
 #EXTINF:-1 tvg-ID="ImpossibleQuizShow.us@SD" tvg-name="Impossible Quiz Show" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ImpossibleQuizShowusSD.png" group-title="US Series",Impossible Quiz Show
 https://bbc-impossible-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="IntheKitchen.us@SD" tvg-name="In the Kitchen" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_IntheKitchenusSD.png" group-title="US Cooking",In the Kitchen
@@ -545,16 +607,24 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8
 https://amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv/playlist/amg00861-terninternation-lifestyle-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-ID="INSP.us@SD" tvg-name="INSP" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_INSPusSD.png" group-title="US Entertainment",INSP
 https://a-cdn.klowdtv.com/live2/insp_720p/playlist.m3u8
+#EXTINF:-1 tvg-ID="InstantSaga.us@US" tvg-name="Instant Saga" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_InstantSagausUS.png" group-title="US Series",Instant Saga
+https://jmp2.uk/plu-60549e98061b5f000776866a.m3u8
 #EXTINF:-1 tvg-ID="Investiga.us@US" tvg-name="Investiga US" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_InvestigausUS.png" group-title="US Series",Investiga US
 https://jmp2.uk/plu-5dcde27ffae9520009c0c75a.m3u8
+#EXTINF:-1 tvg-ID="IONPlus.us@East" tvg-name="ION Plus" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_IONPlususEast.png" group-title="US Entertainment",ION Plus
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8
 #EXTINF:-1 tvg-ID="IONTV.us@East" tvg-name="ION TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_IONTVusEast.png" group-title="US Entertainment",ION TV
 https://wurlewscripps.global.transmit.live/hls/68b9b0338cacd6fc468c222c/v1/scripps_ion_1/vizio_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-ID="JerseyShore.us@SD" tvg-name="Jersey Shore (United States)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_JerseyShoreusSD.png" group-title="US Series",Jersey Shore (United States)
 https://jmp2.uk/plu-609bfa51fbecc1000733152e.m3u8
+#EXTINF:-1 tvg-ID="JohnnyCarsonTV.us@SD" tvg-name="Johnny Carson TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_JohnnyCarsonTVusSD.png" group-title="US Series",Johnny Carson TV
+https://vizioaaaa-johnnycarson-vizio-8fyqr.amagi.tv/ts-eu-w1-n2/playlist/vizioAAAA-johnnycarson-vizio/cb573e1f786c6c8a84ce3978d1f14882f3601ef24833ca3571a8548709984d3ff9cfeec0f34bf16a5c8d0bdd675968545a629d048b2d03cfc37ba90735611f719ccaaf2d889a415cb58a0c7c7be52c7cfccf3437e8a4fc8bb8997b72e718863b6020f808675840fcd76bd813725954c7b9551ffee89f3e79287062a7bae06b917c9580a704108c33b3a224ae28a174c5b033aafe34dbc28d05cd1ac627ad4dd9dbe0d48500f3c5d526eb0ee3274b2a4ab90b631ae1a872ccb2bb7a2d896321470d1f81c9f6ad1d6cd616111f908bba5cc555d2eb4700a1191da0e3d76382472a21c72cb2f341b0a8f4f243452badc0611f4dd8d38ca9b4667ded28a9f2a9f17a7eafda373714873d96707b4af087ab1ee79245c056427f6eada55e2702b0137cb177ba693f93edc2ab0acf/106/1920x1080_6137560/index.m3u8
 #EXTINF:-1 tvg-ID="JudgeNosey.us@US" tvg-name="Judge Nosey" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_JudgeNoseyusUS.png" group-title="US Series",Judge Nosey
 https://amg00514-noseybaxterllc-realnosey-cineverse-tqbpv.amagi.tv/playlist/amg00514-noseybaxterllc-realnosey-cineverse/playlist.m3u8
 #EXTINF:-1 tvg-ID="JustforLaughsGags.us@SD" tvg-name="Just for Laughs Gags" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_JustforLaughsGagsusSD.png" group-title="US Comedy",Just for Laughs Gags
 https://streams2.sofast.tv/ptnr-yupptv/title-JUST_FOR_LAUGHS_GAGS_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2790d143-5874-4146-bf91-9063c52b2f15/manifest.m3u8
+#EXTINF:-1 tvg-ID="JusticeCentralTV.us@SD" tvg-name="Justice Central.TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_JusticeCentralTVusSD.png" group-title="US Entertainment",Justice Central.TV
+https://a-cdn.klowdtv.com/live2/justicecentral_720p/playlist.m3u8
 #EXTINF:-1 tvg-ID="KContentbyCJENM.us@SD" tvg-name="K-Content by CJ ENM" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_KContentbyCJENMusSD.png" group-title="US Entertainment",K-Content by CJ ENM
 https://d2q0mzb9bm4w5z.cloudfront.net/68fee8e1_605a_437b_b968_244c3c0d5f24/hls/playlist.m3u8
 #EXTINF:-1 tvg-ID="KMCTTV391.us@HD" tvg-name="KMCT-TV 39.1" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_KMCTTV391usHD.png" group-title="US Entertainment",KMCT-TV 39.1
@@ -563,10 +633,14 @@ https://wggstv16.ddns.net:9953/hls/KMCT1.m3u8
 https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/kninohdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 #EXTINF:-1 tvg-ID="KNOVCD411.us@HD" tvg-name="KNOV-CD 41.1" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_KNOVCD411usHD.png" group-title="US Travel",KNOV-CD 41.1
 http://media4.tripsmarter.com:1935/LiveTV/NOTVHD/playlist.m3u8
+#EXTINF:-1 tvg-ID="LiveMusic.us@SD" tvg-name="Live Music" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_LiveMusicusSD.png" group-title="US Entertainment",Live Music
+https://jmp2.uk/plu-5873fc21cad696fb37aa9054.m3u8
 #EXTINF:-1 tvg-ID="LIVExLIVE.us@SD" tvg-name="LIVExLIVE" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_LIVExLIVEusSD.png" group-title="US Music",LIVExLIVE
 https://livestream.liveone.com/lc1/p1.m3u8
 #EXTINF:-1 tvg-ID="LogoPlutoTV.us@SD" tvg-name="Logo Pluto TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_LogoPlutoTVusSD.png" group-title="US Entertainment",Logo Pluto TV
 https://jmp2.uk/plu-5ce5a8954311f992edbe1da2.m3u8
+#EXTINF:-1 tvg-ID="LoveHipHop.us@SD" tvg-name="Love & Hip Hop" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_LoveHipHopusSD.png" group-title="US Series",Love & Hip Hop
+https://jmp2.uk/plu-5d51ddf0369acdb278dfb05e.m3u8
 #EXTINF:-1 tvg-ID="MadDogandMerrill.us@SD" tvg-name="Mad Dog and Merrill [Not 24/7]" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_MadDogandMerrillusSD.png" group-title="US Cooking",Mad Dog and Merrill [Not 24/7]
 https://rpn.bozztv.com/gusa/gusa-mwg/index.m3u8
 #EXTINF:-1 tvg-ID="MadeInHollywood.us@SD" tvg-name="Made In Hollywood" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_MadeInHollywoodusSD.png" group-title="US Movies",Made In Hollywood
@@ -599,6 +673,8 @@ https://all3media-midsomer-1-us.roku.wurl.tv/playlist.m3u8
 https://jmp2.uk/plu-62ea43aa0c43540007f2db96.m3u8
 #EXTINF:-1 tvg-ID="Misteriossinresolver.us@SD" tvg-name="Misterios sin resolver" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_MisteriossinresolverusSD.png" group-title="US Series",Misterios sin resolver
 https://jmp2.uk/plu-5f610042272f68000867685b.m3u8
+#EXTINF:-1 tvg-ID="MoreTrueCrime.us@SD" tvg-name="More True Crime" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_MoreTrueCrimeusSD.png" group-title="US Series",More True Crime
+https://jmp2.uk/plu-6532e6a9bdf3cf000887ab29.m3u8
 #EXTINF:-1 tvg-ID="MoreTVDrama.us@SD" tvg-name="More TV Drama" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_MoreTVDramausSD.png" group-title="US Entertainment",More TV Drama
 https://jmp2.uk/plu-613260e4bdb71c00070d63fa.m3u8
 #EXTINF:-1 tvg-ID="MoreTVSitcoms.us@SD" tvg-name="More TV Sitcoms" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_MoreTVSitcomsusSD.png" group-title="US Comedy",More TV Sitcoms
@@ -631,16 +707,22 @@ https://a-cdn.klowdtv.com/live2/mydestinationtv_720p/playlist.m3u8
 https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="NashBridges.us@SD" tvg-name="Nash Bridges" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NashBridgesusSD.png" group-title="US Series",Nash Bridges
 https://jmp2.uk/plu-666021cccb3ea10008406866.m3u8
+#EXTINF:-1 tvg-ID="NBCComedyVault.us@SD" tvg-name="NBC Comedy Vault" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NBCComedyVaultusSD.png" group-title="US Comedy",NBC Comedy Vault
+https://xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 tvg-ID="NBCLXHome.us@HD" tvg-name="NBC LX Home" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NBCLXHomeusHD.png" group-title="US Entertainment",NBC LX Home
 https://plex-xumoent-ch485-e7l5l.fast.nbcuni.com/live/master_5.m3u8
 #EXTINF:-1 tvg-ID="NBCLX.us@SD" tvg-name="NBCLX" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NBCLXusSD.png" group-title="US Entertainment",NBCLX
 https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8
+#EXTINF:-1 tvg-ID="NEWKMOVIES.us@SD" tvg-name="NEW K.MOVIES" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NEWKMOVIESusSD.png" group-title="US Movies",NEW K.MOVIES
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus
 #EXTINF:-1 tvg-ID="Nosey.us@US" tvg-name="Nosey" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NoseyusUS.png" group-title="US Series",Nosey
 https://jmp2.uk/plu-5dc2ba1a9c91420009db4858.m3u8
 #EXTINF:-1 tvg-ID="NOST.us@SD" tvg-name="NOST" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NOSTusSD.png" group-title="US Movies",NOST
 https://a-cdn.klowdtv.com/live2/nost_720p/playlist.m3u8
 #EXTINF:-1 tvg-ID="Novelisima.us@SD" tvg-name="Novelisima" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NovelisimausSD.png" group-title="US Series",Novelisima
 http://138.59.177.78:9999/play/a0gg/index.m3u8
+#EXTINF:-1 tvg-ID="Olelo55.us@SD" tvg-name="Olelo 55" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Olelo55usSD.png" group-title="US Entertainment",Olelo 55
+https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_013/playlist.m3u8
 #EXTINF:-1 tvg-ID="OmideIranTV.us@SD" tvg-name="Omid e Iran TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_OmideIranTVusSD.png" group-title="US Entertainment",Omid e Iran TV
 https://oitnhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-ID="OuterSphere.us@SD" tvg-name="OuterSphere" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_OuterSphereusSD.png" group-title="US Movies",OuterSphere
@@ -649,6 +731,10 @@ https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8
 https://content.uplynk.com/channel/1f93c13275024afb9e0ead299624073d.m3u8
 #EXTINF:-1 tvg-ID="OWN.us@East" tvg-name="OWN" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_OWNusEast.png" group-title="US Lifestyle",OWN
 http://23.237.104.106:8080/USA_OWN/index.m3u8
+#EXTINF:-1 tvg-ID="PalmBeachesTV.us@SD" tvg-name="Palm Beaches TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PalmBeachesTVusSD.png" group-title="US Travel",Palm Beaches TV
+https://live.feed.thepalmbeaches.tv/index.m3u8
+#EXTINF:-1 tvg-ID="ParamountMovieChannel.us@SD" tvg-name="Paramount Movie Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ParamountMovieChannelusSD.png" group-title="US Movies",Paramount Movie Channel
+https://jmp2.uk/plu-5cb0cae7a461406ffe3f5213.m3u8
 #EXTINF:-1 tvg-ID="ParamountNetwork.us@East" tvg-name="Paramount Network" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ParamountNetworkusEast.png" group-title="US Movies",Paramount Network
 http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
 #EXTINF:-1 tvg-ID="ParamountPlusPicks.us@SD" tvg-name="Paramount+ Picks" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ParamountPlusPicksusSD.png" group-title="US Movies",Paramount+ Picks
@@ -659,6 +745,8 @@ https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8
 https://mumbai-edge.smartplaytv.in/PeopleAreAwesome/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-ID="PerryMason.us@SD" tvg-name="Perry Mason" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PerryMasonusSD.png" group-title="US Series",Perry Mason
 https://jmp2.uk/plu-6197086891ddd4000739941a.m3u8
+#EXTINF:-1 tvg-ID="PetsTV.us@SD" tvg-name="Pets.TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PetsTVusSD.png" group-title="US Entertainment",Pets.TV
+https://a-cdn.klowdtv.com/live2/petstv_720p/playlist.m3u8
 #EXTINF:-1 tvg-ID="PlutoTVAction.us@US" tvg-name="Pluto TV Action (United States)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVActionusUS.png" group-title="US Movies",Pluto TV Action (United States)
 https://jmp2.uk/plu-561d7d484dc7c8770484914a.m3u8
 #EXTINF:-1 tvg-ID="PlutoTVAdventure.us@US" tvg-name="Pluto TV Adventure" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVAdventureusUS.png" group-title="US Entertainment",Pluto TV Adventure
@@ -669,6 +757,12 @@ https://jmp2.uk/plu-5f513564e4622a0007c578c0.m3u8
 https://jmp2.uk/plu-5a4d3a00ad95e4718ae8d8db.m3u8
 #EXTINF:-1 tvg-ID="PlutoTVCrimeDrama.us@SD" tvg-name="Pluto TV Crime Drama" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVCrimeDramausSD.png" group-title="US Movies",Pluto TV Crime Drama
 https://jmp2.uk/plu-5f31fd1b4c510e00071c3103.m3u8
+#EXTINF:-1 tvg-ID="PlutoTVCrimeMovies.us@SD" tvg-name="Pluto TV Crime Movies" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVCrimeMoviesusSD.png" group-title="US Movies",Pluto TV Crime Movies
+https://jmp2.uk/plu-5f4d8594eb979c0007706de7.m3u8
+#EXTINF:-1 tvg-ID="PlutoTVCultFilms.us@US" tvg-name="Pluto TV Cult Films (United States)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVCultFilmsusUS.png" group-title="US Movies",Pluto TV Cult Films (United States)
+https://jmp2.uk/plu-5c665db3e6c01b72c4977bc2.m3u8
+#EXTINF:-1 tvg-ID="PlutoTVDogelcazarrecompensas.us@SD" tvg-name="Pluto TV Dog el cazarrecompensas" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVDogelcazarrecompensasusSD.png" group-title="US Series",Pluto TV Dog el cazarrecompensas
+https://jmp2.uk/plu-5f9992c685a2a80007fa414a.m3u8
 #EXTINF:-1 tvg-ID="PlutoTVDrama.us@US" tvg-name="Pluto TV Drama" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVDramausUS.png" group-title="US Movies",Pluto TV Drama
 https://jmp2.uk/plu-5b4e92e4694c027be6ecece1.m3u8
 #EXTINF:-1 tvg-ID="PlutoTVEstrellasdeAccion.us@SD" tvg-name="Pluto TV Estrellas de Accion" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVEstrellasdeAccionusSD.png" group-title="US Movies",Pluto TV Estrellas de Accion
@@ -685,6 +779,8 @@ https://jmp2.uk/plu-69d6c7befde57cd5ba0160c3.m3u8
 https://jmp2.uk/plu-569546031a619b8f07ce6e25.m3u8
 #EXTINF:-1 tvg-ID="PlutoTVIcons.us@SD" tvg-name="Pluto TV Icons" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVIconsusSD.png" group-title="US Movies",Pluto TV Icons
 https://jmp2.uk/plu-64b585f84ea480000838e446.m3u8
+#EXTINF:-1 tvg-ID="PlutoTVLives.us@US" tvg-name="Pluto TV Lives" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVLivesusUS.png" group-title="US Series",Pluto TV Lives
+https://jmp2.uk/plu-5d8beeb39b5d5d5f8c672530.m3u8
 #EXTINF:-1 tvg-ID="PlutoTVMilitary.us@SD" tvg-name="Pluto TV Military" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVMilitaryusSD.png" group-title="US Series",Pluto TV Military
 https://jmp2.uk/plu-5bb3fea0f711fd76340eebff.m3u8
 #EXTINF:-1 tvg-ID="PlutoTVMinutoParaGanar.us@SD" tvg-name="Pluto TV Minuto Para Ganar" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVMinutoParaGanarusSD.png" group-title="US Series",Pluto TV Minuto Para Ganar
@@ -715,6 +811,8 @@ https://jmp2.uk/plu-5c6dc88fcd232425a6e0f06e.m3u8
 https://jmp2.uk/plu-67352ed93a61d4000881f9fa.m3u8
 #EXTINF:-1 tvg-ID="PlutoTVThrillers.us@US" tvg-name="Pluto TV Thrillers" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVThrillersusUS.png" group-title="US Movies",Pluto TV Thrillers
 https://jmp2.uk/plu-5b4e69e08291147bd04a9fd7.m3u8
+#EXTINF:-1 tvg-ID="PlutoTVTrendingNow.us@SD" tvg-name="Pluto TV Trending Now" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVTrendingNowusSD.png" group-title="US Movies",Pluto TV Trending Now
+https://jmp2.uk/plu-673247127d5da5000817b4d6.m3u8
 #EXTINF:-1 tvg-ID="PlutoTVWesterns.us@US" tvg-name="Pluto TV Westerns (United States)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVWesternsusUS.png" group-title="US Movies",Pluto TV Westerns (United States)
 https://jmp2.uk/plu-5b4e94282d4ec87bdcbb87cd.m3u8
 #EXTINF:-1 tvg-ID="PlutoTVWipeout.us@SD" tvg-name="Pluto TV Wipeout" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_PlutoTVWipeoutusSD.png" group-title="US Series",Pluto TV Wipeout
@@ -725,6 +823,8 @@ https://dfoiz3dv1euv7.cloudfront.net/ptnlive-s3/live1.m3u8
 https://jmp2.uk/plu-634f307c7a068e00072c9982.m3u8
 #EXTINF:-1 tvg-ID="RecipeTV.us@SD" tvg-name="Recipe.TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RecipeTVusSD.png" group-title="US Cooking",Recipe.TV
 https://a-cdn.klowdtv.com/live2/recipetv_720p/playlist.m3u8
+#EXTINF:-1 tvg-ID="Revry.us@SD" tvg-name="Revry" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RevryusSD.png" group-title="US Lifestyle",Revry
+https://linear-43.frequency.stream/dist/24i/43/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-ID="RevryLatinX.us@SD" tvg-name="Revry LatinX" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RevryLatinXusSD.png" group-title="US Entertainment",Revry LatinX
 https://linear-142.frequency.stream/dist/24i/142/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-ID="RevryQueer.us@SD" tvg-name="Revry Queer" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RevryQueer.png" group-title="US Lifestyle",Revry Queer
@@ -733,6 +833,8 @@ https://linear-43.frequency.stream/dist/galxy/43/hls/master/playlist.m3u8
 https://jmp2.uk/plu-6996296087742204bff43147.m3u8
 #EXTINF:-1 tvg-ID="RiffTrax.us@US" tvg-name="RiffTrax" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RiffTraxusUS.png" group-title="US Comedy",RiffTrax
 https://wurlrifftrax.global.transmit.live/hls/68222b9cbe836edbe6f39e74/playlist.m3u8
+#EXTINF:-1 tvg-ID="RightNowTV.us@SD" tvg-name="Right Now TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RightNowTVusSD.png" group-title="US Entertainment",Right Now TV
+https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8
 #EXTINF:-1 tvg-ID="Roar.us@SD" tvg-name="Roar" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RoarusSD.png" group-title="US Entertainment",Roar
 http://65.36.6.216:1935/live/kcwx.smil/chunklist_w531762633_b1300000_sleng.m3u8
 #EXTINF:-1 tvg-ID="Roar.us@KCWX" tvg-name="Roar KCWX [Not 24/7]" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_RoarusKCWX.png" group-title="US Entertainment",Roar KCWX [Not 24/7]
@@ -759,6 +861,8 @@ https://brightstar-sls-pull-secure.akamaized.net/brightstarsls/stream.m3u8
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993017/hls/master.m3u8?ads.xumo_channelId=99993017
 #EXTINF:-1 tvg-ID="SonyMovies.us@SD" tvg-name="Sony Movies (United States)" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_SonyMoviesusSD.png" group-title="US Movies",Sony Movies (United States)
 https://a-cdn.klowdtv.com/live1/smc_720p/playlist.m3u8
+#EXTINF:-1 tvg-ID="SpiritTV.us@SD" tvg-name="Spirit TV [Not 24/7]" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_SpiritTVusSD.png" group-title="US Music",Spirit TV [Not 24/7]
+https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
 #EXTINF:-1 tvg-ID="StarChannelInternational.gr@HD" tvg-name="Star Channel International" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_StarChannelInternationalgrHD.png" group-title="US Entertainment",Star Channel International
 https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8
 #EXTINF:-1 tvg-ID="StarTrek.us@US" tvg-name="Star Trek US" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_StarTrekusUS.png" group-title="US Series",Star Trek US
@@ -783,10 +887,14 @@ https://jmp2.uk/plu-5f24662bebe0f0000767de32.m3u8
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-ID="Tastemade.us@US" tvg-name="Tastemade" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TastemadeusUS.png" group-title="US Cooking",Tastemade
 https://tastemade-tdint-rakuten.amagi.tv/1080p-cc/index.m3u8
+#EXTINF:-1 tvg-ID="TeleBoston.us@SD" tvg-name="Tele Boston" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TeleBostonusSD.png" group-title="US Entertainment",Tele Boston
+https://tv2.fastcast4u.com:3238/live/radiotelebostonlive.m3u8
 #EXTINF:-1 tvg-ID="TelemundoCorpusChristi.us@SD" tvg-name="Telemundo Corpus Christi" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TelemundoCorpusChristiusSD.png" group-title="US Entertainment",Telemundo Corpus Christi
 https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8
 #EXTINF:-1 tvg-ID="TelemundoTelenovelasClasicas.us@SD" tvg-name="Telemundo Telenovelas Clasicas" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TelemundoTelenovelasClasicasusSD.png" group-title="US Series",Telemundo Telenovelas Clasicas
 https://jmp2.uk/plu-5cf96cc422df39f1a338d165.m3u8
+#EXTINF:-1 tvg-ID="TheAddamsFamily.us@SD" tvg-name="The Addams Family" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TheAddamsFamilyusSD.png" group-title="US Series",The Addams Family
+https://jmp2.uk/plu-5d81607ab737153ea3c1c80e.m3u8
 #EXTINF:-1 tvg-ID="TheAmazingRace.us@SD" tvg-name="The Amazing Race" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TheAmazingRaceusSD.png" group-title="US Series",The Amazing Race
 https://jmp2.uk/plu-5f21e8a6e2f12b000755afdb.m3u8
 #EXTINF:-1 tvg-ID="TheAndyGriffithShow.us@SD" tvg-name="The Andy Griffith Show" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TheAndyGriffithShowusSD.png" group-title="US Classic",The Andy Griffith Show
@@ -843,6 +951,8 @@ https://jmp2.uk/plu-5d40bebc5e3d2750a2239d7e.m3u8
 https://jmp2.uk/plu-5c2d64ffbdf11b71587184b8.m3u8
 #EXTINF:-1 tvg-ID="TVSCipherNetwork.us@SD" tvg-name="TVS Cipher Network" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TVSCipherNetworkusSD.png" group-title="US Classic",TVS Cipher Network
 https://rpn.bozztv.com/gusa/gusa-tvsmystery/index.m3u8
+#EXTINF:-1 tvg-ID="TVSClassicMovies.us@SD" tvg-name="TVS Classic Movies" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TVSClassicMoviesusSD.png" group-title="US Classic",TVS Classic Movies
+https://rpn.bozztv.com/gusa/gusa-tvsclassicmovies/index.m3u8
 #EXTINF:-1 tvg-ID="TVSComedyNetwork.us@SD" tvg-name="TVS Comedy Network" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TVSComedyNetworkusSD.png" group-title="US Comedy",TVS Comedy Network
 https://rpn.bozztv.com/gusa/gusa-tvscomedy/index.m3u8
 #EXTINF:-1 tvg-ID="TVSDriveInMovie.us@SD" tvg-name="TVS Drive In Movie" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TVSDriveInMovieusSD.png" group-title="US Movies",TVS Drive In Movie
@@ -875,6 +985,8 @@ https://rpn.bozztv.com/gusa/gusa-tavern/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvstravel/index.m3u8
 #EXTINF:-1 tvg-ID="TVSVintageNetwork.us@SD" tvg-name="TVS Vintage Network" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TVSVintageNetworkusSD.png" group-title="US Entertainment",TVS Vintage Network
 https://rpn.bozztv.com/gusa/gusa-tvsvintage/index.m3u8
+#EXTINF:-1 tvg-ID="TVSWesternMovie.us@SD" tvg-name="TVS Western Movie" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_TVSWesternMovieusSD.png" group-title="US Classic",TVS Western Movie
+https://rpn.bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8
 #EXTINF:-1 tvg-ID="UniversalCinema.us@SD" tvg-name="Universal Cinema" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_UniversalCinemausSD.png" group-title="US Movies",Universal Cinema
 http://45.167.1.138:8000/play/a06m
 #EXTINF:-1 tvg-ID="UnsolvedMysteries.us@US" tvg-name="Unsolved Mysteries" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_UnsolvedMysteriesusUS.png" group-title="US Series",Unsolved Mysteries
@@ -903,8 +1015,12 @@ https://jmp2.uk/plu-5d48678d34ceb37d3c458a55.m3u8
 https://amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtraau-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-ID="WOXTV.us@SD" tvg-name="WOX TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_WOXTVusSD.png" group-title="US Music",WOX TV
 https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
+#EXTINF:-1 tvg-ID="WuTangCollection.us@SD" tvg-name="Wu Tang Collection" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_WuTangCollectionusSD.png" group-title="US Movies",Wu Tang Collection
+https://dbrb49pjoymg4.cloudfront.net/10001/99991745/hls/master.m3u8?ads.xumo_channelId=99991745
 #EXTINF:-1 tvg-ID="WVCULP.us@SD" tvg-name="WVCU-LP" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_WVCULPusSD.png" group-title="US Music",WVCU-LP
 https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8
+#EXTINF:-1 tvg-ID="WWONTVChannel48.us@SD" tvg-name="WWON-TV Channel 48" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_WWONTVChannel48usSD.png" group-title="US Entertainment",WWON-TV Channel 48
+https://tv2.fastcast4u.com:3943/stream/play.m3u8
 #EXTINF:-1 tvg-ID="XITE90sThrowback.us@SD" tvg-name="XITE 90's Throwback" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_XITE90sThrowbackusSD.png" group-title="US Music",XITE 90's Throwback
 https://d284aawtm5vi48.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fjdfi2br1jtq7/XITE_90s_Throwback.m3u8
 #EXTINF:-1 tvg-ID="XITEClassicCountry.nl@SD" tvg-name="XITE Classic Country" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_XITEClassicCountrynlSD.png" group-title="US Music",XITE Classic Country
@@ -913,6 +1029,8 @@ https://jmp2.uk/plu-623b92a2ccefed0007b1db48.m3u8
 https://dvnftgdlbnemm.cloudfront.net/XITE_Just_Chill.m3u8
 #EXTINF:-1 tvg-ID="XITENuevoLatino.us@SD" tvg-name="XITE Nuevo Latino" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_XITENuevoLatinousSD.png" group-title="US Music",XITE Nuevo Latino
 https://d3bsgqzbpkrvbb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-w288eaw03izg1/XITE_Nuevo_Latino.m3u8
+#EXTINF:-1 tvg-ID="XITERockxMetal.nl@US" tvg-name="XITE Rock x Metal" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_XITERockxMetalnlUS.png" group-title="US Music",XITE Rock x Metal
+https://d198ro05q94rc4.cloudfront.net/XITE_Rock_On.m3u8
 #EXTINF:-1 tvg-ID="XITESiempreLatino.us@SD" tvg-name="XITE Siempre Latino" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_XITESiempreLatinousSD.png" group-title="US Music",XITE Siempre Latino
 https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xplkt8i7m24dc/XITE_Siempre_Latino.m3u8
 #EXTINF:-1 tvg-ID="XploreTV.us@SD" tvg-name="Xplore TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_XploreTVusSD.png" group-title="US Entertainment",Xplore TV
@@ -921,6 +1039,10 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-
 https://jmp2.uk/plu-654102ed770cf1000866c307.m3u8
 #EXTINF:-1 tvg-ID="YoungHollywood.us@SD" tvg-name="Young Hollywood" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_YoungHollywoodusSD.png" group-title="US Entertainment",Young Hollywood
 https://younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-ID="YTATV.us@SD" tvg-name="YTA TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_YTATVusSD.png" group-title="US Entertainment",YTA TV
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16767
+#EXTINF:-1 tvg-ID="iHeart33.us" tvg-name="99.9 KEZ" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart33us.png" group-title="iHeart Radio",99.9 KEZ
+https://stream.revma.ihrhls.com/zc33
 #EXTINF:-1 tvg-ID="iHeart185.us" tvg-name="102.7 KIIS FM Los Angeles" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart185us.png" group-title="iHeart Radio",102.7 KIIS FM Los Angeles
 https://stream.revma.ihrhls.com/zc185
 #EXTINF:-1 tvg-ID="iHeart173.us" tvg-name="1043 MYfm" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart173us.png" group-title="iHeart Radio",1043 MYfm
@@ -935,6 +1057,8 @@ https://stream.revma.ihrhls.com/zc193
 https://stream.revma.ihrhls.com/zc181
 #EXTINF:-1 tvg-ID="iHeart2501.us" tvg-name="97.1 WASH-FM" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart2501us.png" group-title="iHeart Radio",97.1 WASH-FM
 https://stream.revma.ihrhls.com/zc2501
+#EXTINF:-1 tvg-ID="iHeart849.us" tvg-name="103.5 Kiss FM" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart849us.png" group-title="iHeart Radio",103.5 Kiss FM
+https://stream.revma.ihrhls.com/zc849
 #EXTINF:-1 tvg-ID="iHeart853.us" tvg-name="93.9 Lite FM" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart853us.png" group-title="iHeart Radio",93.9 Lite FM
 https://stream.revma.ihrhls.com/zc853
 #EXTINF:-1 tvg-ID="iHeart5367.us" tvg-name="94.7 WLS" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart5367us.png" group-title="iHeart Radio",94.7 WLS
@@ -943,6 +1067,8 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/WLSFMAAC.aac
 https://stream.revma.ihrhls.com/zc1097
 #EXTINF:-1 tvg-ID="iHeart1153.us" tvg-name="100.3 WNIC" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart1153us.png" group-title="iHeart Radio",100.3 WNIC
 https://stream.revma.ihrhls.com/zc1153
+#EXTINF:-1 tvg-ID="iHeart1473.us" tvg-name="103.5 KTU" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart1473us.png" group-title="iHeart Radio",103.5 KTU
+https://stream.revma.ihrhls.com/zc1473
 #EXTINF:-1 tvg-ID="iHeart1477.us" tvg-name="106.7 Lite FM" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart1477us.png" group-title="iHeart Radio",106.7 Lite FM
 https://stream.revma.ihrhls.com/zc1477
 #EXTINF:-1 tvg-ID="iHeart1481.us" tvg-name="Power 105.1" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart1481us.png" group-title="iHeart Radio",Power 105.1
@@ -991,6 +1117,8 @@ https://stream.revma.ihrhls.com/zc6843
 https://stream.revma.ihrhls.com/zc5060
 #EXTINF:-1 tvg-ID="iHeart6834.us" tvg-name="iHeart90s" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart6834us.png" group-title="iHeart Radio",iHeart90s
 https://stream.revma.ihrhls.com/zc6834
+#EXTINF:-1 tvg-ID="iHeart6892.us" tvg-name="iHeartBluegrass" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart6892us.png" group-title="iHeart Radio",iHeartBluegrass
+https://stream.revma.ihrhls.com/zc6892
 #EXTINF:-1 tvg-ID="iHeart6377.us" tvg-name="iHeartClassical" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart6377us.png" group-title="iHeart Radio",iHeartClassical
 https://stream.revma.ihrhls.com/zc6377
 #EXTINF:-1 tvg-ID="iHeart10035.us" tvg-name="iHeartClassical Favorites" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_iHeart10035us.png" group-title="iHeart Radio",iHeartClassical Favorites
@@ -1051,6 +1179,18 @@ https://stream.revma.ihrhls.com/zc2273
 https://stream.revma.ihrhls.com/zc2237
 #EXTINF:-1 tvg-ID="30AGolfKingdom.us@SD" tvg-name="30A Golf Kingdom" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_30AGolfKingdomusSD.png" group-title="US Sports",30A Golf Kingdom
 https://30a-tv.com/feeds/vidaa/golf.m3u8
+#EXTINF:-1 tvg-ID="ABCNewsLive1.us@SD" tvg-name="ABC News Live 1" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ABCNewsLive1usSD.png" group-title="US News",ABC News Live 1
+https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Streams/ABCNewsLive1.m3u8
+#EXTINF:-1 tvg-ID="ABCNewsLive6.us@SD" tvg-name="ABC News Live 6" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ABCNewsLive6usSD.png" group-title="US News",ABC News Live 6
+https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Streams/ABCNewsLive6.m3u8
+#EXTINF:-1 tvg-ID="ABCNewsLive7.us@SD" tvg-name="ABC News Live 7" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ABCNewsLive7usSD.png" group-title="US News",ABC News Live 7
+https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Streams/ABCNewsLive7.m3u8
+#EXTINF:-1 tvg-ID="ABCNewsLive8.us@SD" tvg-name="ABC News Live 8" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ABCNewsLive8usSD.png" group-title="US News",ABC News Live 8
+https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Streams/ABCNewsLive8.m3u8
+#EXTINF:-1 tvg-ID="ABCNewsLive9.us@SD" tvg-name="ABC News Live 9" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ABCNewsLive9usSD.png" group-title="US News",ABC News Live 9
+https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Streams/ABCNewsLive9.m3u8
+#EXTINF:-1 tvg-ID="ABCNewsLive10.us@SD" tvg-name="ABC News Live 10" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ABCNewsLive10usSD.png" group-title="US News",ABC News Live 10
+https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Streams/ABCNewsLive10.m3u8
 #EXTINF:-1 tvg-ID="ACCDigitalNetwork.us@SD" tvg-name="ACC Digital Network" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_ACCDigitalNetworkusSD.png" group-title="US Sports",ACC Digital Network
 https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="AmericasVoice.us@SD" tvg-name="America's Voice" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_AmericasVoice.png" group-title="US News",America's Voice
@@ -1077,8 +1217,6 @@ https://jmp2.uk/plu-5e46fba0c43b0d00096e5ac1.m3u8
 https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
 #EXTINF:-1 tvg-ID="CBSNewsBaltimore.us@SD" tvg-name="CBS News Baltimore" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CBSNewsBaltimoreusSD.png" group-title="US News",CBS News Baltimore
 https://lineup.cbsivideo.com/playout/8877a7d5-b094-4ac8-bc72-75a5fed68e5b/index.m3u8
-#EXTINF:-1 tvg-ID="CBSNewsMiami.us@SD" tvg-name="CBS News Miami" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CBSNewsMiamiusSD.png" group-title="US News",CBS News Miami
-https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8
 #EXTINF:-1 tvg-ID="CBSNewsSacramento.us@SD" tvg-name="CBS News Sacramento" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CBSNewsSacramentousSD.png" group-title="US News",CBS News Sacramento
 https://lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8
 #EXTINF:-1 tvg-ID="CBSSportsHQ.us@SD" tvg-name="CBS Sports HQ" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_CBSSportsHQusSD.png" group-title="US Sports",CBS Sports HQ
@@ -1137,6 +1275,8 @@ http://23.237.104.106:8080/USA_NBA/index.m3u8
 https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
 #EXTINF:-1 tvg-ID="NBCSportsNOW.us@SD" tvg-name="NBC Sports NOW" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NBCSportsNOWusSD.png" group-title="US Sports",NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
+#EXTINF:-1 tvg-ID="News12NewYork.us@SD" tvg-name="News12 New York" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_News12NewYorkusSD.png" group-title="US News",News12 New York
+https://cda7bae2.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW9fTmV3czEyTmV3WW9ya19ITFM/e4523afe-cece-4fc3-ba73-6fbca01648b2/5.m3u8
 #EXTINF:-1 tvg-ID="NewsoftheWorld.us@Spanish" tvg-name="News of the World Spanish" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NewsoftheWorldusSpanish.png" group-title="US News",News of the World Spanish
 https://live.nowtelly.com/now_spanish/live/playlist.m3u8
 #EXTINF:-1 tvg-ID="NewsoftheWorld.us@USA" tvg-name="News of the World USA" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NewsoftheWorldusUSA.png" group-title="US News",News of the World USA
@@ -1145,6 +1285,10 @@ https://live.nowtelly.com/now_usa/live_usa/playlist.m3u8
 https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-ID="Newsmax2.us@KPVMLD" tvg-name="Newsmax 2 KPVM-LD" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_Newsmax2usKPVMLD.png" group-title="US News",Newsmax 2 KPVM-LD
 https://2-fss-2.streamhoster.com/pl_120/206858-4404556-1/playlist.m3u8
+#EXTINF:-1 tvg-ID="NewsmaxSpanish.us@SD" tvg-name="Newsmax Spanish" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NewsmaxSpanishusSD.png" group-title="US News",Newsmax Spanish
+https://n1ottesorkatv.akamaized.net/hls/live/2113795/Live_1/index.m3u8
+#EXTINF:-1 tvg-ID="NewsmaxTV.us@SD" tvg-name="Newsmax TV" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NewsmaxTVusSD.png" group-title="US News",Newsmax TV
+https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 #EXTINF:-1 tvg-ID="Newsy.us@SD" tvg-name="Newsy" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NewsyusSD.png" group-title="US News",Newsy
 https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8
 #EXTINF:-1 tvg-ID="NFLChannel.us@SD" tvg-name="NFL Channel" tvg-logo="https://raw.githubusercontent.com/offlinemediacenter/IPTV/refs/heads/main/Logos/IPTV_NFLChannelusSD.png" group-title="US Sports",NFL Channel
