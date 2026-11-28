@@ -508,7 +508,7 @@
     "id": "FashionTVSecrets.fr",
     "group": "Fashion",
     "logo": "IPTV_FashionTVSecrets.png",
-    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/e3fc54a089b845779c5ef2fda1ec1283/media/manifest.m3u8/0.m3u8",
+    "url": "https://ssai.aniview.com/api/v1/hls/streams/sessions/5e99199e93f640619a7a15dbe0305a22/media/manifest.m3u8/0.m3u8",
     "iptvOrg": "FashionTVSecrets.fr"
   },
   {
@@ -770,7 +770,7 @@
     "id": "PowerDance.tr",
     "group": "Music",
     "logo": "IPTV_PowerDance.png",
-    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1244435054",
+    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=1248664032",
     "iptvOrg": "PowerDance.tr"
   },
   {
@@ -3213,7 +3213,7 @@
     "group": "US Comedy",
     "logo": "IPTV_HumorMillusSD.png",
     "logoSrc": "https://i.imgur.com/e5W91v2.png",
-    "url": "https://damkf751d85s1.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HumorMill-DistroTV/152.m3u8?ads.vf=3I7CXmxz7vK",
+    "url": "https://du1gyxfing4ke.cloudfront.net/scheduler/scheduleMaster/152/variant/22099433.m3u8",
     "iptvOrg": "HumorMill.us",
     "bulk": "1"
   },
